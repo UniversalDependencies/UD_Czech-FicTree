@@ -17,12 +17,12 @@
     <tag name="ADV">10770</tag><!-- už, tak, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
     <tag name="AUX">6520</tag><!-- být, bývat, stát, jít, mít -->
     <tag name="CCONJ">7679</tag><!-- a, ale, i, nebo, tak, však, jenže, ani, proto, neboť -->
-    <tag name="DET">8412</tag><!-- ten, který, svůj, jeho, můj, všechen, sám, tenhle, každý, nějaký -->
+    <tag name="DET">8414</tag><!-- ten, který, svůj, jeho, můj, všechen, sám, tenhle, každý, nějaký -->
     <tag name="INTJ">110</tag><!-- aha, hm, ach, cože, no, hele, hej, proboha, hop, vida -->
     <tag name="NOUN">27590</tag><!-- člověk, život, dítě, rok, ruka, oko, den, chvíle, žena, dveře -->
     <tag name="NUM">1410</tag><!-- jeden, dva, pár, tři, oba, čtyři, deset, pět, dvacet, třicet -->
     <tag name="PART">3468</tag><!-- jen, ani, ne, až, i, tak, asi, už, ano, to -->
-    <tag name="PRON">14105</tag><!-- se, on, já, co, ty, nic, něco, kdo, nikdo, někdo -->
+    <tag name="PRON">14103</tag><!-- se, on, já, co, ty, nic, něco, kdo, nikdo, někdo -->
     <tag name="PROPN">2255</tag><!-- Valentýna, Láďa, Havel, Leoš, Alžběta, Eduard, Flajšman, Veronika, Filip, Havlena -->
     <tag name="PUNCT">31799</tag><!-- ,, ., ", ?, !, :, -, (, ), ; -->
     <tag name="SCONJ">4769</tag><!-- že, když, jako, aby, než, jak, protože, až, jestli, takže -->
