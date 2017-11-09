@@ -1,7 +1,53 @@
 # Summary
 
-A treebank of Czech fiction.
+FicTree is a treebank of Czech fiction, automatically converted into the UD
+format. The treebank was built at Charles University in Prague.
 
+
+# Introduction
+
+The treebank consists of 12,760 sentences (166,432 tokens). The texts come from
+eight literary works published in the Czech Republic between 1991 and 2007.
+The text data was manually annotated according to the Prague Dependency Treebank
+guidelines, then converted into the UD format.
+To comply with agreements concluded with the copyright holders, the texts are
+shuffled into random chunks of maximum 100 words.
+The treebank is licensed under the terms of [CC BY-NC-SA 3.0]
+(http://creativecommons.org/licenses/by-nc-sa/3.0/).
+
+
+# Annotation and conversion
+
+The texts were parsed independently by two parsers trained on the Prague
+Dependency Treebank data (analytical layer). The parsing results were manually
+corrected and the two versions merged. Any differences were resolved manually.
+The morphological and syntactic annotation according to the UD guidelines
+was assigned by converting the original PDT annotation.
+The conversion procedure was designed by Dan Zeman and implemented in Treex.
+
+
+# Acknowledgments
+
+We wish to thank the participants in the annotation effort, including Milena
+Hnátková, Tomáš Jelínek, Ivana Klímová, Alena Kropíková, Hana Skoumalová and
+Olga Zitová; as well as Dan Zeman for the data conversion.
+
+
+## References
+
+* Tomáš Jelínek. 2017. FicTree: a Manually Annotated Treebank of Czech Fiction.
+ In: J. Hlaváčová (Ed.): ITAT 2017 Proceedings, pp. 181–185.
+ http://ceur-ws.org/Vol-1885/181.pdf
+
+
+# Text details
+
+The eight texts in the treebank include six fiction titles, a children’s fiction
+book, and a book of memoirs.
+Most of the texts were first published between 1991 and 2007 except one text,
+published in 1969.
+80% of the texts are original Czech texts, 20% are translations (from German and
+Slovak).
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
