@@ -49,6 +49,14 @@ published in 1969.
 80% of the texts are original Czech texts, 20% are translations (from German and
 Slovak).
 
+
+# Changelog
+
+* 2017-11-15 v2.1
+  * First official release.
+
+
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.1
 License: CC BY-NC-SA 4.0
@@ -63,3 +71,4 @@ Contributors: Jelínek, Tomáš
 Contributing: elsewhere
 Contact: tomas.jelinek@ff.cuni.cz, zeman@ufal.mff.cuni.cz
 ===============================================================================
+</pre>
