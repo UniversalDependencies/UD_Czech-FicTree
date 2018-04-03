@@ -52,6 +52,9 @@ Slovak).
 
 # Changelog
 
+* 2018-04-15 v2.2
+  * Added enhanced representation of dependencies propagated across coordination.
+    The distinction of shared and private dependents is derived deterministically from the original Prague annotation.
 * 2017-11-15 v2.1
   * First official release.
 
