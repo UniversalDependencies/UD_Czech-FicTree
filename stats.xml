@@ -30,7 +30,7 @@
     <tag name="X">62</tag><!-- Ha-vel, Jom, kippur, o-po-nu, pr-chá, Soleil, combien, dě, Baalšem, Coeur -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="74">
+  <feats unique="79">
     <feat name="Abbr" value="Yes" upos="ADV,NOUN,PROPN">116</feat><!-- K, M, L, T, V, A, C, J, E, F -->
     <feat name="AdpType" value="Comprep" upos="ADP">4</feat><!-- vzhledem -->
     <feat name="AdpType" value="Prep" upos="ADP">11312</feat><!-- na, v, do, s, z, k, o, za, po, pro -->
@@ -60,6 +60,11 @@
     <feat name="Mood" value="Cnd" upos="AUX,VERB">1276</feat><!-- by, bych, byste, bys, bychom, bysme -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">483</feat><!-- řekni, dej, nech, pojď, podívej, počkej, neboj, vezmi, vrať, vzpomeňte -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">10998</feat><!-- jsem, je, jsme, má, bude, jsou, jsi, není, mám, jste -->
+    <feat name="NameType" value="Com" upos="PROPN">20</feat><!-- Rut, Slavia, Vikárky, Pribina, RUT, Sparta, Vikárka, Vitana -->
+    <feat name="NameType" value="Geo" upos="PROPN">168</feat><!-- Praze, Prahy, Čáslavi, Čáslav, Krásné, Kanada, Moravy, Čechách, Bystrice, Evropu -->
+    <feat name="NameType" value="Giv" upos="PROPN">1248</feat><!-- Láďa, Leoš, Valentýna, Eduard, Alžběta, Veronika, Filip, Alice, Honza, Janičku -->
+    <feat name="NameType" value="Nat" upos="PROPN">53</feat><!-- Němci, Němec, Žid, Američani, Francouz, Japonci, Němců, Němcům, Římané, Američané -->
+    <feat name="NameType" value="Sur" upos="PROPN">505</feat><!-- Havel, Flajšman, Havlena, Havla, Havlovi, Mourková, Flajšmana, Jahoda, Frejka, Krista -->
     <feat name="Number" value="Dual" upos="ADJ,DET,NOUN,NUM">148</feat><!-- očima, nohama, rukama, holýma, nožičkama, Moravskýma, svýma, velkýma, jejich, otevřenýma -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">16339</feat><!-- jsme, je, jsou, které, nás, jste, oči, nám, nich, byly -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">67257</feat><!-- jsem, to, je, mi, mě, ho, já, mu, byl, byla -->
@@ -112,7 +117,7 @@
     <dep name="advcl">2499</dep>
     <dep name="advmod">10293</dep>
     <dep name="advmod:emph">2242</dep>
-    <dep name="amod">8106</dep>
+    <dep name="amod">8107</dep>
     <dep name="appos">544</dep>
     <dep name="aux">4216</dep>
     <dep name="aux:pass">137</dep>
@@ -120,7 +125,7 @@
     <dep name="cc">7577</dep>
     <dep name="ccomp">2214</dep>
     <dep name="compound">30</dep>
-    <dep name="conj">9112</dep>
+    <dep name="conj">9111</dep>
     <dep name="cop">2208</dep>
     <dep name="csubj">499</dep>
     <dep name="csubj:pass">25</dep>
@@ -132,15 +137,15 @@
     <dep name="expl:pass">351</dep>
     <dep name="expl:pv">4577</dep>
     <dep name="fixed">142</dep>
-    <dep name="flat">3</dep>
+    <dep name="flat">305</dep>
     <dep name="iobj">1377</dep>
     <dep name="mark">4768</dep>
-    <dep name="nmod">4468</dep>
+    <dep name="nmod">4165</dep>
     <dep name="nsubj">9510</dep>
     <dep name="nsubj:pass">280</dep>
     <dep name="nummod">662</dep>
     <dep name="nummod:gov">295</dep>
-    <dep name="obj">10295</dep>
+    <dep name="obj">10296</dep>
     <dep name="obl">9998</dep>
     <dep name="obl:agent">21</dep>
     <dep name="obl:arg">2014</dep>
