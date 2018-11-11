@@ -52,6 +52,10 @@ Slovak).
 
 # Changelog
 
+* 2018-11-15 v2.3
+  * Split multi-word tokens "cos, ses, sis, tys, vždyťs", participle + "-s".
+  * Bug fix: conditional "by" should be attached as 'aux', not 'aux:pass'.
+  * Added NameType, better classification of proper names. Consequence: many places now analyzed as 'flat'.
 * 2018-04-15 v2.2
   * Added enhanced representation of dependencies propagated across coordination.
     The distinction of shared and private dependents is derived deterministically from the original Prague annotation.
@@ -70,7 +74,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Jelínek, Tomáš
+Contributors: Jelínek, Tomáš; Zeman, Daniel
 Contributing: elsewhere
 Contact: tomas.jelinek@ff.cuni.cz, zeman@ufal.mff.cuni.cz
 ===============================================================================
