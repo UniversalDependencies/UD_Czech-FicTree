@@ -52,6 +52,9 @@ Slovak).
 
 # Changelog
 
+* 2019-05-01 v2.4
+  * Modified conversion: nouns do not have objects.
+  * Unknown tag with advmod --> ADV.
 * 2018-11-15 v2.3
   * Split multi-word tokens "cos, ses, sis, tys, vždyťs", participle + "-s".
   * Bug fix: conditional "by" should be attached as 'aux', not 'aux:pass'.
