@@ -9786,7 +9786,7 @@
 20	mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	5:ccomp|9:conj	_
 21	hezčí	hezký	ADJ	AANP4----2A----	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur|Polarity=Pos	22	amod	22:amod	_
 22	prsa	prsa	NOUN	NNNP4-----A----	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos	20	obj	20:obj	SpaceAfter=No
-23	"	"	PUNCT	Z:-------------	_	25	punct	25:punct	_
+23	"	"	PUNCT	Z:-------------	_	9	punct	9:punct	_
 24	(	(	PUNCT	Z:-------------	_	25	punct	25:punct	SpaceAfter=No
 25	pohladila	pohladit	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	parataxis	5:parataxis	_
 26	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	25	obj	25:obj	_
