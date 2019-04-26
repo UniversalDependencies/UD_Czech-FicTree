@@ -18,7 +18,7 @@
     <tag name="ADJ">10899</tag><!-- celý, malý, velký, jiný, starý, rád, druhý, dobrý, první, další -->
     <tag name="ADP">12317</tag><!-- na, v, do, s, z, k, o, za, po, od -->
     <tag name="ADV">10832</tag><!-- už, tak, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
-    <tag name="AUX">6517</tag><!-- být, bývat, jít -->
+    <tag name="AUX">6516</tag><!-- být, bývat -->
     <tag name="CCONJ">7684</tag><!-- a, ale, i, nebo, tak, však, jenže, ani, proto, neboť -->
     <tag name="DET">8417</tag><!-- ten, který, svůj, jeho, můj, všechen, sám, tenhle, každý, nějaký -->
     <tag name="INTJ">110</tag><!-- aha, hm, ach, cože, no, hele, hej, proboha, hop, vida -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">2255</tag><!-- Valentýna, Láďa, Havel, Leoš, Alžběta, Eduard, Flajšman, Veronika, Filip, Havlena -->
     <tag name="PUNCT">31795</tag><!-- ,, ., ", ?, !, :, -, (, ), ; -->
     <tag name="SCONJ">4761</tag><!-- že, když, jako, aby, než, jak, protože, až, jestli, takže -->
-    <tag name="VERB">24997</tag><!-- mít, být, moci, říci, chtít, vědět, stát, jít, muset, dát -->
+    <tag name="VERB">24998</tag><!-- mít, být, moci, říci, chtít, vědět, stát, jít, muset, dát -->
     <tag name="X">59</tag><!-- Ha-vel, Jom, o-po-nu, pr-chá, Soleil, combien, dě, kippur, Baalšem, Coeur -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -125,11 +125,11 @@
     <dep name="aux">4216</dep>
     <dep name="aux:pass">137</dep>
     <dep name="case">12308</dep>
-    <dep name="cc">7570</dep>
+    <dep name="cc">7569</dep>
     <dep name="ccomp">2214</dep>
     <dep name="compound">30</dep>
     <dep name="conj">9076</dep>
-    <dep name="cop">2207</dep>
+    <dep name="cop">2206</dep>
     <dep name="csubj">499</dep>
     <dep name="csubj:pass">25</dep>
     <dep name="dep">1170</dep>
@@ -153,10 +153,10 @@
     <dep name="obl:agent">21</dep>
     <dep name="obl:arg">2014</dep>
     <dep name="orphan">443</dep>
-    <dep name="parataxis">119</dep>
+    <dep name="parataxis">120</dep>
     <dep name="punct">31776</dep>
     <dep name="root">12760</dep>
     <dep name="vocative">278</dep>
-    <dep name="xcomp">2988</dep>
+    <dep name="xcomp">2989</dep>
   </deps>
 </treebank>
