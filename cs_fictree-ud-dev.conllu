@@ -5056,7 +5056,7 @@
 9	jakmile	jakmile	SCONJ	J,-------------	_	11	mark	11:mark	_
 10	dráhy	dráha	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	11	nsubj	11:nsubj	_
 11	sesmolily	sesmolit	VERB	VpFP----R-AA---	Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	17	advcl	17:advcl	_
-12	jakýs	jakýs	DET	PZIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	13	cc	13:cc	_
+12	jakýs	jakýs	DET	PZIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	13	det	13:det	_
 13	takýs	takýs	DET	PZIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	15	det	15:det	_
 14	jízdní	jízdní	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	15	amod	15:amod	_
 15	řád	řád	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	11	obj	11:obj	SpaceAfter=No

@@ -9922,7 +9922,7 @@
 1	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	aux	3:aux	_
 2	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	3	aux	3:aux	_
 3	dal	dát	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-4	nevím	vědět	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	cc	5:cc	_
+4	nevím	vědět	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	5:parataxis	_
 5	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	3	obj	3:obj	_
 6	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	_
 7	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	3	obl	3:obl	SpaceAfter=No

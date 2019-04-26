@@ -125,7 +125,7 @@
     <dep name="aux">4216</dep>
     <dep name="aux:pass">137</dep>
     <dep name="case">12308</dep>
-    <dep name="cc">7569</dep>
+    <dep name="cc">7567</dep>
     <dep name="ccomp">2214</dep>
     <dep name="compound">30</dep>
     <dep name="conj">9076</dep>
@@ -133,7 +133,7 @@
     <dep name="csubj">499</dep>
     <dep name="csubj:pass">25</dep>
     <dep name="dep">1170</dep>
-    <dep name="det">4232</dep>
+    <dep name="det">4233</dep>
     <dep name="det:numgov">217</dep>
     <dep name="det:nummod">52</dep>
     <dep name="discourse">302</dep>
@@ -153,7 +153,7 @@
     <dep name="obl:agent">21</dep>
     <dep name="obl:arg">2014</dep>
     <dep name="orphan">443</dep>
-    <dep name="parataxis">120</dep>
+    <dep name="parataxis">121</dep>
     <dep name="punct">31776</dep>
     <dep name="root">12760</dep>
     <dep name="vocative">278</dep>
