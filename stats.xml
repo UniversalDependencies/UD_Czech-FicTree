@@ -18,7 +18,7 @@
     <tag name="ADJ">10899</tag><!-- celý, malý, velký, jiný, starý, rád, druhý, dobrý, první, další -->
     <tag name="ADP">12317</tag><!-- na, v, do, s, z, k, o, za, po, od -->
     <tag name="ADV">10832</tag><!-- už, tak, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
-    <tag name="AUX">6516</tag><!-- být, bývat -->
+    <tag name="AUX">6562</tag><!-- být, bývat -->
     <tag name="CCONJ">7684</tag><!-- a, ale, i, nebo, tak, však, jenže, ani, proto, neboť -->
     <tag name="DET">8417</tag><!-- ten, který, svůj, jeho, můj, všechen, sám, tenhle, každý, nějaký -->
     <tag name="INTJ">110</tag><!-- aha, hm, ach, cože, no, hele, hej, proboha, hop, vida -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">2255</tag><!-- Valentýna, Láďa, Havel, Leoš, Alžběta, Eduard, Flajšman, Veronika, Filip, Havlena -->
     <tag name="PUNCT">31795</tag><!-- ,, ., ", ?, !, :, -, (, ), ; -->
     <tag name="SCONJ">4761</tag><!-- že, když, jako, aby, než, jak, protože, až, jestli, takže -->
-    <tag name="VERB">24998</tag><!-- mít, být, moci, říci, chtít, vědět, stát, jít, muset, dát -->
+    <tag name="VERB">24952</tag><!-- mít, být, moci, říci, chtít, vědět, stát, jít, muset, dát -->
     <tag name="X">59</tag><!-- Ha-vel, Jom, o-po-nu, pr-chá, Soleil, combien, dě, kippur, Baalšem, Coeur -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->

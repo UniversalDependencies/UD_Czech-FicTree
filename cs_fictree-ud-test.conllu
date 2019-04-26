@@ -14090,7 +14090,7 @@
 5	jen	jen	PART	TT-------------	_	2	dep	2:dep	_
 6	že	že	SCONJ	J,-------------	_	9	mark	9:mark	_
 7-8	ses	_	_	_	_	_	_	_	_
-7	jsi	být	VERB	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+7	jsi	být	AUX	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
 8	se	se	PRON	P7-S4--2-------	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	9	expl:pv	9:expl:pv	_
 9	nestavila	stavit	VERB	VpFS----R-NA---	Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	2	dep	2:dep	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
@@ -14901,7 +14901,7 @@
 6	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	_
 7	mohla	moci	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 8-9	sis	_	_	_	_	_	_	_	_
-8	jsi	být	VERB	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+8	jsi	být	AUX	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
 9	si	se	PRON	P7-S3--2-------	Case=Dat|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pv	11:expl:pv	_
 10	toho	ten	DET	PDNS2----------	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	11	obj	11:obj	_
 11	všimnout	všimnout	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	7	xcomp	7:xcomp	_
@@ -17562,7 +17562,7 @@
 8	a	a	CCONJ	J^-------------	_	12	cc	12:cc	_
 9	ani	ani	PART	TT-------------	_	12	advmod:emph	12:advmod:emph	_
 10-11	ses	_	_	_	_	_	_	_	_
-10	jsi	být	VERB	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
+10	jsi	být	AUX	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
 11	se	se	PRON	P7-S4--2-------	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	12	obj	12:obj	_
 12	neučil	učit	VERB	VpMS----R-NA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	5	conj	0:root|5:conj	SpaceAfter=No
 13	!	!	PUNCT	Z:-------------	_	5	punct	5:punct	SpaceAfter=No

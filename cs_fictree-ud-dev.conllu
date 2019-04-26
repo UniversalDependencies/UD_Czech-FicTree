@@ -10639,7 +10639,7 @@
 8	a	a	CCONJ	J^-------------	_	13	cc	13:cc	_
 9	ty	ty	PRON	PP-S1--2-------	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	_
 10-11	ses	_	_	_	_	_	_	_	_
-10	jsi	být	VERB	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
+10	jsi	být	AUX	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	13:aux	_
 11	se	se	PRON	P7-S4--2-------	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	13	expl:pv	13:expl:pv	_
 12	jim	on	PRON	PPMP3--3-------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	obj	13:obj	_
 13	vysmál	vysmát	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
@@ -14762,7 +14762,7 @@
 1	Jinak	jinak	ADV	Db-------------	_	6	advmod	6:advmod	_
 2	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	6	aux	6:aux	_
 3-4	ses	_	_	_	_	_	_	_	_
-3	jsi	být	VERB	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
+3	jsi	být	AUX	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	6:aux	_
 4	se	se	PRON	P7-S4--2-------	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pv	6:expl:pv	_
 5	tak	tak	ADV	Db-------------	PronType=Dem	6	advmod	6:advmod	_
 6	nevyptávala	vyptávat	VERB	VpFS----R-NA---	Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
@@ -19553,7 +19553,7 @@
 15	jejichž	jenž	DET	P1FS4FP3-------	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	16	det	16:det	_
 16	matku	matka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	20	obj	20:obj	_
 17-18	sis	_	_	_	_	_	_	_	_
-17	jsi	být	VERB	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
+17	jsi	být	AUX	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	20:aux	_
 18	si	se	PRON	P7-S3--2-------	Case=Dat|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	20	expl:pv	20:expl:pv	_
 19	už	už	ADV	Db-------------	_	20	advmod	20:advmod	_
 20	vzal	vzít	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	acl	13:acl	SpaceAfter=No
@@ -19799,7 +19799,7 @@
 1	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
 2	Zbláznil	zbláznit	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 3-4	ses	_	_	_	_	_	_	_	SpaceAfter=No
-3	jsi	být	VERB	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	2:aux	_
+3	jsi	být	AUX	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	2:aux	_
 4	se	se	PRON	P7-S4--2-------	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	2	expl:pv	2:expl:pv	_
 5	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 6	proč	proč	ADV	Db-------------	PronType=Int,Rel	7	advmod	7:advmod	_
