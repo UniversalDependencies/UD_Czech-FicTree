@@ -8549,8 +8549,8 @@
 # orig_file_sentence 005#74
 1	"	"	PUNCT	Z:-------------	_	0	root	0:root	SpaceAfter=No
 2	Ó	ó	INTJ	II-------------	_	1	conj	0:root|1:conj	SpaceAfter=No
-3	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
-4	"	"	PUNCT	Z:-------------	_	1	punct	1:punct	_
+3	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
+4	"	"	PUNCT	Z:-------------	_	5	punct	5:punct	_
 5	podivila	podivit	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	orphan	2:orphan	_
 6	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	5:expl:pv	_
 7	doktorka	doktorka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	SpaceAfter=No
@@ -17246,8 +17246,8 @@
 4	"	"	PUNCT	Z:-------------	_	5	punct	5:punct	_
 5	přikývla	přikývnout	VERB	VpFS----R-AA--1	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	orphan	2:orphan	_
 6	vedoucí	vedoucí	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	SpaceAfter=No
-7	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
-8	"	"	PUNCT	Z:-------------	_	1	punct	1:punct	SpaceAfter=No
+7	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	_
+8	"	"	PUNCT	Z:-------------	_	9	punct	9:punct	SpaceAfter=No
 9	tak	tak	ADV	Db-------------	PronType=Dem	2	orphan	2:orphan	_
 10	proto	proto	ADV	Db-------------	PronType=Dem	2	orphan	2:orphan	SpaceAfter=No
 11	!	!	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -17593,8 +17593,8 @@
 # orig_file_sentence 011#22
 1	"	"	PUNCT	Z:-------------	_	0	root	0:root	SpaceAfter=No
 2	Prosím	prosit	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	SpaceAfter=No
-3	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
-4	"	"	PUNCT	Z:-------------	_	1	punct	1:punct	_
+3	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
+4	"	"	PUNCT	Z:-------------	_	9	punct	9:punct	_
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	7:case	_
 6	první	první	ADJ	CrFS6----------	Case=Loc|Gender=Fem|Number=Sing|NumType=Ord	7	amod	7:amod	_
 7	lavici	lavice	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	9	obl	9:obl	_

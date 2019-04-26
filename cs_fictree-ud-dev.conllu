@@ -13063,8 +13063,8 @@
 # orig_file_sentence 008#68
 1	"	"	PUNCT	Z:-------------	_	0	root	0:root	SpaceAfter=No
 2	Dobrá	dobrá	PART	TT-------------	_	1	conj	0:root|1:conj	SpaceAfter=No
-3	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
-4	"	"	PUNCT	Z:-------------	_	1	punct	1:punct	_
+3	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
+4	"	"	PUNCT	Z:-------------	_	5	punct	5:punct	_
 5	pokusila	pokusit	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	orphan	2:orphan	_
 6	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	5:aux	_
 7	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	5:expl:pv	_
@@ -21555,8 +21555,8 @@
 1	"	"	PUNCT	Z:-------------	_	0	root	0:root	SpaceAfter=No
 2	Zcela	zcela	ADV	Db-------------	_	3	advmod	3:advmod	_
 3	správně	správně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	conj	0:root|1:conj	SpaceAfter=No
-4	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	SpaceAfter=No
-5	"	"	PUNCT	Z:-------------	_	1	punct	1:punct	_
+4	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
+5	"	"	PUNCT	Z:-------------	_	6	punct	6:punct	_
 6	přikývl	přikývnout	VERB	VpMS----R-AA--1	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	orphan	3:orphan	_
 7	mistr	mistr	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	6	nsubj	6:nsubj	SpaceAfter=No
 8	:	:	PUNCT	Z:-------------	_	1	punct	1:punct	_
