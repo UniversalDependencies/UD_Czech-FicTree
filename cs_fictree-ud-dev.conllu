@@ -14847,7 +14847,7 @@
 # orig_file_sentence 009#98
 1	Co	co	PART	TT-------------	_	4	mark	4:mark	_
 2-3	kdybych	_	_	_	_	_	_	_	_
-2	když	když	SCONJ	J,-------------	_	1	fixed	1:fixed	_
+2	když	když	SCONJ	J,-------------	_	4	mark	4:mark	_
 3	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	4	aux	4:aux	_
 4	vyskočila	vyskočit	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 5	ven	ven	ADV	Db-------------	_	4	advmod	4:advmod	SpaceAfter=No

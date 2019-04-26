@@ -13251,7 +13251,7 @@
 # orig_file_sentence 008#49
 1	Co	co	PART	TT-------------	_	10	mark	10:mark	_
 2-3	kdybych	_	_	_	_	_	_	_	_
-2	když	když	SCONJ	J,-------------	_	1	fixed	1:fixed	_
+2	když	když	SCONJ	J,-------------	_	10	mark	10:mark	_
 3	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	10	aux	10:aux	_
 4	vás	ty	PRON	PP-P4--2-------	Case=Acc|Number=Plur|Person=2|PronType=Prs	10	obj	10:obj	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
@@ -15567,7 +15567,7 @@
 # orig_file_sentence 009#100
 1	I	i	CCONJ	J^-------------	_	6	mark	6:mark	_
 2-3	kdybych	_	_	_	_	_	_	_	_
-2	když	když	SCONJ	J,-------------	_	1	fixed	1:fixed	_
+2	když	když	SCONJ	J,-------------	_	6	mark	6:mark	_
 3	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	6	aux	6:aux	_
 4	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pv	6:expl:pv	_
 5	sebevíc	sebevíc	ADV	Db-------------	_	6	advmod	6:advmod	_

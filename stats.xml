@@ -139,10 +139,10 @@
     <dep name="discourse">302</dep>
     <dep name="expl:pass">351</dep>
     <dep name="expl:pv">4577</dep>
-    <dep name="fixed">190</dep>
+    <dep name="fixed">181</dep>
     <dep name="flat">306</dep>
     <dep name="iobj">1377</dep>
-    <dep name="mark">4771</dep>
+    <dep name="mark">4780</dep>
     <dep name="nmod">4177</dep>
     <dep name="nsubj">9510</dep>
     <dep name="nsubj:pass">280</dep>
