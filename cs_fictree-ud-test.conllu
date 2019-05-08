@@ -4684,7 +4684,7 @@
 15	případ	případ	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	16	nsubj:pass	16:nsubj:pass	_
 16	dán	daný	ADJ	VsIS------AP---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	0:root|5:conj	_
 17	ad	ad	X	XX-------------	_	18	nmod	18:nmod	_
-18	acta	acta	ADV	XX-------------	_	16	advmod	16:advmod	SpaceAfter=No
+18	acta	acta	X	XX-------------	_	16	obl	16:obl	SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = test-form1XXX052-s8

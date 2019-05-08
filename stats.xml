@@ -17,7 +17,7 @@
   <tags unique="16">
     <tag name="ADJ">10899</tag><!-- celý, malý, velký, jiný, starý, rád, druhý, dobrý, první, další -->
     <tag name="ADP">12317</tag><!-- na, v, do, s, z, k, o, za, po, od -->
-    <tag name="ADV">10833</tag><!-- už, tak, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
+    <tag name="ADV">10830</tag><!-- už, tak, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
     <tag name="AUX">6565</tag><!-- být, bývat -->
     <tag name="CCONJ">7684</tag><!-- a, ale, i, nebo, tak, však, jenže, ani, proto, neboť -->
     <tag name="DET">8417</tag><!-- ten, který, svůj, jeho, můj, všechen, sám, tenhle, každý, nějaký -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">31795</tag><!-- ,, ., ", ?, !, :, -, (, ), ; -->
     <tag name="SCONJ">4760</tag><!-- že, když, jako, aby, než, jak, protože, až, jestli, takže -->
     <tag name="VERB">24949</tag><!-- mít, být, moci, říci, chtít, vědět, stát, jít, muset, dát -->
-    <tag name="X">59</tag><!-- Ha-vel, Jom, o-po-nu, pr-chá, Soleil, combien, dě, kippur, Baalšem, Coeur -->
+    <tag name="X">62</tag><!-- Ha-vel, Jom, kippur, o-po-nu, pr-chá, Soleil, combien, dě, Baalšem, Coeur -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="79">
@@ -118,7 +118,7 @@
   <deps unique="42">
     <dep name="acl">1986</dep>
     <dep name="advcl">2499</dep>
-    <dep name="advmod">10247</dep>
+    <dep name="advmod">10244</dep>
     <dep name="advmod:emph">2242</dep>
     <dep name="amod">8107</dep>
     <dep name="appos">544</dep>
@@ -149,7 +149,7 @@
     <dep name="nummod">662</dep>
     <dep name="nummod:gov">295</dep>
     <dep name="obj">10284</dep>
-    <dep name="obl">9996</dep>
+    <dep name="obl">9999</dep>
     <dep name="obl:agent">21</dep>
     <dep name="obl:arg">2014</dep>
     <dep name="orphan">443</dep>
