@@ -148,9 +148,9 @@
     <dep name="nsubj:pass">280</dep>
     <dep name="nummod">662</dep>
     <dep name="nummod:gov">295</dep>
-    <dep name="obj">8469</dep>
+    <dep name="obj">8467</dep>
     <dep name="obl">9999</dep>
-    <dep name="obl:arg">4968</dep>
+    <dep name="obl:arg">4970</dep>
     <dep name="orphan">443</dep>
     <dep name="parataxis">122</dep>
     <dep name="punct">31777</dep>
