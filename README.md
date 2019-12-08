@@ -54,6 +54,7 @@ Slovak).
 
 * 2020-05-01 v2.6
   * Genitive, dative and instrumental nominals are now considered oblique.
+  * Added enhanced relations with case information.
 * 2019-05-01 v2.4
   * Modified conversion: nouns do not have objects.
   * Unknown tag with advmod --> ADV.
