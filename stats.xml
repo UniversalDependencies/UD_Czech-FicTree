@@ -115,9 +115,10 @@
     <feat name="Voice" value="Pass" upos="ADJ">319</feat><!-- přesvědčen, řečeno, oblečena, uspořádány, napsáno, obklopen, poslán, pozván, zakázáno, ztraceno -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="41">
-    <dep name="acl">1986</dep>
-    <dep name="advcl">2499</dep>
+  <deps unique="42">
+    <dep name="acl">445</dep>
+    <dep name="acl:relcl">1541</dep>
+    <dep name="advcl">2498</dep>
     <dep name="advmod">10244</dep>
     <dep name="advmod:emph">2242</dep>
     <dep name="amod">8107</dep>
@@ -132,7 +133,7 @@
     <dep name="cop">2207</dep>
     <dep name="csubj">499</dep>
     <dep name="csubj:pass">25</dep>
-    <dep name="dep">1170</dep>
+    <dep name="dep">1172</dep>
     <dep name="det">4233</dep>
     <dep name="det:numgov">217</dep>
     <dep name="det:nummod">52</dep>
@@ -142,7 +143,7 @@
     <dep name="fixed">183</dep>
     <dep name="flat">306</dep>
     <dep name="iobj">271</dep>
-    <dep name="mark">4778</dep>
+    <dep name="mark">4777</dep>
     <dep name="nmod">4167</dep>
     <dep name="nsubj">9510</dep>
     <dep name="nsubj:pass">280</dep>
