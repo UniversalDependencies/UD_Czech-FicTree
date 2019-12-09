@@ -1369,7 +1369,7 @@
 21	nástupišti	nástupiště	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	16	obl	16:obl:na:loc	_
 22	a	a	CCONJ	J^-------------	_	25	cc	25:cc	_
 23	nejen	nejen	PART	TT-------------	_	25	advmod:emph	25:advmod:emph	_
-24	že	že	PART	TT-------------	_	25	advmod:emph	25:advmod:emph	_
+24	že	že	PART	TT-------------	_	23	fixed	23:fixed	_
 25	nevyjedou	vyjet	VERB	VB-P---3P-NA---	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	0:root|16:conj	SpaceAfter=No
 26	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
 27	oni	on	PRON	PPMP1--3-------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	nsubj	30:nsubj|40:nsubj	_
@@ -9610,7 +9610,7 @@
 # orig_file_sentence 006#44
 1	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 2	A	a	CCONJ	J^-------------	_	4	cc	4:cc	_
-3	proto	proto	SCONJ	J,-------------	_	4	cc	4:cc	_
+3	proto	proto	ADV	J,-------------	PronType=Dem	4	cc	4:cc	_
 4	nechala	nechat	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 5	odemknuto	odemknutý	ADJ	VsNS------AP---	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	4	obj	4:obj	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
