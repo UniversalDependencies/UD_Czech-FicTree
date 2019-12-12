@@ -52,11 +52,12 @@ Slovak).
 
 # Changelog
 
-* 2020-05-01 v2.6
+* 2020-05-15 v2.6
   * Genitive, dative and instrumental nominals are now considered oblique.
   * Added enhanced relations with case information.
   * Added enhanced relations around relative clauses.
-* 2019-05-01 v2.4
+  * Added enhanced external subjects in control verb constructions.
+* 2019-05-15 v2.4
   * Modified conversion: nouns do not have objects.
   * Unknown tag with advmod --> ADV.
   * Fixed punctuation attachment.
