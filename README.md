@@ -57,6 +57,7 @@ Slovak).
   * Added enhanced relations with case information.
   * Added enhanced relations around relative clauses.
   * Added enhanced external subjects in control verb constructions.
+  * Added empty nodes to enhanced graphs (but orphans are just converted to dep).
 * 2019-05-15 v2.4
   * Modified conversion: nouns do not have objects.
   * Unknown tag with advmod --> ADV.
