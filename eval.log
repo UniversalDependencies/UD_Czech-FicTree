@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Czech-FicTree:
-commit 668842d6c21133175b59b992065f45062df3c8b6
-Merge: b3b4bb9 e0c0911
+commit d88af10aa9f347829be944dad655a7371139c09f
+Merge: 3ee9a7a 7a33844
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 167056 of 167056 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.2366581710955.
