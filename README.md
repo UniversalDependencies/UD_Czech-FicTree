@@ -52,6 +52,8 @@ Slovak).
 
 # Changelog
 
+* 2021-05-15 v2.8
+  * Fixed recognition of clauses with passive participles (ADJ).
 * 2020-05-15 v2.6
   * Genitive, dative and instrumental nominals are now considered oblique.
   * Added enhanced relations with case information.
