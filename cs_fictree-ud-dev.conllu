@@ -16115,7 +16115,7 @@
 16	jakoby	jakoby	SCONJ	J,-------------	_	19	mark	19:mark	_
 17	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	19	expl:pv	19:expl:pv	_
 18	nic	nic	PRON	PW--1----------	Case=Nom|PronType=Neg	19	nsubj	19:nsubj	_
-19	nestalo	stát	VERB	VpNS----R-NA---	Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	12	advcl	12:advcl:jakoby	SpaceAfter=No
+19	nestalo	stát	VERB	VpNS----R-NA---	Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	12	advcl	12:advcl:jako	SpaceAfter=No
 20	.	.	PUNCT	Z:-------------	_	12	punct	12:punct	_
 
 # newpar id = dev-p_navrat011
