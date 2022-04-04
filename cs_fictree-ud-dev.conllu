@@ -72,7 +72,7 @@
 5	by	být	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	8	aux	8:aux	_
 6	byla	být	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	cop	8:cop	_
 7	mou	můj	DET	PSFS7-S1------1	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det	8:det	_
-8	kamarádkou	kamarádka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	1	advcl	1:advcl:jako_když	_
+8	kamarádkou	kamarádka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	1	advcl	1:advcl:jako	_
 9	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	10	case	10:case	_
 10	diskotéky	diskotéka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	8	nmod	8:nmod:z:gen	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
@@ -19224,7 +19224,7 @@
 22	když	když	SCONJ	J,-------------	_	25	mark	25:mark	_
 23	by	být	AUX	Vc-------------	Mood=Cnd|Person=3|VerbForm=Fin	25	aux	25:aux	_
 24	všechny	všechen	DET	PLFP1----------	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	25	nsubj	25:nsubj	_
-25	kvetly	kvést	VERB	VpFP----R-AA---	Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	18	advcl	18:advcl:jako_když	_
+25	kvetly	kvést	VERB	VpFP----R-AA---	Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	18	advcl	18:advcl:jako	_
 26	zároveň	zároveň	ADV	Db-------------	_	25	advmod	25:advmod	SpaceAfter=No
 27	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
