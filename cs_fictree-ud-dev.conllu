@@ -141,8 +141,8 @@
 6	třeba	třeba	ADV	Db-------------	_	1	parataxis	1:parataxis	_
 7	říct	říci	VERB	Vf--------A---1	Polarity=Pos|VerbForm=Inf	6	csubj	6:csubj	_
 8	-	-	PUNCT	Z:-------------	_	6	punct	6:punct	_
-9	byl	být	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
-10	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+9	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
+10	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
 11	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	13:case	_
 12	té	ten	DET	PDFS6----------	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	13	det	13:det	_
 13	době	doba	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	9	obl	9:obl:v:loc	_
@@ -419,7 +419,7 @@
 # sent_id = dev-andelvte031-s1
 # text = Byla válka.
 # orig_file_sentence 001#20
-1	Byla	být	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Byla	být	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	válka	válka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	nsubj	1:nsubj	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
@@ -699,7 +699,7 @@
 # sent_id = dev-andelvte041-s5
 # text = Bylo to v letech velké krize v tiskárenství a já byl velice vděčný za to, že jsem tohle místo nalezl.
 # orig_file_sentence 001#40
-1	Bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	1	nsubj	1:nsubj	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	4:case	_
 4	letech	rok	NOUN	NNNP6-----A----	Case=Loc|Gender=Neut|Number=Plur|Polarity=Pos	1	obl	1:obl:v:loc	_
@@ -825,7 +825,7 @@
 11	dát	dát	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	10	xcomp	10:xcomp	_
 12	najevo	najevo	ADV	Db-------------	_	11	advmod	11:advmod	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
-14	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+14	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
 15	jeho	jeho	DET	PSFS1MS3-------	Case=Nom|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	16	det	16:det	_
 16	firma	firma	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	14	nsubj	14:nsubj	_
 17	vždy	vždy	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos|PronType=Tot	14	advmod	14:advmod	_
@@ -905,7 +905,7 @@
 1	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 2	Kolik	kolik	DET	C?--1----------	Case=Nom|NumType=Card|PronType=Int,Rel	4	nsubj	4:nsubj	_
 3	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obl:arg	4:obl:arg:dat	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 5	?	?	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 6	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -1031,7 +1031,7 @@
 9	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	11	case	11:case	_
 10	jejichž	jenž	DET	P1NS6FP3-------	Case=Loc|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Rel	11	det	7:ref	_
 11	štěstí	štěstí	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	14	obl:arg	14:obl:arg:o:loc	_
-12	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
+12	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	7:acl:relcl	_
 13	lépe	dobře	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	12	advmod	12:advmod	_
 14	nehovořit	hovořit	VERB	Vf--------N----	Polarity=Neg|VerbForm=Inf	12	csubj	12:csubj	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
@@ -1049,7 +1049,7 @@
 26	vesele	vesele	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	27	advmod	27:advmod	_
 27	rádi	rád	ADJ	ACMP------A----	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short	24	appos	24:appos	SpaceAfter=No
 28	,	,	PUNCT	Z:-------------	_	29	punct	29:punct	_
-29	býval	bývat	VERB	VpIS----R-AA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	conj	0:root|4:conj	_
+29	býval	bývat	AUX	VpIS----R-AA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	conj	0:root|4:conj	_
 30	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	31	case	31:case	_
 31	nich	on	PRON	P5MP2--3-------	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Person=3|PrepCase=Pre|PronType=Prs	29	obl	29:obl:u:gen	_
 32	smích	smích	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	29	nsubj	29:nsubj	_
@@ -1753,7 +1753,7 @@
 # text = Když bylo bratranci pětačtyřicet let, zjistili u něj v nemocnici leukémii.
 # orig_file_sentence 001#99
 1	Když	když	SCONJ	J,-------------	_	2	mark	2:mark	_
-2	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	7:advcl:když	_
+2	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	7:advcl:když	_
 3	bratranci	bratranec	NOUN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	2	obl:arg	2:obl:arg:dat	_
 4	pětačtyřicet	pětačtyřicet	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	5	nummod:gov	5:nummod:gov	_
 5	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	2	nsubj	2:nsubj	SpaceAfter=No
@@ -1776,7 +1776,7 @@
 # sent_id = dev-andelvte121-s4
 # text = Byl uprostřed práce, kterou chtěl dokončit, a náhle uviděl její konec.
 # orig_file_sentence 002#1
-1	Byl	být	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	uprostřed	uprostřed	ADP	RR--2----------	AdpType=Prep|Case=Gen	3	case	3:case	_
 3	práce	práce	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	1	obl	1:obl:uprostřed:gen|7:obj	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
@@ -1902,7 +1902,7 @@
 8	násilím	násilí	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	1	obl	1:obl:před:ins	SpaceAfter=No
 9	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 10	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	11	nsubj	11:nsubj	_
-11	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	17	ccomp	17:ccomp	_
+11	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	17	ccomp	17:ccomp	_
 12	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	14	case	14:case	_
 13	jeho	jeho	DET	PSFS7MS3-------	Case=Ins|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det	14:det	_
 14	rodinou	rodina	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	11	obl:arg	11:obl:arg:s:ins	SpaceAfter=No
@@ -1913,7 +1913,7 @@
 19	ani	ani	PART	TT-------------	_	20	advmod:emph	20:advmod:emph	_
 20	on	on	PRON	PPMS1--3-------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	conj	0:root|1:conj	SpaceAfter=No
 21	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	_
-22	byli	být	VERB	VpMP----R-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
+22	byli	být	AUX	VpMP----R-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
 23	všichni	všechen	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	22	nsubj	22:nsubj|29:nsubj	_
 24	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	25	case	25:case	_
 25	útěku	útěk	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	22	obl	22:obl:na:loc	_
@@ -2082,7 +2082,7 @@
 8	když	když	SCONJ	J,-------------	_	11	mark	11:mark	_
 9	bychom	být	AUX	Vc-P---1-------	Mood=Cnd|Number=Plur|Person=1|VerbForm=Fin	11	aux	11:aux	_
 10	tu	tu	ADV	Db------------1	PronType=Dem	11	advmod	11:advmod	_
-11	nebyli	být	VERB	VpMP----R-NA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	5	dep	5:dep	SpaceAfter=No
+11	nebyli	být	AUX	VpMP----R-NA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	5	dep	5:dep	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = dev-andelvte141-s4
@@ -2284,7 +2284,7 @@
 3	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	4:case	_
 4	schodech	schod	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	1	obl	1:obl:po:loc	_
 5	a	a	CCONJ	J^-------------	_	6	cc	6:cc	_
-6	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
+6	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
 7	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	obl:arg	6:obl:arg:dat	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 9	jako	jako	SCONJ	J,-------------	_	11	mark	11:mark	_
@@ -2297,7 +2297,7 @@
 # orig_file_sentence 002#25
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	Ještě	ještě	ADV	Db-------------	_	3	advmod	3:advmod	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	8:ccomp	_
 4	ti	ty	PRON	PH-S3--2-------	Case=Dat|Number=Sing|Person=2|PronType=Prs|Variant=Short	3	obl:arg	3:obl:arg:dat	_
 5	zle	zle	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	3:advmod	SpaceAfter=No
 6	?	?	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
@@ -2348,7 +2348,7 @@
 # sent_id = dev-andelvte161-s2
 # text = Byla válka.
 # orig_file_sentence 002#27
-1	Byla	být	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Byla	být	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	válka	válka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	nsubj	1:nsubj	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
@@ -2416,14 +2416,14 @@
 # sent_id = dev-andelvte161-s11
 # text = Jsou války.
 # orig_file_sentence 002#36
-1	Jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+1	Jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	války	válka	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	1	nsubj	1:nsubj	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = dev-andelvte161-s12
 # text = Jsou rozchody.
 # orig_file_sentence 002#37
-1	Jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+1	Jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	rozchody	rozchod	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	1	nsubj	1:nsubj	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
@@ -2715,14 +2715,14 @@
 11	a	a	CCONJ	J^-------------	_	14	cc	14:cc	_
 12	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	13:case	_
 13	vrcholu	vrchol	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	14	obl	14:obl:na:loc	_
-14	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
+14	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
 15	kostel	kostel	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	14	nsubj	14:nsubj	SpaceAfter=No
 16	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = dev-andelvte181-s3
 # text = Jsou místa, která vás přímo vybízejí, abyste zvolnili a zamysleli se nad sebou, nad tím kratičkým časem, který ještě máme tady před sebou na světě.
 # orig_file_sentence 002#60
-1	Jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+1	Jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	místa	místo	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos	1	nsubj	1:nsubj|7:nsubj	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 4	která	který	DET	P4NP1----------	Case=Nom|Gender=Neut|Number=Plur|PronType=Int,Rel	7	nsubj	2:ref	_
@@ -2809,7 +2809,7 @@
 1	Ze	z	ADP	RV--2----------	AdpType=Voc|Case=Gen	3	case	3:case	_
 2	Saint	Saint	ADJ	AAMS2----1A----	Animacy=Anim|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	3:amod	_
 3	Michel	Michel	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	4	obl	4:obl:z:gen	_
-4	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	nádherný	nádherný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	výhled	výhled	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -2924,7 +2924,7 @@
 4	druhé	druhý	ADJ	CrNS4----------	Case=Acc|Gender=Neut|Number=Sing|NumType=Ord	5	amod	5:amod	_
 5	dítě	dítě	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	3	obj	3:obj	_
 6	a	a	CCONJ	J^-------------	_	7	cc	7:cc	_
-7	bývalo	bývat	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	conj	0:root|3:conj	_
+7	bývalo	bývat	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	conj	0:root|3:conj	_
 8	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obl:arg	7:obl:arg:dat	_
 9	nevolno	nevolno	ADV	Db-------------	_	7	advmod	7:advmod	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
@@ -2988,7 +2988,7 @@
 20	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
 21	že	že	SCONJ	J,-------------	_	23	mark	23:mark	_
 22	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	23	nsubj	23:nsubj	_
-23	není	být	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp	19:ccomp	_
+23	není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	19	ccomp	19:ccomp	_
 24	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	25	case	25:case	_
 25	pořádku	pořádek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	23	obl	23:obl:v:loc	SpaceAfter=No
 26	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -3269,7 +3269,7 @@
 11	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 12	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	14	nsubj	10:ref	_
 13	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	14	obl	14:obl:dat	_
-14	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	10:acl:relcl	_
+14	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	10:acl:relcl	_
 15	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	16:case	_
 16	nic	nic	PRON	PW--4----------	Case=Acc|PronType=Neg	14	obl	14:obl:na:acc	_
 17	a	a	CCONJ	J^-------------	_	21	cc	21:cc	_
@@ -3965,7 +3965,7 @@
 16	každý	každý	DET	PLMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	30	nsubj	19:nsubj|24:nsubj|30:nsubj|31:nsubj	SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 18	kdo	kdo	PRON	PKM-1----------	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel	19	nsubj	16:ref	_
-19	byl	být	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	acl:relcl	16:acl:relcl	_
+19	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	acl:relcl	16:acl:relcl	_
 20	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	22	case	22:case	_
 21	podobné	podobný	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	22	amod	22:amod	_
 22	situaci	situace	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	19	obl	19:obl:v:loc	_
@@ -4073,7 +4073,7 @@
 3	brzy	brzy	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	advmod	1:advmod	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 5	jemu	on	PRON	PPMS3--3-------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obl:arg	6:obl:arg:dat	_
-6	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
+6	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
 7	jedenadvacet	jedenadvacet	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	6	nsubj	6:nsubj	_
 7.1	_	_	_	_	_	_	_	0:root|6:conj	_
 8	a	a	CCONJ	J^-------------	_	10	cc	7.1:cc	_
@@ -4149,7 +4149,7 @@
 # orig_file_sentence 003#35
 1	Už	už	ADV	Db-------------	_	3	advmod	3:advmod	_
 2	tomu	ten	DET	PDNS3----------	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	obl:arg	3:obl:arg:dat	_
-3	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+3	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	pár	pár	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	5	nummod:gov	5:nummod:gov	_
 5	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	3	nsubj	3:nsubj	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
@@ -4240,7 +4240,7 @@
 17	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
 18	kde	kde	ADV	Db-------------	PronType=Int,Rel	20	advmod	16:ref	_
 19	kdysi	kdysi	ADV	Db-------------	PronType=Ind	20	advmod	20:advmod	_
-20	bývala	bývat	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	acl:relcl	16:acl:relcl	_
+20	bývala	bývat	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	acl:relcl	16:acl:relcl	_
 21	kovárna	kovárna	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	20	nsubj	20:nsubj	_
 22	královské	královský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	23	amod	23:amod	_
 23	kavalerie	kavalerie	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	21	nmod	21:nmod:gen	SpaceAfter=No
@@ -4570,7 +4570,7 @@
 8	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	10	aux	10:aux	_
 9	tatínek	tatínek	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	10:nsubj|11:nsubj	_
 10	mohl	moci	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	advcl	5:advcl:jako	_
-11	být	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	10	xcomp	10:xcomp	_
+11	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	10	xcomp	10:xcomp	_
 12	pořád	pořád	ADV	Db-------------	_	11	advmod	11:advmod	_
 13	ještě	ještě	ADV	Db-------------	_	11	advmod	11:advmod	_
 14	uvnitř	uvnitř	ADV	Db-------------	_	11	advmod	11:advmod	SpaceAfter=No
@@ -4644,7 +4644,7 @@
 # sent_id = dev-form1XXX031-s6
 # text = Byli jsme u všech.
 # orig_file_sentence 003#54
-1	Byli	být	VERB	VpMP----R-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Byli	být	AUX	VpMP----R-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	jsme	být	AUX	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
 3	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	4:case	_
 4	všech	všechen	DET	PLIP2----------	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|PronType=Tot	1	obl	1:obl:u:gen	SpaceAfter=No
@@ -4661,7 +4661,7 @@
 # sent_id = dev-form1XXX041-s1
 # text = Bylo jí hodně přes dvacet, takže mi připadala jako starší paní.
 # orig_file_sentence 003#56
-1	Bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl:arg	1:obl:arg:dat	_
 3	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	advmod	5:advmod	_
 4	přes	přes	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	_
@@ -4728,8 +4728,8 @@
 19	nadál	nadát	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	23	advcl	23:advcl:než	SpaceAfter=No
 20	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 21	už	už	ADV	Db-------------	_	23	advmod	23:advmod	_
-22	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	23	aux	23:aux	_
-23	nebyl	být	VERB	VpMS----R-NA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	SpaceAfter=No
+22	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
+23	nebyl	být	AUX	VpMS----R-NA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	SpaceAfter=No
 24	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = dev-form1XXX041-s5
@@ -5007,7 +5007,7 @@
 14	Čechy	Čechy	PROPN	NNFP1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Plur|Polarity=Pos	13	nmod	13:nmod:nom	_
 15	a	a	CCONJ	J^-------------	_	16	cc	16:cc	_
 16	Morava	Morava	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	14	conj	13:nmod:nom|14:conj	_
-17	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	conj	0:root|5:conj	_
+17	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	conj	0:root|5:conj	_
 18	čím	co	PRON	PQ--7----------	Animacy=Inan|Case=Ins|PronType=Int,Rel	19	obl	19:obl:ins	_
 19	dál	daleko	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	20	dep	20:dep	_
 20	tím	ten	DET	PDNS7----------	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	21	obl	21:obl:ins	_
@@ -5086,7 +5086,7 @@
 # text = Rut byla v zoufalém stavu.
 # orig_file_sentence 003#78
 1	Rut	Rut	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Com|Number=Sing|Polarity=Pos	2	nsubj	2:nsubj	_
-2	byla	být	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+2	byla	být	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	_
 4	zoufalém	zoufalý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 5	stavu	stav	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	2	obl	2:obl:v:loc	SpaceAfter=No
@@ -5234,7 +5234,7 @@
 11	osobním	osobní	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	12	amod	12:amod	_
 12	prožitkem	prožitek	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	6	obl:arg	6:obl:arg:s:ins	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
-14	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+14	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 15	šance	šance	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	14	nsubj	14:nsubj	SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	20	punct	20:punct	_
 17	že	že	SCONJ	J,-------------	_	20	mark	20:mark	_
@@ -5262,7 +5262,7 @@
 10	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	12:case	_
 11	mých	můj	DET	PSIP6-S1-------	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det	12:det	_
 12	filmech	film	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur|Polarity=Pos	13	obl	13:obl:v:loc	_
-13	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
+13	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
 14	spousta	spousta	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	13	nsubj	13:nsubj	_
 15	nepřímých	přímý	ADJ	AAFP2----1N----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Neg	16	amod	16:amod	_
 16	souvislostí	souvislost	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	14	nmod	14:nmod:gen	_
@@ -5412,7 +5412,7 @@
 7	posnídal	posnídat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 8	a	a	CCONJ	J^-------------	_	10	cc	10:cc	_
 9	už	už	ADV	Db-------------	_	10	advmod	10:advmod	_
-10	byl	být	VERB	VpIS----R-AA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	conj	0:root|7:conj	_
+10	byl	být	AUX	VpIS----R-AA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	conj	0:root|7:conj	_
 11	čas	čas	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	10:nsubj	_
 12	jít	jít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	11	acl	11:acl	_
 13	zpátky	zpátky	ADV	Db-------------	_	12	advmod	12:advmod	_
@@ -5430,7 +5430,7 @@
 24	večerky	večerka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	22	obl	22:obl:do:gen|27:nsubj	SpaceAfter=No
 25	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
 26	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	27	nsubj	24:ref	_
-27	byla	být	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	24	acl:relcl	24:acl:relcl	_
+27	byla	být	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	24	acl:relcl	24:acl:relcl	_
 28	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	30	case	30:case	_
 29	deset	deset	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	30	nummod:gov	30:nummod:gov	_
 30	hodin	hodina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	27	obl	27:obl:v:acc	SpaceAfter=No
@@ -5606,7 +5606,7 @@
 19	ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	21	det	21:det	_
 20	vleklá	vleklý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	21	amod	21:amod	_
 21	dřina	dřina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	22	nsubj	22:nsubj	_
-22	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl	15:acl:že	_
+22	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl	15:acl:že	_
 23	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	24	case	24:case	_
 24	konce	konec	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	22	obl	22:obl:u:gen	SpaceAfter=No
 25	,	,	PUNCT	Z:-------------	_	27	punct	27:punct	_
@@ -5640,7 +5640,7 @@
 13	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	16	nsubj	16:nsubj	_
 14	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	15	case	15:case	_
 15	něm	on	PRON	P5MS6--3-------	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	16	obl	16:obl:v:loc	_
-16	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	ccomp	11:ccomp	SpaceAfter=No
+16	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	ccomp	11:ccomp	SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
 18	a	a	CCONJ	J^-------------	_	19	cc	19:cc	_
 19	dočkal	dočkat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	conj	6:acl:relcl|11:conj	_
@@ -5726,7 +5726,7 @@
 # sent_id = dev-form1XXX121-s5
 # text = Nebýt jich, asi bych neskončil za oceánem.
 # orig_file_sentence 004#3
-1	Nebýt	být	VERB	Vf--------N----	Polarity=Neg|VerbForm=Inf	6	advcl	6:advcl	_
+1	Nebýt	být	AUX	Vf--------N----	Polarity=Neg|VerbForm=Inf	6	advcl	6:advcl	_
 2	jich	on	PRON	PPMP2--3-------	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	nsubj	1:nsubj	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
 4	asi	asi	PART	TT-------------	_	6	advmod	6:advmod	_
@@ -6120,7 +6120,7 @@
 # text = Svět byl stále na svém místě.
 # orig_file_sentence 004#22
 1	Svět	svět	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	2:nsubj	_
-2	byl	být	VERB	VpIS----R-AA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+2	byl	být	AUX	VpIS----R-AA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 3	stále	stále	ADV	Db-------------	_	2	advmod	2:advmod	_
 4	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	6:case	_
 5	svém	svůj	DET	P8NS6----------	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	6:det	_
@@ -6175,7 +6175,7 @@
 # sent_id = dev-form1XXX151-s7
 # text = Byl v něm baret barvy zralých malin a hadrová panenka, kterou máma udělala ve vězení.
 # orig_file_sentence 004#25
-1	Byl	být	VERB	VpIS----R-AA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Byl	být	AUX	VpIS----R-AA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	3:case	_
 3	něm	on	PRON	P5IS6--3-------	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	1	obl	1:obl:v:loc	_
 4	baret	baret	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	1	nsubj	1:nsubj	_
@@ -6311,7 +6311,7 @@
 # sent_id = dev-form1XXX161-s7
 # text = Byl jsem z toho celý pryč.
 # orig_file_sentence 004#32
-1	Byl	být	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
 3	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	4:case	_
 4	toho	ten	DET	PDNS2----------	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	1	obl	1:obl:z:gen	_
@@ -6335,7 +6335,7 @@
 3	říkal	říkat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 5	že	že	SCONJ	J,-------------	_	6	mark	6:mark	_
-6	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
+6	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
 7	všecko	všecek	PRON	PLNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	6	nsubj	6:nsubj	_
 8	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	9:case	_
 9	pořádku	pořádek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	6	obl	6:obl:v:loc	SpaceAfter=No
@@ -6507,13 +6507,13 @@
 # sent_id = dev-form1XXX181-s4
 # text = Byly zde, a dodnes tu jsou, lázně pro pacienty se srdečními chorobami, kteří usrkávali poděbradku, procházeli se po parcích a kolonádách a podřimovali při zahradních koncertech.
 # orig_file_sentence 004#42
-1	Byly	být	VERB	VpFP----R-AA---	Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Byly	být	AUX	VpFP----R-AA---	Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	zde	zde	ADV	Db-------------	PronType=Dem	1	advmod	1:advmod	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 4	a	a	CCONJ	J^-------------	_	7	cc	7:cc	_
 5	dodnes	dodnes	ADV	Db-------------	_	7	advmod	7:advmod	_
 6	tu	tu	ADV	Db------------1	PronType=Dem	7	advmod	7:advmod	_
-7	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	SpaceAfter=No
+7	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	0:root|1:conj	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
 9	lázně	lázně	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	1	nsubj	1:nsubj|7:nsubj	_
 10	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	_
@@ -6805,7 +6805,7 @@
 # sent_id = dev-form1XXX201-s12
 # text = Býval bych se nikdy nedozvěděl, že dívka z Moravy nebyla vůbec nemocná, kdybych na ni o pár let později v Praze nenarazil.
 # orig_file_sentence 004#61
-1	Býval	bývat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Býval	bývat	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	1	aux	1:aux	_
 3	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	5:expl:pv	_
 4	nikdy	nikdy	ADV	Db-------------	PronType=Neg	5	advmod	5:advmod	_
@@ -7289,10 +7289,10 @@
 24	místnosti	místnost	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	21	obl	21:obl:v:loc	_
 25	takové	takový	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	26	det	26:det	_
 26	ticho	ticho	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	21	nsubj	21:nsubj	SpaceAfter=No
-27	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
+27	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
 28	že	že	SCONJ	J,-------------	_	30	mark	30:mark	_
-29	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	30	aux	30:aux	_
-30	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	26	acl	26:acl:že	_
+29	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	26	aux	26:aux	_
+30	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	26	acl	26:acl:že	_
 31	slyšet	slyšet	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	30	ccomp	30:ccomp	_
 32	upadnout	upadnout	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	31	xcomp	31:xcomp	_
 33	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	34	case	34:case	_
@@ -7428,7 +7428,7 @@
 # sent_id = dev-form1XXX261-s3
 # text = Byl jsem ale v pasti a neodvažoval jsem se ani dýchat, natož pohnout.
 # orig_file_sentence 004#90
-1	Byl	být	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
 3	ale	ale	CCONJ	J^-------------	_	1	cc	1:cc	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	_
@@ -7906,7 +7906,7 @@
 11	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	12	obl	12:obl:o:acc	_
 12	víc	hodně	ADV	Dg-------2A---1	Degree=Cmp|Polarity=Pos	14	nsubj	14:nsubj	_
 13	jich	on	PRON	PPIP2--3-------	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	nmod	12:nmod:gen	_
-14	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
+14	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
 15	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	16:case	_
 16	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	17	obl	17:obl:o:acc	_
 17	později	pozdě	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	14	advmod	14:advmod	SpaceAfter=No
@@ -8525,7 +8525,7 @@
 # text = Žaludy jsou v dřevnatém kalíšku.
 # orig_file_sentence 005#72
 1	Žaludy	žalud	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	2	nsubj	2:nsubj	_
-2	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	_
 4	dřevnatém	dřevnatý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 5	kalíšku	kalíšek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	2	obl	2:obl:v:loc	SpaceAfter=No
@@ -8672,7 +8672,7 @@
 4	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 5	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	7	nsubj	7:nsubj	_
 6	mu	on	PRON	PHMS3--3-------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obl:arg	7:obl:arg:dat	_
-7	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	SpaceAfter=No
+7	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	1:ccomp	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = dev-ku_smlas001-s6
@@ -9682,7 +9682,7 @@
 # sent_id = dev-ku_smlas071-s10
 # text = Jste jako v pubertě.
 # orig_file_sentence 006#41
-1	Jste	být	VERB	VB-P---2P-AA---	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+1	Jste	být	AUX	VB-P---2P-AA---	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	jako	jako	SCONJ	J,-------------	_	4	mark	4:mark	_
 3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	4:case	_
 4	pubertě	puberta	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	1	dep	1:dep	SpaceAfter=No
@@ -9791,7 +9791,7 @@
 6	Alžběta	Alžběta	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	5	nsubj	5:nsubj	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 8	"	"	PUNCT	Z:-------------	_	9	punct	9:punct	SpaceAfter=No
-9	byla	být	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	conj	2:conj|5:ccomp	_
+9	byla	být	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	conj	2:conj|5:ccomp	_
 10	tam	tam	ADV	Db-------------	PronType=Dem	9	advmod	9:advmod	_
 11	jedna	jeden	NUM	ClFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	12	nummod	12:nummod	_
 12	Švédka	Švédka	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Nat|Number=Sing|Polarity=Pos	9	nsubj	9:nsubj	_
@@ -9820,7 +9820,7 @@
 35	a	a	CCONJ	J^-------------	_	38	cc	38:cc	_
 36	taky	taky	ADV	Db-------------	_	38	advmod	38:advmod	_
 37	tam	tam	ADV	Db-------------	PronType=Dem	38	advmod	38:advmod	_
-38	byla	být	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	conj	2:conj|5:ccomp	_
+38	byla	být	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	conj	2:conj|5:ccomp	_
 39	jedna	jeden	NUM	ClFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumForm=Word|NumType=Card|NumValue=1,2,3	40	nummod	40:nummod	_
 40	holka	holka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	38	nsubj	38:nsubj|43:nsubj	SpaceAfter=No
 41	,	,	PUNCT	Z:-------------	_	43	punct	43:punct	_
@@ -9883,7 +9883,7 @@
 18	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	conj	2:conj|5:dep|21:nsubj	SpaceAfter=No
 19	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
 20	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	21	nsubj	18:ref	_
-21	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	18:acl:relcl	_
+21	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	18	acl:relcl	18:acl:relcl	_
 22	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	23	case	23:case	_
 23	vás	ty	PRON	PP-P4--2-------	Case=Acc|Number=Plur|Person=2|PronType=Prs	21	obl	21:obl:pro:acc	SpaceAfter=No
 24	!	!	PUNCT	Z:-------------	_	5	punct	5:punct	SpaceAfter=No
@@ -10153,7 +10153,7 @@
 6	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
 7	přece	přece	ADV	Db-------------	_	9	cc	9:cc	_
 8	jen	jen	PART	TT-------------	_	7	fixed	7:fixed	_
-9	nejsem	být	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+9	nejsem	být	AUX	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 10	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	_
 11	vás	ty	PRON	PP-P4--2-------	Case=Acc|Number=Plur|Person=2|PronType=Prs	9	obl	9:obl:pro:acc	_
 12	(	(	PUNCT	Z:-------------	_	14	punct	14:punct	SpaceAfter=No
@@ -10169,13 +10169,13 @@
 22	první	první	ADJ	CrMS1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	9	dep	9:dep	_
 23	a	a	CCONJ	J^-------------	_	24	cc	24:cc	_
 24	poslední	poslední	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	22	conj	9:dep|22:conj	SpaceAfter=No
-25	,	,	PUNCT	Z:-------------	_	31	punct	31:punct	_
+25	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 26	kdežto	kdežto	CCONJ	J^-------------	_	31	mark	31:mark	_
 27	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	29	case	29:case	_
 28	tu	ten	DET	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	29	det	29:det	_
 29	kurvičku	kurvička	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	31	obl	31:obl:pro:acc	_
-30	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	31:aux	_
-31	byl	být	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	9:advcl:kdežto	SpaceAfter=No
+30	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
+31	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	9	advcl	9:advcl:kdežto	SpaceAfter=No
 32	.	.	PUNCT	Z:-------------	_	9	punct	9:punct	_
 
 # newpar id = dev-ku_smlas111
@@ -10427,7 +10427,7 @@
 # sent_id = dev-ku_smlas131-s4
 # text = bylo odtud vidět stanici;
 # orig_file_sentence 006#79
-1	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	odtud	odtud	ADV	Db-------------	PronType=Dem	3	advmod	3:advmod	_
 3	vidět	vidět	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	1	ccomp	1:ccomp	_
 4	stanici	stanice	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	obj	3:obj	SpaceAfter=No
@@ -10584,7 +10584,7 @@
 4	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 5	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	6:case	_
 6	čem	co	PRON	PQ--6----------	Animacy=Inan|Case=Loc|PronType=Int,Rel	8	nmod	8:nmod:o:loc	_
-7	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
+7	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	3:ccomp	_
 8	řeč	řeč	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	7	nsubj	7:nsubj	SpaceAfter=No
 9	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
 10	ale	ale	CCONJ	J^-------------	_	13	cc	13:cc	_
@@ -10872,7 +10872,7 @@
 # orig_file_sentence 007#12
 1	Doktor	doktor	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	3	nsubj	3:nsubj	_
 2	Havel	Havel	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	1	flat	1:flat	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	jako	jako	SCONJ	J,-------------	_	5	mark	5:mark	_
 5	smrt	smrt	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	advcl	3:advcl:jako	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -10905,7 +10905,7 @@
 # orig_file_sentence 007#15
 1	Když	když	SCONJ	J,-------------	_	3	mark	3:mark	_
 2	už	už	ADV	Db-------------	_	3	advmod	3:advmod	_
-3	byl	být	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	13:advcl:když	_
+3	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	advcl	13:advcl:když	_
 4	téměř	téměř	ADV	Db-------------	_	7	advmod:emph	7:advmod:emph	_
 5	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	7:case	_
 6	kývacích	kývací	ADJ	AAFP2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	7	amod	7:amod	_
@@ -11129,14 +11129,14 @@
 # orig_file_sentence 007#26
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	Venku	venku	ADV	Db-------------	_	3	advmod	3:advmod	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	nádherně	nádherně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	3:advmod	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # sent_id = dev-ku_smlas181-s2
 # text = Je úplněk..." a zase pak zavadila o Flajšmana letmým pohledem.
 # orig_file_sentence 007#27
-1	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 2	úplněk	úplněk	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	1	nsubj	1:nsubj	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	SpaceAfter=No
@@ -11310,7 +11310,7 @@
 1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	3:case	_
 2	té	ten	DET	PDFS6----------	Case=Loc|Gender=Fem|Number=Sing|PronType=Dem	3	det	3:det	_
 3	nerozpolcenosti	rozpolcenost	NOUN	NNFS6-----N----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Neg	4	obl	4:obl:v:loc	_
-4	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+4	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 5	štěstí	štěstí	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	4	nsubj	4:nsubj	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 7	jenomže	jenomže	CCONJ	J^-------------	_	11	cc	11:cc	_
@@ -11801,7 +11801,7 @@
 # text = Kolik je vám let?" otázala se lékařka.
 # orig_file_sentence 007#71
 1	Kolik	kolik	DET	C?--1----------	Case=Nom|NumType=Card|PronType=Int,Rel	4	det:numgov	4:det:numgov	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	7:ccomp	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	7:ccomp	_
 3	vám	ty	PRON	PP-P3--2-------	Case=Dat|Number=Plur|Person=2|PronType=Prs	2	obl:arg	2:obl:arg:dat	_
 4	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	2	nsubj	2:nsubj	SpaceAfter=No
 5	?	?	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
@@ -11820,7 +11820,7 @@
 4	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
 6	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	7	obl:arg	7:obl:arg:dat	_
-7	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+7	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	SpaceAfter=No
 9	"	"	PUNCT	Z:-------------	_	7	punct	7:punct	_
 
@@ -12548,7 +12548,7 @@
 # orig_file_sentence 008#28
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	Vy	ty	PRON	PP-P1--2-------	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	3:nsubj	_
-3	jste	být	VERB	VB-P---2P-AA---	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	jste	být	AUX	VB-P---2P-AA---	Mood=Ind|Number=Plur|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	tady	tady	ADV	Db-------------	PronType=Dem	3	advmod	3:advmod	SpaceAfter=No
 5	?	?	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 6	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -12960,7 +12960,7 @@
 5	ho	on	PRON	PHMS2--3-------	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	2	obl:arg	2:obl:arg:gen	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 7	jestli	jestli	SCONJ	J,-------------	_	8	mark	8:mark	_
-8	jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
+8	jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
 9	ty	ten	DET	PDIP1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	10	det	10:det	_
 10	léky	lék	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	8	nsubj	8:nsubj	_
 11	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	12	case	12:case	_
@@ -13074,7 +13074,7 @@
 # text = A je toho dost.
 # orig_file_sentence 008#67
 1	A	a	CCONJ	J^-------------	_	2	cc	2:cc	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	toho	ten	DET	PDNS2----------	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	4	det	4:det	_
 4	dost	dost	ADV	Db-------------	_	2	nsubj	2:nsubj	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -13237,7 +13237,7 @@
 1	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 2	Jenže	jenže	CCONJ	J^-------------	_	4	cc	4:cc	_
 3	já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
-4	nejsem	být	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	nejsem	být	AUX	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	sama	sám	DET	PLFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	4	xcomp	4:xcomp	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 7	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -13247,7 +13247,7 @@
 # orig_file_sentence 008#79
 1	Z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	2	case	2:case	_
 2	dálky	dálka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	4:obl:z:gen	_
-3	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+3	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	slyšet	slyšet	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	3	ccomp	3:ccomp	_
 5	mužský	mužský	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	zpěv	zpěv	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	4	obj	4:obj	_
@@ -13328,7 +13328,7 @@
 1	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 2	Jenže	jenže	CCONJ	J^-------------	_	4	cc	4:cc	_
 3	já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	_
-4	nejsem	být	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+4	nejsem	být	AUX	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	sama	sám	DET	PLFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Emp	4	xcomp	4:xcomp	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 7	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -13338,7 +13338,7 @@
 # orig_file_sentence 008#87
 1	Z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	2	case	2:case	_
 2	dálky	dálka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	4:obl:z:gen	_
-3	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+3	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	slyšet	slyšet	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	3	ccomp	3:ccomp	_
 5	mužský	mužský	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	zpěv	zpěv	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	4	obj	4:obj	_
@@ -13782,7 +13782,7 @@
 2	Mělo	mít	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 3	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	2	aux	2:aux	_
 4	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	2	nsubj	2:nsubj|5:nsubj	_
-5	být	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	_
+5	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	_
 6	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	_
 7	nervy	nerv	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	5	obl	5:obl:na:acc	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
@@ -14099,7 +14099,7 @@
 3	rozhodně	rozhodně	PART	TT-------------	_	4	advmod	4:advmod	_
 4	nedám	dát	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
-6	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
+6	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
 7	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	6	obl	6:obl:dat	_
 8	špatně	špatně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod	6:advmod	SpaceAfter=No
 9	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
@@ -14447,7 +14447,7 @@
 # orig_file_sentence 009#64
 1	Měla	mít	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
-3	být	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	1	xcomp	1:xcomp	_
+3	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	1	xcomp	1:xcomp	_
 4	už	už	ADV	Db-------------	_	5	advmod:emph	5:advmod:emph	_
 5	dávno	dávno	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	3:advmod	_
 6	někde	někde	ADV	Db-------------	PronType=Ind	3	advmod	3:advmod	_
@@ -14588,7 +14588,7 @@
 1	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
 2	Mělo	mít	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 3	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	2	aux	2:aux	_
-4	být	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	SpaceAfter=No
+4	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = dev-laskaneX171-s11
@@ -14627,7 +14627,7 @@
 # text = "Jsou taky od otce?"
 # orig_file_sentence 009#79
 1	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
-2	Jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	Jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	taky	taky	ADV	Db-------------	_	2	advmod:emph	2:advmod:emph	_
 4	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	5:case	_
 5	otce	otec	NOUN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	2	obl:arg	2:obl:arg:od:gen	SpaceAfter=No
@@ -14981,7 +14981,7 @@
 # orig_file_sentence 010#4
 1	Trochu	trochu	ADV	Db-------------	_	3	nsubj	3:nsubj	_
 2	peněz	peníze	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur|Polarity=Pos	1	nmod	1:nmod:gen	_
-3	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+3	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	_
 5	chalupě	chalupa	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	3:obl:na:loc	_
 6	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	8	case	8:case	_
@@ -15028,7 +15028,7 @@
 9	když	když	SCONJ	J,-------------	_	8	fixed	8:fixed	_
 10	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	12	nsubj	12:nsubj	_
 11	možná	možná	PART	TT-------------	_	12	advmod	12:advmod	_
-12	bylo	být	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	1:advcl:i_když	_
+12	bylo	být	AUX	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	1:advcl:i_když	_
 13	i	i	CCONJ	J^-------------	_	14	advmod:emph	14:advmod:emph	_
 14	nedostatkem	nedostatek	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	12	obl	12:obl:ins	_
 15	spánku	spánek	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	14	nmod	14:nmod:gen	_
@@ -15248,7 +15248,7 @@
 # text = "Není.
 # orig_file_sentence 010#17
 1	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
-2	Není	být	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	Není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = dev-laskaneX211-s8
@@ -15448,7 +15448,7 @@
 # orig_file_sentence 010#31
 1	Možná	možná	PART	TT-------------	_	3	advmod	3:advmod	_
 2	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	3	aux	3:aux	_
-3	nebylo	být	VERB	VpNS----R-NA---	Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+3	nebylo	být	AUX	VpNS----R-NA---	Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	5:case	_
 5	věci	věc	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	3:obl:od:gen	_
 6	něčím	něco	PRON	PZ--7----------	Case=Ins|PronType=Ind	8	obl	8:obl:ins	_
@@ -15690,7 +15690,7 @@
 # orig_file_sentence 010#46
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	Kolik	kolik	DET	C?--1----------	Case=Nom|NumType=Card|PronType=Int,Rel	4	det:numgov	4:det:numgov	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	hodin	hodina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	3	nsubj	3:nsubj	SpaceAfter=No
 5	?	?	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
@@ -15711,7 +15711,7 @@
 1	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
 2	Ano	ano	PART	TT-------------	_	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	_
-4	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+4	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
 5	šest	šest	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	4	nsubj	4:nsubj	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
 7	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -15856,7 +15856,7 @@
 # text = Valentýna byla doma.
 # orig_file_sentence 010#59
 1	Valentýna	Valentýna	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	2	nsubj	2:nsubj	_
-2	byla	být	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+2	byla	být	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 3	doma	doma	ADV	Db-------------	_	2	advmod	2:advmod	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
@@ -16566,7 +16566,7 @@
 # orig_file_sentence 010#100
 1	Poblíž	poblíž	ADV	Db-------------	_	3	advmod	3:advmod	_
 2	nikdo	nikdo	PRON	PWM-1----------	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Neg	3	nsubj	3:nsubj	_
-3	není	být	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	není	být	AUX	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 5	všichni	všechen	DET	PLMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot	7	nsubj	7:nsubj	_
 6	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	7	expl:pv	7:expl:pv	_
@@ -16581,7 +16581,7 @@
 # orig_file_sentence 011#1
 1	Pod	pod	ADP	RR--7----------	AdpType=Prep|Case=Ins	2	case	2:case	_
 2	rouškou	rouška	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	3:obl:pod:ins	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	strašné	strašný	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 5	horko	horko	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	3	nsubj	3:nsubj	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
@@ -16795,7 +16795,7 @@
 # orig_file_sentence 011#17
 1	Večeře	večeře	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nsubj	3:nsubj	_
 2	nejspíš	nejspíš	PART	TT-------------	_	3	advmod:emph	3:advmod:emph	_
-3	nebude	být	VERB	VB-S---3F-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+3	nebude	být	AUX	VB-S---3F-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 4	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # sent_id = dev-p_navrat051-s3
@@ -16914,7 +16914,7 @@
 # orig_file_sentence 011#25
 1	Pootevřenými	pootevřený	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	2	amod	2:amod	_
 2	dveřmi	dveře	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	4	obl	4:obl:ins	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	slyšet	slyšet	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	3	ccomp	3:ccomp	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 6	jak	jak	SCONJ	J,-------------	_	9	mark	9:mark	_
@@ -16959,7 +16959,7 @@
 # text = nyní byla na dosah ruky.
 # orig_file_sentence 011#28
 1	nyní	nyní	ADV	Db-------------	PronType=Dem	2	advmod	2:advmod	_
-2	byla	být	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+2	byla	být	AUX	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 3	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	4:case	_
 4	dosah	dosah	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	2	obl	2:obl:na:acc	_
 5	ruky	ruka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	4	nmod	4:nmod:gen	SpaceAfter=No
@@ -17151,7 +17151,7 @@
 16	okna	okno	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	13	nmod	13:nmod:u:gen|20:obl	SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	19	punct	19:punct	_
 18	odkud	odkud	ADV	Db-------------	PronType=Int,Rel	20	advmod	16:ref	_
-19	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	16:acl:relcl	_
+19	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	16:acl:relcl	_
 20	vidět	vidět	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	19	ccomp	19:ccomp	_
 21	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	22	case	22:case	_
 22	ohyb	ohyb	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	20	obl	20:obl:na:acc	_
@@ -17439,7 +17439,7 @@
 # orig_file_sentence 011#52
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	A	a	CCONJ	J^-------------	_	3	cc	3:cc	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
 5	dlouho	dlouho	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	3:advmod	SpaceAfter=No
 6	?	?	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
@@ -17449,7 +17449,7 @@
 # text = "Je.
 # orig_file_sentence 011#53
 1	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
-2	Je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+2	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 3	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = dev-p_navrat091-s11
@@ -17474,7 +17474,7 @@
 # orig_file_sentence 011#56
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	Co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	3	nsubj	3:nsubj	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	zase	zase	ADV	Db-------------	_	3	advmod	3:advmod	SpaceAfter=No
 5	?	?	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 6	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -17486,7 +17486,7 @@
 2	A	a	CCONJ	J^-------------	_	5	cc	5:cc	_
 3	kdy	kdy	ADV	Db-------------	PronType=Int,Rel	5	advmod	5:advmod	_
 4	už	už	ADV	Db-------------	_	5	advmod	5:advmod	_
-5	budou	být	VERB	VB-P---3F-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+5	budou	být	AUX	VB-P---3F-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
 6	vánoce	Vánoce	PROPN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	5	nsubj	5:nsubj	SpaceAfter=No
 7	?	?	PUNCT	Z:-------------	_	5	punct	5:punct	SpaceAfter=No
 8	"	"	PUNCT	Z:-------------	_	5	punct	5:punct	_
@@ -17511,7 +17511,7 @@
 # orig_file_sentence 011#59
 1	A	a	CCONJ	J^-------------	_	3	cc	3:cc	_
 2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	vlastně	vlastně	ADV	TT-------------	_	3	advmod	3:advmod	_
 5	pozítří	pozítří	ADV	Db-------------	_	3	advmod	3:advmod	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -17944,7 +17944,7 @@
 # sent_id = dev-p_navrat121-s8
 # text = Byly čtyři a každý dostal svůj malý, ale samostatný kousek stěny.
 # orig_file_sentence 011#85
-1	Byly	být	VERB	VpIP----R-AA---	Animacy=Inan|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
+1	Byly	být	AUX	VpIP----R-AA---	Animacy=Inan|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	čtyři	čtyři	NUM	ClIP1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	1	nsubj	1:nsubj	_
 3	a	a	CCONJ	J^-------------	_	5	cc	5:cc	_
 4	každý	každý	DET	PLIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|PronType=Tot	5	nsubj	5:nsubj	_
@@ -18205,7 +18205,7 @@
 # text = Dnes je rychlejší hra, dej si říct.
 # orig_file_sentence 011#98
 1	Dnes	dnes	ADV	Db-------------	_	2	advmod	2:advmod	_
-2	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+2	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 3	rychlejší	rychlý	ADJ	AAFS1----2A----	Case=Nom|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 4	hra	hra	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	nsubj	2:nsubj	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
@@ -18233,7 +18233,7 @@
 # orig_file_sentence 011#100
 1	Dnes	dnes	ADV	Db-------------	_	2	advmod	2:advmod	_
 2	musí	muset	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-3	být	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	_
+3	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	2	xcomp	2:xcomp	_
 4	hlavně	hlavně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	6	advmod:emph	6:advmod:emph	_
 5	perfektní	perfektní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	fyzička	fyzička	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	nsubj	2:nsubj|3:nsubj	SpaceAfter=No
@@ -18391,7 +18391,7 @@
 5	len	len	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	16	iobj	8:nsubj|16:iobj	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 7	co	co	PRON	P4IS1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|PronType=Int,Rel	8	nsubj	5:ref	_
-8	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
+8	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	5:acl:relcl	_
 9	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	10:case	_
 10	domě	dům	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	8	obl	8:obl:v:loc	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
@@ -18499,13 +18499,13 @@
 8	zlaté	zlatý	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	9	amod	9:amod	_
 9	nitky	nitka	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	6	obl	6:obl:na:acc	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
-11	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
+11	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	_
 12	svatba	svatba	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	11	nsubj	11:nsubj	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 14	když	když	SCONJ	J,-------------	_	15	mark	15:mark	_
 15	ne	ne	PART	TT-------------	_	17	dep	17:dep	SpaceAfter=No
 16	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
-17	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	0:root|11:conj	_
+17	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	11	conj	0:root|11:conj	_
 18	zle	zle	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	17	advmod	17:advmod	SpaceAfter=No
 19	.	.	PUNCT	Z:-------------	_	11	punct	11:punct	SpaceAfter=No
 20	"	"	PUNCT	Z:-------------	_	11	punct	11:punct	_
@@ -18518,7 +18518,7 @@
 3	a	a	CCONJ	J^-------------	_	4	cc	4:cc	_
 4	nechal	nechat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	conj	0:root|2:conj	_
 5	přadlenku	přadlenka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	iobj	4:iobj	_
-6	být	být	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	SpaceAfter=No
+6	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	4	xcomp	4:xcomp	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = dev-tri3XXXX011-s5
@@ -18593,7 +18593,7 @@
 1	Co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	4	nsubj	4:nsubj	_
 2	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	3	case	3:case	_
 3	mnou	já	PRON	PP-S7--1-------	Case=Ins|Number=Sing|Person=1|PronType=Prs	4	obl:arg	4:obl:arg:s:ins	_
-4	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
+4	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	0:root	SpaceAfter=No
 5	!	!	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 6	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -18899,7 +18899,7 @@
 6	neprostírá	prostírat	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
 8	doma	doma	ADV	Db-------------	_	9	advmod	9:advmod	_
-9	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
+9	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	0:root|2:conj	_
 10	čím	co	PRON	PQ--7----------	Animacy=Inan|Case=Ins|PronType=Int,Rel	11	obl	11:obl:ins	_
 11	dál	daleko	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	12	advmod	12:advmod	_
 12	hůř	špatně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	9	advmod	9:advmod	SpaceAfter=No
@@ -19749,7 +19749,7 @@
 # orig_file_sentence 012#88
 1	Když	když	SCONJ	J,-------------	_	3	mark	3:mark|13:mark	_
 2	už	už	ADV	Db-------------	_	3	advmod	3:advmod	_
-3	byli	být	VERB	VpMP----R-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	advcl	16:advcl:když|22:advcl:když|26:advcl:když	_
+3	byli	být	AUX	VpMP----R-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	advcl	16:advcl:když|22:advcl:když|26:advcl:když	_
 4	dost	dost	ADV	Db-------------	_	5	advmod	5:advmod	_
 5	daleko	daleko	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	3:advmod	_
 6	od	od	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	7:case	_
@@ -19759,7 +19759,7 @@
 10	druhý	druhý	ADJ	CrIS1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|NumType=Ord	11	amod	11:amod	_
 11	břeh	břeh	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	13	nsubj	13:nsubj	_
 12	ještě	ještě	ADV	Db-------------	_	13	advmod	13:advmod	_
-13	nebyl	být	VERB	VpIS----R-NA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	3	conj	3:conj|16:advcl:když|22:advcl:když|26:advcl:když	_
+13	nebyl	být	AUX	VpIS----R-NA---	Animacy=Inan|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	3	conj	3:conj|16:advcl:když|22:advcl:když|26:advcl:když	_
 14	vidět	vidět	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	13	ccomp	13:ccomp	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	_
 16	zvedla	zvednout	VERB	VpFS----R-AA--1	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
@@ -19990,7 +19990,7 @@
 # orig_file_sentence 013#1
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	Jenom	jenom	ADV	Db-------------	_	3	advmod:emph	3:advmod:emph	_
-3	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	_
 5	příkladu	příklad	NOUN	NNIS6-----A---1	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	3	obl	3:obl:na:loc	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
@@ -20852,7 +20852,7 @@
 # text = "Jsou ti osli ještě k něčemu?" zeptal se jeden.
 # orig_file_sentence 013#41
 1	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
-2	Jsou	být	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	10:ccomp	_
+2	Jsou	být	AUX	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	10:ccomp	_
 3	ti	ten	DET	PDMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	4	det	4:det	_
 4	osli	osel	NOUN	NNMP1-----A---1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	2	nsubj	2:nsubj	_
 5	ještě	ještě	ADV	Db-------------	_	2	advmod	2:advmod	_
@@ -21061,7 +21061,7 @@
 # orig_file_sentence 013#53
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	Tak	tak	PART	TT-------------	_	3	discourse	3:discourse	_
-3	jsem	být	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	tady	tady	ADV	Db-------------	PronType=Dem	3	advmod	3:advmod	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
@@ -21311,7 +21311,7 @@
 # orig_file_sentence 013#67
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	Pak	pak	ADV	Db-------------	_	3	advmod	3:advmod	_
-3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
+3	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 4	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	3:nsubj	_
 5	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	3	advmod	3:advmod	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
@@ -21658,10 +21658,10 @@
 5	žádnou	žádný	DET	PWFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	6	det	6:det	_
 6	poštu	pošta	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	7	obj	7:obj	_
 7	nedostal	dostat	VERB	VpMS----R-NA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	SpaceAfter=No
-8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
+8	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 9	protože	protože	SCONJ	J,-------------	_	11	mark	11:mark	_
-10	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	11:aux	_
-11	byl	být	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	7:advcl:protože	_
+10	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
+11	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	7:advcl:protože	_
 12	pořád	pořád	ADV	Db-------------	_	11	advmod	11:advmod	_
 13	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	_
 14	cestách	cesta	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur|Polarity=Pos	11	obl	11:obl:na:loc	SpaceAfter=No
@@ -21787,7 +21787,7 @@
 13	uvědomil	uvědomit	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	advcl	8:advcl:když	SpaceAfter=No
 14	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
 15	že	že	SCONJ	J,-------------	_	16	mark	16:mark	_
-16	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	13:ccomp	_
+16	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	13:ccomp	_
 17	načase	načase	ADV	Db-------------	_	16	advmod	16:advmod	_
 18	postarat	postarat	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	16	csubj	16:csubj	_
 19	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	18	expl:pv	18:expl:pv	_
@@ -22160,7 +22160,7 @@
 # text = Zatímco byl na cestě, přepadla vesnici banda lupičů, ukradla všechen majetek i dobytek a kdo z obyvatel nebyl zavražděn, přišel o život v zapálených domech.
 # orig_file_sentence 014#8
 1	Zatímco	zatímco	SCONJ	J,-------------	_	2	mark	2:mark	_
-2	byl	být	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	advcl	6:advcl:zatímco|11:advcl:zatímco|23:advcl:zatímco	_
+2	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	advcl	6:advcl:zatímco|11:advcl:zatímco|23:advcl:zatímco	_
 3	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	4:case	_
 4	cestě	cesta	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	2	obl	2:obl:na:loc	SpaceAfter=No
 5	,	,	PUNCT	Z:-------------	_	2	punct	2:punct	_

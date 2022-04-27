@@ -18,7 +18,7 @@
     <tag name="ADJ">10899</tag><!-- celý, malý, velký, jiný, starý, rád, druhý, dobrý, první, další -->
     <tag name="ADP">12317</tag><!-- na, v, do, s, z, k, o, za, po, od -->
     <tag name="ADV">10832</tag><!-- už, tak, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
-    <tag name="AUX">6565</tag><!-- být, bývat -->
+    <tag name="AUX">7534</tag><!-- být, bývat -->
     <tag name="CCONJ">7684</tag><!-- a, ale, i, nebo, tak, však, jenže, ani, proto, neboť -->
     <tag name="DET">8417</tag><!-- ten, který, svůj, jeho, můj, všechen, sám, tenhle, každý, nějaký -->
     <tag name="INTJ">110</tag><!-- aha, hm, ach, cože, no, hele, hej, proboha, hop, vida -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">2255</tag><!-- Valentýna, Láďa, Havel, Leoš, Alžběta, Eduard, Flajšman, Veronika, Filip, Havlena -->
     <tag name="PUNCT">31795</tag><!-- ,, ., ", ?, !, :, -, (, ), ; -->
     <tag name="SCONJ">4758</tag><!-- že, když, jako, aby, než, jak, protože, až, jestli, takže -->
-    <tag name="VERB">24949</tag><!-- mít, být, moci, říci, chtít, vědět, stát, jít, muset, dát -->
+    <tag name="VERB">23980</tag><!-- mít, moci, říci, chtít, vědět, stát, jít, muset, dát, vidět -->
     <tag name="X">62</tag><!-- Ha-vel, Jom, kippur, o-po-nu, pr-chá, Soleil, combien, dě, Baalšem, Coeur -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -60,7 +60,7 @@
     <feat name="Gender[psor]" value="Masc" upos="ADJ,DET">551</feat><!-- jeho, jejich, Havlovo, Láďova, Máchovo, Máchovu, jehož, Mašínovi, otcova, primářova -->
     <feat name="Gender[psor]" value="Neut" upos="DET">12</feat><!-- jeho, jejich -->
     <feat name="Hyph" value="Yes" upos="ADJ">6</feat><!-- marx, dvou, troj, tří, československo -->
-    <feat name="Mood" value="Cnd" upos="AUX,VERB">1276</feat><!-- by, bych, byste, bys, bychom, bysme -->
+    <feat name="Mood" value="Cnd" upos="AUX">1276</feat><!-- by, bych, byste, bys, bychom, bysme -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">483</feat><!-- řekni, dej, nech, pojď, podívej, počkej, neboj, vezmi, vrať, vzpomeňte -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">10998</feat><!-- jsem, je, jsme, má, bude, jsou, jsi, není, mám, jste -->
     <feat name="NameType" value="Com" upos="PROPN">20</feat><!-- Rut, Slavia, Vikárky, Pribina, RUT, Sparta, Vikárka, Vitana -->
@@ -123,8 +123,8 @@
     <dep name="advmod:emph">2241</dep>
     <dep name="amod">8107</dep>
     <dep name="appos">544</dep>
-    <dep name="aux">4216</dep>
-    <dep name="aux:pass">138</dep>
+    <dep name="aux">4217</dep>
+    <dep name="aux:pass">137</dep>
     <dep name="case">12308</dep>
     <dep name="cc">7562</dep>
     <dep name="ccomp">2232</dep>

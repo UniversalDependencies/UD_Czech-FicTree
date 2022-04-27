@@ -52,6 +52,8 @@ Slovak).
 
 # Changelog
 
+* 2022-05-15 v2.10
+  * The verb 'být' is now AUX in all contexts.
 * 2021-05-15 v2.8
   * Fixed recognition of clauses with passive participles (ADJ).
 * 2020-05-15 v2.6
