@@ -52,6 +52,9 @@ Slovak).
 
 # Changelog
 
+* 2023-05-15 v2.12
+  * Temporary fix of double subjects (second subject converted to dep).
+    In the long run, the cause should be found and fixed upstream.
 * 2022-05-15 v2.10
   * The verb 'být' is now AUX in all contexts.
   * Merged PRON/DET 'sám', 'samý'.
