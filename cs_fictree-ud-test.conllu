@@ -1143,7 +1143,7 @@
 10	těšila	těšit	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
 12	až	až	SCONJ	J,-------------	_	16	mark	16:mark	_
-13	jej	on	PRON	PPIS4--3------2	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Style=Arch	16	obj	16:obj	_
+13	jej	on	PRON	PPIS4--3------2	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	16:obj	_
 14	svému	svůj	DET	P8MS3----------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	15:det	_
 15	dědečkovi	dědeček	NOUN	NNMS3-----A----	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	16	obl:arg	16:obl:arg:dat	_
 16	ukáže	ukázat	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	10:ccomp	SpaceAfter=No
@@ -2044,7 +2044,7 @@
 3	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	5:obj	_
 4	už	už	PART	TT-------------	_	6	advmod:emph	6:advmod:emph	_
 5	neslyšel	slyšet	VERB	VpMS----R-NA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-6	léta	rok	NOUN	NNNP4-----A---2	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|Style=Arch	5	obl	5:obl:acc	SpaceAfter=No
+6	léta	rok	NOUN	NNNP4-----A---2	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos	5	obl	5:obl:acc	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = test-andelvte142-s3
@@ -3220,7 +3220,7 @@
 # text = Sebral jej tehdy z poničeného vagonu, v němž si Ajax udělal doupě, a odvedl ho domů, krmil ho z toho mála, co jsme měli sami, a dal ho do pořádku.
 # orig_file_sentence 002#76
 1	Sebral	sebrat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-2	jej	on	PRON	PPMS4--3------2	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Style=Arch	1	obj	1:obj	_
+2	jej	on	PRON	PPMS4--3------2	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	1:obj	_
 3	tehdy	tehdy	ADV	Db-------------	PronType=Dem	1	advmod	1:advmod	_
 4	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	6:case	_
 5	poničeného	poničený	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	6:amod	_
@@ -6041,7 +6041,7 @@
 14	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 15	a	a	CCONJ	J^-------------	_	21	cc	21:cc	_
 16	už	už	PART	TT-------------	_	17	advmod:emph	17:advmod:emph	_
-17	léta	rok	NOUN	NNNP4-----A---2	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|Style=Arch	21	obl	21:obl:acc	_
+17	léta	rok	NOUN	NNNP4-----A---2	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos	21	obl	21:obl:acc	_
 18	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	21	obl:arg	21:obl:arg:dat	_
 19	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	20	case	20:case	_
 20	třídě	třída	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	21	obl	21:obl:v:loc	_
@@ -16081,7 +16081,7 @@
 10	dřeva	dřevo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	8	nmod	8:nmod:gen	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 12	které	který	DET	P4IP1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int,Rel	14	nsubj	8:ref	_
-13	léty	rok	NOUN	NNNP7-----A---2	Case=Ins|Gender=Neut|Number=Plur|Polarity=Pos|Style=Arch	14	obl	14:obl:ins	_
+13	léty	rok	NOUN	NNNP7-----A---2	Case=Ins|Gender=Neut|Number=Plur|Polarity=Pos	14	obl	14:obl:ins	_
 14	vyschly	vyschnout	VERB	VpIP----R-AA--1	Animacy=Inan|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	8	acl:relcl	8:acl:relcl	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	_
 16	nyní	nyní	ADV	Db-------------	PronType=Dem	18	advmod	18:advmod	_
@@ -20553,7 +20553,7 @@
 20	jako	jako	SCONJ	J,-------------	_	23	mark	23:mark	_
 21	už	už	PART	TT-------------	_	23	advmod:emph	23:advmod:emph	_
 22	celá	celý	ADJ	AANP4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	23	amod	23:amod	_
-23	léta	rok	NOUN	NNNP4-----A---2	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos|Style=Arch	19	advcl	19:advcl:jako	SpaceAfter=No
+23	léta	rok	NOUN	NNNP4-----A---2	Case=Acc|Gender=Neut|Number=Plur|Polarity=Pos	19	advcl	19:advcl:jako	SpaceAfter=No
 24	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 25	a	a	CCONJ	J^-------------	_	30	cc	30:cc	_
 26	nikdy	nikdy	ADV	Db-------------	PronType=Neg	30	advmod	30:advmod	_

@@ -52,6 +52,8 @@ Slovak).
 
 # Changelog
 
+* 2023-11-15 v2.13
+  * Removed Style=Arch from all Czech UD treebanks.
 * 2023-05-15 v2.12
   * Temporary fix of double subjects (second subject converted to dep).
     In the long run, the cause should be found and fixed upstream.

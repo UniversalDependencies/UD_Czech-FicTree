@@ -33,7 +33,7 @@
     <tag name="X">62</tag><!-- Ha-vel, Jom, kippur, o-po-nu, pr-chá, Soleil, combien, dě, Baalšem, Coeur -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="79">
+  <feats unique="78">
     <feat name="Abbr" value="Yes" upos="ADV,NOUN,PROPN">116</feat><!-- K, M, L, T, V, A, C, J, E, F -->
     <feat name="AdpType" value="Comprep" upos="ADP">4</feat><!-- vzhledem -->
     <feat name="AdpType" value="Prep" upos="ADP">11312</feat><!-- na, v, do, s, z, k, o, za, po, pro -->
@@ -101,7 +101,6 @@
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">198</feat><!-- což, níž, jež, nichž, němž, jehož, zato, jejichž, jejíž, jenž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">788</feat><!-- všechno, každý, všichni, všechny, všech, vždy, všecko, každou, vše, všude -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">6854</feat><!-- se, si, své, sebe, svou, sobě, svého, sebou, svým, svůj -->
-    <feat name="Style" value="Arch" upos="ADV,NOUN,PRON">51</feat><!-- léta, jej, léty, koleni, létech, raděj, včerejška -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PART,PRON,VERB">134</feat><!-- dřív, nejdřív, pomoct, jí, si, dobrý, bysme, jednoduchý, který, prej -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">407</feat><!-- bude, budu, budeš, budou, nebude, nebudu, budeme, budete, nepůjde, nepůjdu -->
     <feat name="Tense" value="Past" upos="AUX,VERB">15476</feat><!-- byl, byla, bylo, řekl, měl, měla, řekla, mohl, chtěl, byly -->
