@@ -33,7 +33,7 @@
     <tag name="X">62</tag><!-- Ha-vel, Jom, kippur, o-po-nu, pr-chá, Soleil, combien, dě, Baalšem, Coeur -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="78">
+  <feats unique="76">
     <feat name="Abbr" value="Yes" upos="ADV,NOUN,PROPN">116</feat><!-- K, M, L, T, V, A, C, J, E, F -->
     <feat name="AdpType" value="Comprep" upos="ADP">4</feat><!-- vzhledem -->
     <feat name="AdpType" value="Prep" upos="ADP">11312</feat><!-- na, v, do, s, z, k, o, za, po, pro -->
@@ -81,8 +81,6 @@
     <feat name="NumType" value="Mult,Sets" upos="ADJ">8</feat><!-- Obojí, dvojí, dvojím, oboje, obého -->
     <feat name="NumType" value="Ord" upos="ADJ,ADV">377</feat><!-- první, druhý, druhé, třetí, prvním, druhou, poprvé, druhá, druhém, druhého -->
     <feat name="NumType" value="Sets" upos="ADJ">3</feat><!-- jedny, jedněch -->
-    <feat name="NumValue" value="1" upos="ADJ">3</feat><!-- jedny, jedněch -->
-    <feat name="NumValue" value="1,2,3" upos="NUM">844</feat><!-- jeden, dva, dvě, jednoho, tři, jedna, jednu, oba, čtyři, jedné -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">7838</feat><!-- jsem, mi, mě, já, bych, jsme, nás, mám, mně, moje -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">2502</feat><!-- jsi, ti, jste, ty, tě, vás, vám, vy, byste, bys -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">9329</feat><!-- je, ho, mu, by, jeho, ji, jí, má, bude, jsou -->
