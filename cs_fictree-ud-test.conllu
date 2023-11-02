@@ -9638,7 +9638,7 @@
 6	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 7	že	že	SCONJ	J,-------------	_	8	mark	8:mark	_
 8	chtěla	chtít	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	1:ccomp	_
-9	opravdu	opravdu	PART	TT-------------	_	7	fixed	7:fixed	_
+9	opravdu	opravdu	PART	TT-------------	_	8	advmod	8:advmod	_
 10	zemřít	zemřít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	8	xcomp	8:xcomp	SpaceAfter=No
 11	!	!	PUNCT	Z:-------------	_	1	punct	1:punct	SpaceAfter=No
 12	"	"	PUNCT	Z:-------------	_	1	punct	1:punct	_
