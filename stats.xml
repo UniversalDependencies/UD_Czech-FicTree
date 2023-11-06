@@ -33,7 +33,7 @@
     <tag name="X">62</tag><!-- Ha-vel, Jom, kippur, o-po-nu, pr-chá, Soleil, combien, dě, Baalšem, Coeur -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="79">
+  <feats unique="76">
     <feat name="Abbr" value="Yes" upos="ADV,NOUN,PROPN">116</feat><!-- K, M, L, T, V, A, C, J, E, F -->
     <feat name="AdpType" value="Comprep" upos="ADP">4</feat><!-- vzhledem -->
     <feat name="AdpType" value="Prep" upos="ADP">11312</feat><!-- na, v, do, s, z, k, o, za, po, pro -->
@@ -81,8 +81,6 @@
     <feat name="NumType" value="Mult,Sets" upos="ADJ">8</feat><!-- Obojí, dvojí, dvojím, oboje, obého -->
     <feat name="NumType" value="Ord" upos="ADJ,ADV">377</feat><!-- první, druhý, druhé, třetí, prvním, druhou, poprvé, druhá, druhém, druhého -->
     <feat name="NumType" value="Sets" upos="ADJ">3</feat><!-- jedny, jedněch -->
-    <feat name="NumValue" value="1" upos="ADJ">3</feat><!-- jedny, jedněch -->
-    <feat name="NumValue" value="1,2,3" upos="NUM">844</feat><!-- jeden, dva, dvě, jednoho, tři, jedna, jednu, oba, čtyři, jedné -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">7838</feat><!-- jsem, mi, mě, já, bych, jsme, nás, mám, mně, moje -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">2502</feat><!-- jsi, ti, jste, ty, tě, vás, vám, vy, byste, bys -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">9329</feat><!-- je, ho, mu, by, jeho, ji, jí, má, bude, jsou -->
@@ -101,7 +99,6 @@
     <feat name="PronType" value="Rel" upos="ADV,DET,PRON">198</feat><!-- což, níž, jež, nichž, němž, jehož, zato, jejichž, jejíž, jenž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">788</feat><!-- všechno, každý, všichni, všechny, všech, vždy, všecko, každou, vše, všude -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">6854</feat><!-- se, si, své, sebe, svou, sobě, svého, sebou, svým, svůj -->
-    <feat name="Style" value="Arch" upos="ADV,NOUN,PRON">51</feat><!-- léta, jej, léty, koleni, létech, raděj, včerejška -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PART,PRON,VERB">134</feat><!-- dřív, nejdřív, pomoct, jí, si, dobrý, bysme, jednoduchý, který, prej -->
     <feat name="Tense" value="Fut" upos="AUX,VERB">407</feat><!-- bude, budu, budeš, budou, nebude, nebudu, budeme, budete, nepůjde, nepůjdu -->
     <feat name="Tense" value="Past" upos="AUX,VERB">15476</feat><!-- byl, byla, bylo, řekl, měl, měla, řekla, mohl, chtěl, byly -->
@@ -119,8 +116,8 @@
     <dep name="acl">445</dep>
     <dep name="acl:relcl">1541</dep>
     <dep name="advcl">2512</dep>
-    <dep name="advmod">10243</dep>
-    <dep name="advmod:emph">2241</dep>
+    <dep name="advmod">9924</dep>
+    <dep name="advmod:emph">2229</dep>
     <dep name="amod">8107</dep>
     <dep name="appos">544</dep>
     <dep name="aux">4216</dep>
@@ -130,7 +127,7 @@
     <dep name="ccomp">2232</dep>
     <dep name="compound">30</dep>
     <dep name="conj">9075</dep>
-    <dep name="cop">2207</dep>
+    <dep name="cop">2965</dep>
     <dep name="csubj">499</dep>
     <dep name="csubj:pass">25</dep>
     <dep name="dep">1181</dep>
@@ -140,18 +137,18 @@
     <dep name="discourse">303</dep>
     <dep name="expl:pass">350</dep>
     <dep name="expl:pv">4577</dep>
-    <dep name="fixed">187</dep>
+    <dep name="fixed">186</dep>
     <dep name="flat">306</dep>
-    <dep name="iobj">271</dep>
+    <dep name="iobj">97</dep>
     <dep name="mark">4775</dep>
     <dep name="nmod">4149</dep>
     <dep name="nsubj">9501</dep>
     <dep name="nsubj:pass">280</dep>
     <dep name="nummod">662</dep>
     <dep name="nummod:gov">295</dep>
-    <dep name="obj">8450</dep>
-    <dep name="obl">9985</dep>
-    <dep name="obl:arg">4970</dep>
+    <dep name="obj">8624</dep>
+    <dep name="obl">9628</dep>
+    <dep name="obl:arg">4901</dep>
     <dep name="orphan">443</dep>
     <dep name="parataxis">122</dep>
     <dep name="punct">31777</dep>
