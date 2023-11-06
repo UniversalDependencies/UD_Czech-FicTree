@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Czech-FicTree:
-commit 7b138367962df62a3b2a8da9c59aae3eff1f4d25
-Merge: 42f54c0 3f90fe0
+commit 989c3f004bd0b0339423ffc43cbc3f907bcba573
+Merge: a2be964 8a70729
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 167056 of 167056 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.2366581710955.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        135
-Udapi: found 135 bugs.
+               TOTAL        136
+Udapi: found 136 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 167056 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-FicTree/cs_fictree-ud-dev.conllu
@@ -37,8 +37,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.740954026139436) = 0.189988211830625
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.991918877502155) = 0.305205808462202
+(weight=0.307692307692308) * (score{udapi}=0.991859017335504) = 0.305187389949386
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.785218886788281) * (availability=1) * (validity=1) = 0.785218886788281
+(TOTAL score=0.785200468275465) * (availability=1) * (validity=1) = 0.785200468275465
 STARS = 4
-UD_Czech-FicTree	0.785218886788281	4
+UD_Czech-FicTree	0.785200468275465	4
