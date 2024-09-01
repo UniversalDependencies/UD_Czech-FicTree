@@ -10,7 +10,7 @@
     <dev><sentences>1309</sentences><tokens>16652</tokens><words>16714</words><fused>62</fused></dev>
     <test><sentences>1291</sentences><tokens>16643</tokens><words>16705</words><fused>62</fused></test>
   </size>
-  <lemmas unique="13706" /><!-- ,, ., být, se, a, ", ten, on, na, já, v, že, ?, mít, do -->
+  <lemmas unique="13720" /><!-- ,, ., být, se, a, ", ten, on, na, já, v, že, ?, mít, do -->
   <forms unique="27132" /><!-- ,, ., a, ", se, na, jsem, v, to, že, si, je, ?, do, ale -->
   <fusions unique="22" /><!-- aby, abych, kdyby, kdybych, abys, abychom, ses, sis, abyste, kdybyste, kdybys, Tys, kdybychom, cos, oč -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -84,8 +84,8 @@
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">7838</feat><!-- jsem, mi, mě, já, bych, jsme, nás, mám, mně, moje -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">2502</feat><!-- jsi, ti, jste, ty, tě, vás, vám, vy, byste, bys -->
     <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">9329</feat><!-- je, ho, mu, by, jeho, ji, jí, má, bude, jsou -->
-    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,NOUN,VERB">3379</feat><!-- není, nevím, nebyl, nebylo, nemohl, neměl, nemám, nemá, nechci, nebyla -->
-    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,NOUN,PROPN,VERB">70153</feat><!-- jsem, je, byl, byla, bylo, jsme, řekl, má, měl, bude -->
+    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">3341</feat><!-- není, nevím, nebyl, nebylo, nemohl, neměl, nemám, nemá, nechci, nebyla -->
+    <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,VERB">40340</feat><!-- jsem, je, byl, byla, bylo, jsme, řekl, má, měl, bude -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">2365</feat><!-- jeho, své, její, jejich, moje, svou, svého, můj, svým, svůj -->
     <feat name="PrepCase" value="Npr" upos="PRON">45</feat><!-- jež, jenž, jehož, jemuž, jíž, již, jímž, jimiž, jimž, jejž -->
     <feat name="PrepCase" value="Pre" upos="PRON">871</feat><!-- ní, něj, nich, ním, něho, něm, ni, němu, nimi, ně -->

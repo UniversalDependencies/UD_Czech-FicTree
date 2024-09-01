@@ -52,6 +52,8 @@ Slovak).
 
 # Changelog
 
+* 2024-11-15 v2.15
+  * Nouns no longer distinguish Polarity. Negative nouns have negative lemmas.
 * 2024-05-15 v2.14
   * Improved distinction between adverbial predicates (with copula) and adverbial modifiers.
   * More restrictive use of orphans and empty nodes: Not in non-verbal coordinated sentences.
