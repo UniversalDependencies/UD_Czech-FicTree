@@ -40,7 +40,7 @@
     <feat name="AdpType" value="Voc" upos="ADP">1001</feat><!-- ve, ze, se, ke, beze, ode, přede, nade, pode, skrze -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">18289</feat><!-- mu, ho, byl, řekl, měl, který, kdo, on, sám, nikdo -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">14955</feat><!-- co, ten, který, byl, jeho, život, den, ho, plod, čas -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">313</feat><!-- následující, rozhodující, třesoucí, chtěje, nastávající, povznášející, stojící, vynikající, zbývající, blížícího -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">7846</feat><!-- jsem, je, by, byl, byla, bylo, bych, jsme, bude, jsou -->
     <feat name="Aspect" value="Perf" upos="VERB">3</feat><!-- připomenuv, vrhnuv, vzdychnuv -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">23656</feat><!-- se, na, to, mě, ho, co, za, ji, o, pro -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">6120</feat><!-- si, mi, k, mu, jí, ke, ti, tomu, nám, jim -->
@@ -83,7 +83,7 @@
     <feat name="NumType" value="Sets" upos="ADJ">3</feat><!-- jedny, jedněch -->
     <feat name="Person" value="1" upos="AUX,DET,PRON,VERB">7838</feat><!-- jsem, mi, mě, já, bych, jsme, nás, mám, mně, moje -->
     <feat name="Person" value="2" upos="AUX,DET,PRON,VERB">2502</feat><!-- jsi, ti, jste, ty, tě, vás, vám, vy, byste, bys -->
-    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">9329</feat><!-- je, ho, mu, by, jeho, ji, jí, má, bude, jsou -->
+    <feat name="Person" value="3" upos="AUX,DET,PRON,VERB">8963</feat><!-- je, ho, mu, jeho, ji, jí, má, bude, jsou, ní -->
     <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,VERB">3341</feat><!-- není, nevím, nebyl, nebylo, nemohl, neměl, nemám, nemá, nechci, nebyla -->
     <feat name="Polarity" value="Pos" upos="ADJ,ADV,AUX,VERB">40340</feat><!-- jsem, je, byl, byla, bylo, jsme, řekl, má, měl, bude -->
     <feat name="Poss" value="Yes" upos="ADJ,DET">2365</feat><!-- jeho, své, její, jejich, moje, svou, svého, můj, svým, svůj -->
