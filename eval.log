@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Czech-FicTree:
-commit 945678201511102e042f6a751e039d6fc286ed1e
-Merge: d0d781a de03a87
+commit ee3647f3bff6d08274d8a07c741dea3030450d4a
+Merge: cedc123 e86d5ed
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 167056 of 167056 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.2366581710955.
@@ -25,10 +25,28 @@ Udapi: found 136 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 167056 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-FicTree/cs_fictree-ud-dev.conllu
+[Line 776 Sent dev-andelvte051-s3 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:tolik:det --> 24:nikdo:advcl)
+[Line 10271 Sent dev-ku_smlas121-s2 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:těch:det --> 16:žárlila:acl)
+[Line 14913 Sent dev-laskaneX191-s4 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:tom:det --> 11:okradli:acl)
+Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-FicTree/cs_fictree-ud-test.conllu
+[Line 4204 Sent test-form1XXX022-s4 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:tomu:det --> 10:napadli:acl)
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-FicTree/cs_fictree-ud-train.conllu
+[Line 2923 Sent train-andelvte024-s10 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:to:det --> 32:ponižován:acl)
+[Line 4412 Sent train-andelvte036-s5 Node 24]: [L3 Warning leaf-det] 'det' not expected to have children (24:tím:det --> 28:vypadá:acl)
+[Line 17082 Sent train-andelvte144-s9 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:toho:det --> 4:medicíny:nmod)
+[Line 18018 Sent train-andelvte150-s5 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:těch:det --> 13:neúspěšných:amod)
+[Line 20051 Sent train-andelvte168-s6 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:některé:det --> 11:papírů:nmod)
+[Line 21746 Sent train-andelvte184-s3 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:to:det --> 13:stalo:acl)
+[Line 23847 Sent train-andelvte200-s2 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:víc:det --> 9:já:advcl)
+[Line 25648 Sent train-andelvte215-s5 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:těch:det --> 16:vyprávějí:acl)
+[Line 29480 Sent train-andelvte247-s4 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:tolik:det --> 14:připadalo:advcl)
+[Line 31008 Sent train-andelvte259-s1 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:takových:det --> 14:viděl:advcl)
+...suppressing further errors regarding Warning
+Warnings: 43
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
