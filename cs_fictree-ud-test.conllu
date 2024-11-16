@@ -3641,14 +3641,14 @@
 4	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	5:case	_
 5	života	život	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	2:obl:do:gen	_
 6	jen	jen	PART	TT-------------	_	7	advmod:emph	7:advmod:emph	_
-7	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	2:obj	SpaceAfter=No
+7	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	2	obj	2:obj|14:nsubj:pass	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
-9	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	14	nsubj:pass	14:nsubj:pass	_
+9	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	14	nsubj:pass	7:ref	_
 10	nám	já	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	14	obl	14:obl:dat	_
 11	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	12	case	12:case	_
 12	něj	on	PRON	P5IS2--3-------	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	14	obl	14:obl:do:gen	_
 13	bylo	být	AUX	VpNS----R-AA---	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	14	aux:pass	14:aux:pass	_
-14	vloženo	vložený	ADJ	VsNS------AP---	Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	7	amod	7:amod	SpaceAfter=No
+14	vloženo	vložený	ADJ	VsNS------AP---	Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	7:acl:relcl	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	_
 16	nikdo	nikdo	PRON	PWM-1----------	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Neg	18	nsubj	18:nsubj|19:nsubj:xsubj	_
 17	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	19	obl	19:obl:dat	_
@@ -20225,11 +20225,11 @@
 4	tedy	tedy	CCONJ	J^-------------	_	3	cc	3:cc	_
 5	všechna	všechen	DET	PLFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	7	det	7:det	_
 6	vaše	tvůj	DET	PSFS1-P2-------	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs	7	det	7:det	_
-7	krev	krev	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
+7	krev	krev	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj|11:nsubj:pass	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
-9	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj:pass	11:nsubj:pass	_
+9	která	který	DET	P4FS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Int,Rel	11	nsubj:pass	7:ref	_
 10	bude	být	AUX	VB-S---3F-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	11	aux:pass	11:aux:pass	_
-11	prolita	prolitý	ADJ	VsFS------AP---	Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	7	amod	7:amod	SpaceAfter=No
+11	prolita	prolitý	ADJ	VsFS------AP---	Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	7	acl:relcl	7:acl:relcl	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 13	a	a	CCONJ	J^-------------	_	14	cc	14:cc	_
 14	životy	život	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	conj	3:nsubj|7:conj|17:nsubj	SpaceAfter=No
@@ -21205,12 +21205,12 @@
 3	udělal	udělat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 4	hledač	hledač	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	3:nsubj	_
 5	pokladu	poklad	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	4:nmod:gen	_
-6	vše	všechen	DET	PLNS4---------1	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	3	obj	3:obj	SpaceAfter=No
+6	vše	všechen	DET	PLNS4---------1	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	3	obj	3:obj|11:nsubj:pass	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
-8	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	11	nsubj:pass	11:nsubj:pass	_
+8	co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	11	nsubj:pass	6:ref	_
 9	mu	on	PRON	PHMS3--3-------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	11	obl:arg	11:obl:arg:dat	_
 10	bylo	být	AUX	VpNS----R-AA---	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	11	aux:pass	11:aux:pass	_
-11	řečeno	řečený	ADJ	VsNS------AP---	Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	6	amod	6:amod	SpaceAfter=No
+11	řečeno	řečený	ADJ	VsNS------AP---	Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	6	acl:relcl	6:acl:relcl	SpaceAfter=No
 12	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
 # sent_id = test-vitamnlX152-s6
