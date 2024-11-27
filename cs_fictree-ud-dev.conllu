@@ -2850,7 +2850,7 @@
 22	den	den	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obl	16:obl:acc	SpaceAfter=No
 23	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 24	hned	hned	ADV	Db-------------	_	28	mark	28:mark	_
-25	jak	jak	SCONJ	J,-------------	_	24	fixed	24:fixed	_
+25	jak	jak	SCONJ	J,-------------	_	28	mark	28:mark	_
 26	jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux	28:aux	_
 27	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	28	expl:pv	28:expl:pv	_
 28	probudil	probudit	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	advcl	16:advcl:hned_jak	SpaceAfter=No
