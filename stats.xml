@@ -97,10 +97,10 @@
     <feat name="PronType" value="Dem,Ind" upos="ADV">1</feat><!-- nesčetněkrát -->
     <feat name="PronType" value="Emp" upos="DET">235</feat><!-- sám, sama, sami, samo, samy, samé, samá, samého, samu, samých -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">1126</feat><!-- něco, někdo, několik, někdy, nějaký, nějaké, nějakou, nějak, kdysi, několika -->
-    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">2924</feat><!-- co, jak, který, které, která, proč, kde, kdo, kterou, kdy -->
+    <feat name="PronType" value="Int,Rel" upos="ADV,DET,PRON">2922</feat><!-- co, jak, který, které, která, proč, kde, kdo, kterou, kdy -->
     <feat name="PronType" value="Neg" upos="ADV,DET,PRON">717</feat><!-- nic, nikdy, nikdo, žádný, žádné, žádnou, nijak, nikoho, žádná, nikomu -->
     <feat name="PronType" value="Prs" upos="DET,PRON">14184</feat><!-- se, si, mi, mě, ho, já, mu, jeho, ji, je -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">198</feat><!-- což, níž, jež, nichž, němž, jehož, zato, jejichž, jejíž, jenž -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">200</feat><!-- což, níž, jež, nichž, němž, jehož, zato, jejichž, jejíž, jenž -->
     <feat name="PronType" value="Tot" upos="ADV,DET,PRON">788</feat><!-- všechno, každý, všichni, všechny, všech, vždy, všecko, každou, vše, všude -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">6854</feat><!-- se, si, své, sebe, svou, sobě, svého, sebou, svým, svůj -->
     <feat name="Style" value="Coll" upos="ADJ,ADV,AUX,DET,NOUN,PART,PRON,VERB">134</feat><!-- dřív, nejdřív, pomoct, jí, si, dobrý, bysme, jednoduchý, který, prej -->
@@ -120,7 +120,7 @@
     <dep name="acl">447</dep>
     <dep name="acl:relcl">1566</dep>
     <dep name="advcl">2512</dep>
-    <dep name="advmod">9987</dep>
+    <dep name="advmod">9989</dep>
     <dep name="advmod:emph">2224</dep>
     <dep name="amod">7936</dep>
     <dep name="appos">544</dep>
@@ -134,7 +134,7 @@
     <dep name="cop">2955</dep>
     <dep name="csubj">499</dep>
     <dep name="csubj:pass">25</dep>
-    <dep name="dep">1181</dep>
+    <dep name="dep">1179</dep>
     <dep name="det">4218</dep>
     <dep name="det:numgov">217</dep>
     <dep name="det:nummod">52</dep>
