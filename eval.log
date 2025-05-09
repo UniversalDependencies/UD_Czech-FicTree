@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Czech-FicTree:
-commit ee3647f3bff6d08274d8a07c741dea3030450d4a
-Merge: cedc123 e86d5ed
+commit 26170352489a108091b4d8413ab1ac000ff2da9f
+Merge: 0519a64 da784e0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 167056 of 167056 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.2366581710955.
@@ -15,48 +15,30 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 114285 out of 167056 total words have one or more features.
+Features: 114403 out of 167056 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL        136
-Udapi: found 136 bugs.
+               TOTAL         37
+Udapi: found 37 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 167056 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-FicTree/cs_fictree-ud-dev.conllu
-[Line 776 Sent dev-andelvte051-s3 Node 21]: [L3 Warning leaf-det] 'det' not expected to have children (21:tolik:det --> 24:nikdo:advcl)
-[Line 10271 Sent dev-ku_smlas121-s2 Node 11]: [L3 Warning leaf-det] 'det' not expected to have children (11:těch:det --> 16:žárlila:acl)
-[Line 14913 Sent dev-laskaneX191-s4 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:tom:det --> 11:okradli:acl)
-Warnings: 3
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-FicTree/cs_fictree-ud-test.conllu
-[Line 4204 Sent test-form1XXX022-s4 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:tomu:det --> 10:napadli:acl)
-Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang cs --max-err=10 UD_Czech-FicTree/cs_fictree-ud-train.conllu
-[Line 2923 Sent train-andelvte024-s10 Node 27]: [L3 Warning leaf-det] 'det' not expected to have children (27:to:det --> 32:ponižován:acl)
-[Line 4412 Sent train-andelvte036-s5 Node 24]: [L3 Warning leaf-det] 'det' not expected to have children (24:tím:det --> 28:vypadá:acl)
-[Line 17082 Sent train-andelvte144-s9 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:toho:det --> 4:medicíny:nmod)
-[Line 18018 Sent train-andelvte150-s5 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:těch:det --> 13:neúspěšných:amod)
-[Line 20051 Sent train-andelvte168-s6 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:některé:det --> 11:papírů:nmod)
-[Line 21746 Sent train-andelvte184-s3 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:to:det --> 13:stalo:acl)
-[Line 23847 Sent train-andelvte200-s2 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:víc:det --> 9:já:advcl)
-[Line 25648 Sent train-andelvte215-s5 Node 9]: [L3 Warning leaf-det] 'det' not expected to have children (9:těch:det --> 16:vyprávějí:acl)
-[Line 29480 Sent train-andelvte247-s4 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:tolik:det --> 14:připadalo:advcl)
-[Line 31008 Sent train-andelvte259-s1 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:takových:det --> 14:viděl:advcl)
-...suppressing further errors regarding Warning
-Warnings: 43
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
 (weight=0.256410256410256) * (score{size}=0.740954026139436) = 0.189988211830625
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=0.991859017335504) = 0.305187389949386
+(weight=0.307692307692308) * (score{udapi}=0.997785173833924) = 0.30701082271813
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.785200468275465) * (availability=1) * (validity=1) = 0.785200468275465
+(TOTAL score=0.786772518439886) * (availability=1) * (validity=1) = 0.786772518439886
 STARS = 4
-UD_Czech-FicTree	0.785200468275465	4
+UD_Czech-FicTree	0.786772518439886	4
