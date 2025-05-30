@@ -4191,7 +4191,7 @@
 # sent_id = test-form1XXX022-s4
 # text = Zato sebrali dost odvahy k tomu, aby napadli vyčerpanou cirkusáckou tlupu.
 # orig_file_sentence 003#30
-1	Zato	zato	ADV	J,-------------	PronType=Rel	2	cc	2:cc	_
+1	Zato	zato	SCONJ	J,-------------	_	2	cc	2:cc	_
 2	sebrali	sebrat	VERB	VpMP----R-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 3	dost	dost	ADV	Db-------------	_	2	obj	2:obj	_
 4	odvahy	odvaha	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	3	nmod	3:nmod:gen	_
@@ -4795,7 +4795,7 @@
 # sent_id = test-form1XXX062-s5
 # text = Jak jsem později zjistil, v tom mezidobí čtyř nebo pěti let se Janata stal členem protikomunistické podzemní buňky zorganizované bratry Mašínovými, což byli taky naši spolužáci z Poděbrad.
 # orig_file_sentence 003#59
-1	Jak	jak	SCONJ	J,-------------	_	4	mark	4:mark	_
+1	Jak	jak	ADV	J,-------------	PronType=Rel	4	advmod	4:advmod	_
 2	jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	4:aux	_
 3	později	pozdě	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	4	advmod	4:advmod	_
 4	zjistil	zjistit	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	15	parataxis	15:parataxis	SpaceAfter=No
@@ -5116,7 +5116,7 @@
 7	nejlepší	dobrý	ADJ	AANS4----3A----	Case=Acc|Degree=Sup|Gender=Neut|Number=Sing|Polarity=Pos	8	amod	8:amod	_
 8	mínění	mínění	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	4	obj	4:obj	SpaceAfter=No
 9	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
-10	zato	zato	ADV	J,-------------	PronType=Rel	12	cc	12:cc	_
+10	zato	zato	SCONJ	J,-------------	_	12	cc	12:cc	_
 11	já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	_
 12	objevil	objevit	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	conj	0:root|4:conj	_
 13	svůj	svůj	DET	P8IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	15	det	15:det	_
@@ -10132,9 +10132,9 @@
 2	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	_
 3	tomu	ten	DET	PDNS3----------	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	1	obl:arg	1:obl:arg:dat	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
-5	jak	jak	SCONJ	J,-------------	_	7	mark	7:mark	_
+5	jak	jak	ADV	J,-------------	PronType=Rel	7	advmod	7:advmod	_
 6	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	7	obj	7:obj	_
-7	nechal	nechat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	acl	3:acl:jak	_
+7	nechal	nechat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	acl	3:acl	_
 8	zaslepit	zaslepit	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	7	xcomp	7:xcomp	_
 9	doktorčiným	doktorčin	ADJ	AUIS7F---------	Animacy=Inan|Case=Ins|Gender=Masc|Gender[psor]=Fem|Number=Sing|Poss=Yes	10	amod	10:amod	_
 10	zájmem	zájem	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	8:obl:ins	_
@@ -11062,7 +11062,7 @@
 # text = Dovedl proto přivítat každý projev její veselosti s něžnou starostlivostí pěstouna.
 # orig_file_sentence 007#11
 1	Dovedl	dovést	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-2	proto	proto	CCONJ	J^-------------	_	1	advmod	1:advmod	_
+2	proto	proto	ADV	J^-------------	PronType=Dem	1	advmod	1:advmod	_
 3	přivítat	přivítat	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	1	xcomp	1:xcomp	_
 4	každý	každý	DET	PLIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	5	det	5:det	_
 5	projev	projev	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	3:obj	_
@@ -11421,7 +11421,7 @@
 2	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	_
 3	dostatečně	dostatečně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	advmod	1:advmod	SpaceAfter=No
 4	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
-5	jak	jak	SCONJ	J,-------------	_	6	mark	6:mark	_
+5	jak	jak	ADV	J,-------------	PronType=Rel	6	advmod	6:advmod	_
 6	velice	velice	ADV	Db-------------	_	7	advmod	7:advmod	_
 7	vhod	vhod	ADV	Db-------------	_	8	advmod	8:advmod	_
 8	přišel	přijít	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	ccomp	1:ccomp	_
@@ -12142,8 +12142,8 @@
 # sent_id = test-laskaneX042-s1
 # text = Co když je to jen taková kamufláž?
 # orig_file_sentence 007#69
-1	Co	co	PART	TT-------------	_	0	root	0:root	_
-2	když	když	SCONJ	J,-------------	_	1	mark	1:mark	_
+1	Co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	0	root	0:root	_
+2	když	když	SCONJ	J,-------------	_	7	mark	7:mark	_
 3	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	7:cop	_
 4	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	_
 5	jen	jen	PART	TT-------------	_	7	advmod:emph	7:advmod:emph	_
@@ -14100,7 +14100,7 @@
 6	že	že	SCONJ	J,-------------	_	9	mark	9:mark	_
 7-8	ses	_	_	_	_	_	_	_	_
 7	jsi	být	AUX	VB-S---2P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	9:aux	_
-8	se	se	PRON	P7-S4--2-------	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	9	expl:pv	9:expl:pv	_
+8	se	se	PRON	P7-S4--2-------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	9	expl:pv	9:expl:pv	_
 9	nestavila	stavit	VERB	VpFS----R-NA---	Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	2	dep	2:dep	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	13	punct	13:punct	_
 11	když	když	SCONJ	J,-------------	_	13	mark	13:mark	_
@@ -14911,7 +14911,7 @@
 7	mohla	moci	VERB	VpFS----R-AA---	Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 8-9	sis	_	_	_	_	_	_	_	_
 8	jsi	být	AUX	VB-S---2P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	7:aux	_
-9	si	se	PRON	P7-S3--2-------	Case=Dat|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pv	11:expl:pv	_
+9	si	se	PRON	P7-S3--2-------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	11	expl:pv	11:expl:pv	_
 10	toho	ten	DET	PDNS2----------	Case=Gen|Gender=Neut|Number=Sing|PronType=Dem	11	obl:arg	11:obl:arg:gen	_
 11	všimnout	všimnout	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	7	xcomp	7:xcomp	_
 12	už	už	ADV	Db-------------	_	14	advmod:emph	14:advmod:emph	_
@@ -17572,7 +17572,7 @@
 9	ani	ani	PART	TT-------------	_	12	advmod:emph	12:advmod:emph	_
 10-11	ses	_	_	_	_	_	_	_	_
 10	jsi	být	AUX	VB-S---2P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
-11	se	se	PRON	P7-S4--2-------	Case=Acc|Number=Sing|PronType=Prs|Reflex=Yes|Variant=Short	12	obj	12:obj	_
+11	se	se	PRON	P7-S4--2-------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	12	obj	12:obj	_
 12	neučil	učit	VERB	VpMS----R-NA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	5	conj	0:root|5:conj	SpaceAfter=No
 13	!	!	PUNCT	Z:-------------	_	5	punct	5:punct	SpaceAfter=No
 14	"	"	PUNCT	Z:-------------	_	5	punct	5:punct	_
@@ -20448,7 +20448,7 @@
 19	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	20	case	20:case	_
 20	pořádku	pořádek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	ccomp	14:ccomp	_
 21	,	,	PUNCT	Z:-------------	_	23	punct	23:punct	_
-22	jak	jak	SCONJ	J,-------------	_	23	mark	23:mark	_
+22	jak	jak	ADV	J,-------------	PronType=Rel	23	advmod	23:advmod	_
 23	říkával	říkávat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	20	parataxis	20:parataxis	SpaceAfter=No
 24	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 25	když	když	SCONJ	J,-------------	_	28	mark	28:mark	_
