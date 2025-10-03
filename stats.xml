@@ -17,14 +17,14 @@
   <tags unique="16">
     <tag name="ADJ">10899</tag><!-- celý, malý, velký, jiný, starý, rád, druhý, dobrý, první, další -->
     <tag name="ADP">12317</tag><!-- na, v, do, s, z, k, o, za, po, od -->
-    <tag name="ADV">10836</tag><!-- už, tak, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
+    <tag name="ADV">10952</tag><!-- už, tak, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
     <tag name="AUX">7534</tag><!-- být, bývat -->
     <tag name="CCONJ">7681</tag><!-- a, ale, i, nebo, tak, však, jenže, ani, proto, neboť -->
     <tag name="DET">8435</tag><!-- ten, který, svůj, jeho, můj, všechen, samý, tenhle, každý, nějaký -->
     <tag name="INTJ">110</tag><!-- aha, hm, ach, cože, no, hele, hej, proboha, hop, vida -->
     <tag name="NOUN">27596</tag><!-- člověk, život, dítě, rok, ruka, oko, den, chvíle, žena, dveře -->
     <tag name="NUM">1313</tag><!-- jeden, dva, pár, tři, oba, čtyři, deset, pět, dvacet, třicet -->
-    <tag name="PART">3393</tag><!-- jen, ani, ne, až, tak, i, asi, ano, to, možná -->
+    <tag name="PART">3277</tag><!-- jen, ani, ne, až, tak, i, asi, ano, to, možná -->
     <tag name="PRON">14087</tag><!-- se, on, já, co, ty, nic, něco, kdo, nikdo, někdo -->
     <tag name="PROPN">2255</tag><!-- Valentýna, Láďa, Havel, Leoš, Alžběta, Eduard, Flajšman, Veronika, Filip, Havlena -->
     <tag name="PUNCT">31795</tag><!-- ,, ., ", ?, !, :, -, (, ), ; -->
@@ -120,7 +120,7 @@
     <dep name="acl:relcl">1566</dep>
     <dep name="advcl">2517</dep>
     <dep name="advcl:pred">802</dep>
-    <dep name="advmod">9998</dep>
+    <dep name="advmod">10009</dep>
     <dep name="advmod:emph">2224</dep>
     <dep name="amod">7936</dep>
     <dep name="appos">545</dep>
@@ -144,7 +144,7 @@
     <dep name="fixed">180</dep>
     <dep name="flat">306</dep>
     <dep name="iobj">97</dep>
-    <dep name="mark">4770</dep>
+    <dep name="mark">4759</dep>
     <dep name="nmod">4330</dep>
     <dep name="nsubj">9501</dep>
     <dep name="nsubj:pass">280</dep>
