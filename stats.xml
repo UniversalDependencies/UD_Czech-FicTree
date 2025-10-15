@@ -119,7 +119,7 @@
     <dep name="acl">448</dep>
     <dep name="acl:relcl">1565</dep>
     <dep name="advcl">2517</dep>
-    <dep name="advcl:pred">825</dep>
+    <dep name="advcl:pred">843</dep>
     <dep name="advmod">10009</dep>
     <dep name="advmod:emph">2224</dep>
     <dep name="amod">7936</dep>
@@ -150,7 +150,7 @@
     <dep name="nsubj:pass">280</dep>
     <dep name="nummod">658</dep>
     <dep name="nummod:gov">295</dep>
-    <dep name="obj">8601</dep>
+    <dep name="obj">8583</dep>
     <dep name="obl">9586</dep>
     <dep name="obl:arg">4898</dep>
     <dep name="orphan">229</dep>

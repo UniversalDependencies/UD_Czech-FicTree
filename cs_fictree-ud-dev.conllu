@@ -8811,7 +8811,7 @@
 33	jeho	jeho	DET	PSFS4MS3-------	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	34	det	34:det	_
 34	samotu	samota	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	32	obj	32:obj	_
 35	docela	docela	ADV	Db-------------	_	36	advmod	36:advmod	_
-36	zábavnou	zábavný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	32	obj	32:obj	SpaceAfter=No
+36	zábavnou	zábavný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	32	advcl:pred	32:advcl:pred	SpaceAfter=No
 37	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # newpar id = dev-ku_smlas021
@@ -12784,7 +12784,7 @@
 4	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	_
 5	vás	ty	PRON	PP-P4--2-------	Case=Acc|Number=Plur|Person=2|PronType=Prs	7	obl	7:obl:pro:acc	_
 6	všechno	všechen	DET	PLNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	3	obj	3:obj	_
-7	připravené	připravený	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	obj	3:obj	SpaceAfter=No
+7	připravené	připravený	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	advcl:pred	3:advcl:pred	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
 9	už	už	ADV	Db-------------	_	12	advmod	12:advmod	_
 10	jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
