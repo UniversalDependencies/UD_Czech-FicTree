@@ -5295,7 +5295,7 @@
 20	jako	jako	SCONJ	J,-------------	_	23	mark	23:mark	_
 21	vůbec	vůbec	PART	TT-------------	_	22	advmod:emph	22:advmod:emph	_
 22	nejlepší	dobrý	ADJ	AAFS1----3A----	Case=Nom|Degree=Sup|Gender=Fem|Number=Sing|Polarity=Pos	23	amod	23:amod	_
-23	práce	práce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	19	obj	19:obj	_
+23	práce	práce	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	19	advcl:pred	19:advcl:pred:jako	_
 24	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	25	case	25:case	_
 25	světě	svět	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	nmod	23:nmod:na:loc	SpaceAfter=No
 26	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
