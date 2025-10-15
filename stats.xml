@@ -143,14 +143,14 @@
     <dep name="expl:pv">4577</dep>
     <dep name="fixed">180</dep>
     <dep name="flat">306</dep>
-    <dep name="iobj">97</dep>
+    <dep name="iobj">106</dep>
     <dep name="mark">4759</dep>
     <dep name="nmod">4353</dep>
     <dep name="nsubj">9501</dep>
     <dep name="nsubj:pass">280</dep>
     <dep name="nummod">658</dep>
     <dep name="nummod:gov">295</dep>
-    <dep name="obj">8583</dep>
+    <dep name="obj">8574</dep>
     <dep name="obl">9586</dep>
     <dep name="obl:arg">4898</dep>
     <dep name="orphan">229</dep>
