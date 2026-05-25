@@ -75845,10 +75845,10 @@
 3	mu	on	PRON	PHMS3--3-------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	2	obl:arg	2:obl:arg:dat	_
 4	mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 5	být	být	AUX	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	cop	2:cop	_
-6	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	_
-7	víc	víc	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	2	obl:arg	2:obl:arg:za:acc	_
-8	než	než	SCONJ	J,-------------	_	9	mark	9:mark	_
-9	vy	ty	PRON	PP-P1--2-------	Case=Nom|Number=Plur|Person=2|PronType=Prs	7	advcl	7:advcl:než	SpaceAfter=No
+6	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	9:case	_
+7	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	9	advmod	9:advmod	_
+8	než	než	SCONJ	J,-------------	_	7	fixed	7:fixed	_
+9	vy	ty	PRON	PP-P1--2-------	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	obl	2:obl:za:acc	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = train-ku_smlas057-s9
@@ -106588,10 +106588,10 @@
 1	Co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	3	obj	3:obj	_
 2	tady	tady	ADV	Db-------------	PronType=Dem	3	advmod	3:advmod	_
 3	dělají	dělat	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-4	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	_
-5	více	více	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	8	obl	8:obl:o:acc	_
-6	než	než	SCONJ	J,-------------	_	7	mark	7:mark	_
-7	hodinu	hodina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	5	nmod	5:nmod:než	_
+4	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	7:case	_
+5	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	7	advmod	7:advmod	_
+6	než	než	SCONJ	J,-------------	_	5	fixed	5:fixed	_
+7	hodinu	hodina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	8	obl	8:obl:o:acc	_
 8	dříve	brzy	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	3	advmod	3:advmod	SpaceAfter=No
 9	?	?	PUNCT	Z:-------------	_	3	punct	3:punct	_
 
@@ -154309,10 +154309,10 @@
 15	firmě	firma	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing	16	obl:arg	16:obl:arg:dat	_
 16	zajistilo	zajistit	VERB	VpNS----R-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	7	advcl	7:advcl:že	_
 17	práci	práce	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	16	obj	16:obj	_
-18	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	19	case	19:case	_
-19	víc	víc	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	17	det:nummod	17:det:nummod	_
-20	než	než	SCONJ	J,-------------	_	21	mark	21:mark	_
-21	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obl	19:obl:než	SpaceAfter=No
+18	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	21	case	21:case	_
+19	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	21	advmod	21:advmod	_
+20	než	než	SCONJ	J,-------------	_	19	fixed	19:fixed	_
+21	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	17:nmod:na:acc	SpaceAfter=No
 22	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
 
 # newpar id = train-vitamnlX023

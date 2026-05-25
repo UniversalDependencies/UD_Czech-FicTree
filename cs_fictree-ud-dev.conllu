@@ -15305,9 +15305,9 @@
 5	mu	on	PRON	PHMS3--3-------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	7	obl:arg	7:obl:arg:dat	_
 6	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	_
 7	vynáší	vynášet	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
-8	víc	víc	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	7	obj	7:obj	_
-9	než	než	SCONJ	J,-------------	_	10	mark	10:mark	_
-10	doktorování	doktorování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	8	advcl	8:advcl:než	SpaceAfter=No
+8	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	10	advmod	10:advmod	_
+9	než	než	SCONJ	J,-------------	_	8	fixed	8:fixed	_
+10	doktorování	doktorování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	7	obl	7:obl	SpaceAfter=No
 11	?	?	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
 12	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
