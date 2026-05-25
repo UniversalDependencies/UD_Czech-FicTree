@@ -51233,8 +51233,8 @@
 17	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	18	nsubj	18:nsubj	_
 18	nevyšlo	vyjít	VERB	VpNS----R-NA---	Gender=Neut|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
 19	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	25	case	25:case	_
-20	víc	víc	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	25	det:numgov	25:det:numgov	_
-21	než	než	SCONJ	J,-------------	_	25	mark	25:mark	_
+20	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	25	advmod	25:advmod	_
+21	než	než	SCONJ	J,-------------	_	20	fixed	20:fixed	_
 22	čtyři	čtyři	NUM	ClIP4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|NumForm=Word|NumType=Card	25	nummod:gov	25:nummod:gov	_
 23	a	a	CCONJ	J^-------------	_	24	cc	24:cc	_
 24	půl	půl	NUM	ClIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumForm=Word|NumType=Card	22	conj	22:conj|25:nummod:gov	_

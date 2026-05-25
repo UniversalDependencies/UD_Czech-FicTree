@@ -15534,10 +15534,10 @@
 3	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	4:case	_
 4	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obl:arg	1:obl:arg:o:acc	_
 5	už	už	PART	TT-------------	_	6	advmod:emph	6:advmod:emph	_
-6	více	více	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	9	det:numgov	9:det:numgov	_
-7	než	než	SCONJ	J,-------------	_	9	mark	9:mark	_
+6	více	více	ADV	Dg-------2A----	Degree=Cmp|ExtPos=ADV|Polarity=Pos	9	advmod	9:advmod	_
+7	než	než	SCONJ	J,-------------	_	6	fixed	6:fixed	_
 8	osmnáct	osmnáct	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	9	nummod:gov	9:nummod:gov	_
-9	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	1	obl	1:obl:než	_
+9	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	1	obl	1:obl:acc	_
 10	a	a	CCONJ	J^-------------	_	15	cc	15:cc	_
 11	stále	stále	ADV	Db-------------	_	15	advmod	15:advmod	_
 12	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	15	expl:pv	15:expl:pv	_

@@ -5709,10 +5709,10 @@
 2	vydrželi	vydržet	VERB	VpMP----R-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 3	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	4:case	_
 4	moci	moc	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	2	obl	2:obl:u:gen	_
-5	víc	víc	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	8	det:numgov	8:det:numgov	_
-6	než	než	SCONJ	J,-------------	_	8	mark	8:mark	_
+5	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	8	advmod	8:advmod	_
+6	než	než	SCONJ	J,-------------	_	5	fixed	5:fixed	_
 7	čtyřicet	čtyřicet	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	8	nummod:gov	8:nummod:gov	_
-8	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	2	obl	2:obl:než	_
+8	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	2	obl	2:obl:acc	_
 9	a	a	CCONJ	J^-------------	_	11	cc	11:cc	_
 10	hodně	hodně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	11	advmod	11:advmod	_
 11	ovlivnili	ovlivnit	VERB	VpMP----R-AA---	Animacy=Anim|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	2	conj	0:root|2:conj	_
@@ -6421,8 +6421,8 @@
 2	ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	3:det	_
 3	objížďka	objížďka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
 4	neměla	mít	VERB	VpFS----R-NA---	Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-5	víc	víc	DET	Ca--4----------	Case=Acc|NumType=Card|PronType=Ind	8	det:numgov	8:det:numgov	_
-6	než	než	SCONJ	J,-------------	_	8	mark	8:mark	_
+5	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	8	advmod	8:advmod	_
+6	než	než	SCONJ	J,-------------	_	5	fixed	5:fixed	_
 7	sto	sto	NUM	Cl-P4----------	Case=Acc|Number=Plur|NumForm=Word|NumType=Card	8	nummod:gov	8:nummod:gov	_
 8	metrů	metr	NOUN	NNIP2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obj	4:obj	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
