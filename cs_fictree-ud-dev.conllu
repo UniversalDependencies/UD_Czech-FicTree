@@ -15307,7 +15307,7 @@
 7	vynáší	vynášet	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	2:ccomp	_
 8	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	10	advmod	10:advmod	_
 9	než	než	SCONJ	J,-------------	_	8	fixed	8:fixed	_
-10	doktorování	doktorování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	7	obl	7:obl	SpaceAfter=No
+10	doktorování	doktorování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	7	obj	7:obj	SpaceAfter=No
 11	?	?	PUNCT	Z:-------------	_	2	punct	2:punct	SpaceAfter=No
 12	"	"	PUNCT	Z:-------------	_	2	punct	2:punct	_
 

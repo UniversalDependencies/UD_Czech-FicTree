@@ -75848,7 +75848,7 @@
 6	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	9:case	_
 7	víc	více	ADV	Dg-------2A---1	Degree=Cmp|ExtPos=ADV|Polarity=Pos	9	advmod	9:advmod	_
 8	než	než	SCONJ	J,-------------	_	7	fixed	7:fixed	_
-9	vy	ty	PRON	PP-P1--2-------	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	obl	2:obl:za:acc	SpaceAfter=No
+9	vy	ty	PRON	PP-P1--2-------	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	obl:arg	2:obl:arg:za:acc	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = train-ku_smlas057-s9
