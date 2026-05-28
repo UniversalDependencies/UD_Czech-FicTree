@@ -19913,7 +19913,7 @@
 15	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	18	case	18:case	_
 16	dobré	dobrý	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	18	amod	18:amod	_
 17	tři	tři	NUM	ClFP4----------	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	18	nummod	18:nummod	_
-18	čtvrtiny	čtvrtina	NUM	CyFP4----------	Case=Acc|Gender=Fem|Number=Plur|NumType=Frac	4	obl:arg	4:obl:arg:na:acc	_
+18	čtvrtiny	čtvrtina	NOUN	CyFP4----------	Case=Acc|Gender=Fem|Number=Plur	4	obl:arg	4:obl:arg:na:acc	_
 19	mých	můj	DET	PSNP2-S1-------	Case=Gen|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	20	det	20:det	_
 20	trápení	trápení	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur	18	nmod	18:nmod:gen	SpaceAfter=No
 21	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -23657,7 +23657,7 @@
 3	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 4	že	že	SCONJ	J,-------------	_	11	mark	11:mark	_
 5	devět	devět	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	11	nsubj	11:nsubj	_
-6	desetin	desetina	NUM	CyFP2----------	Case=Gen|Gender=Fem|Number=Plur|NumType=Frac	5	nmod	5:nmod:gen	_
+6	desetin	desetina	NOUN	CyFP2----------	Case=Gen|Gender=Fem|Number=Plur	5	nmod	5:nmod:gen	_
 7	našich	můj	DET	PSFP2-P1-------	Case=Gen|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	8:det	_
 8	potíží	potíž	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	6	nmod	6:nmod:gen	_
 9	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	11:cop	_
@@ -25976,7 +25976,7 @@
 2	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	_
 3	tuhle	tenhle	DET	PDFS4----------	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	5:det	_
 4	zbývající	zbývající	ADJ	AGFS4-----A----	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	5:amod	_
-5	třetinu	třetina	NUM	CyFS4----------	Case=Acc|Gender=Fem|Number=Sing|NumType=Frac	6	obl:arg	6:obl:arg:na:acc	_
+5	třetinu	třetina	NOUN	CyFS4----------	Case=Acc|Gender=Fem|Number=Sing	6	obl:arg	6:obl:arg:na:acc	_
 6	platila	platit	VERB	VpNP----R-AA---	Gender=Neut|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 7	jiná	jiný	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	8	amod	8:amod	_
 8	slova	slovo	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur	6	nsubj	6:nsubj	_

@@ -818,7 +818,7 @@
 2	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	6:cop	_
 3	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	5	case	5:case	_
 4	devíti	devět	NUM	Cn-P2----------	Case=Gen|Number=Plur|NumForm=Word|NumType=Card	5	nummod	5:nummod	_
-5	desetin	desetina	NUM	CyFP2----------	Case=Gen|Gender=Fem|Number=Plur|NumType=Frac	6	obl	6:obl:z:gen	_
+5	desetin	desetina	NOUN	CyFP2----------	Case=Gen|Gender=Fem|Number=Plur	6	obl	6:obl:z:gen	_
 6	neporozumění	neporozumění	NOUN	NNNS1-----N----	Case=Nom|Gender=Neut|Number=Sing	0	root	0:root	SpaceAfter=No|LDeriv=porozumění
 7	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
@@ -19610,7 +19610,7 @@
 14	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 15	dám	dát	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
 16	tři	tři	NUM	ClFP4----------	Case=Acc|Gender=Fem|Number=Plur|NumForm=Word|NumType=Card	17	nummod	17:nummod	_
-17	čtvrtiny	čtvrtina	NUM	CyFP4----------	Case=Acc|Gender=Fem|Number=Plur|NumType=Frac	15	obj	15:obj	_
+17	čtvrtiny	čtvrtina	NOUN	CyFP4----------	Case=Acc|Gender=Fem|Number=Plur	15	obj	15:obj	_
 18	svého	svůj	DET	P8IS2----------	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	19	det	19:det	_
 19	majetku	majetek	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	17:nmod:gen	SpaceAfter=No
 20	!	!	PUNCT	Z:-------------	_	15	punct	15:punct	SpaceAfter=No
