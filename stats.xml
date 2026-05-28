@@ -17,14 +17,14 @@
   <tags unique="16">
     <tag name="ADJ">10899</tag><!-- celý, malý, velký, jiný, starý, rád, druhý, dobrý, první, další -->
     <tag name="ADP">12317</tag><!-- na, v, do, s, z, k, o, za, po, od -->
-    <tag name="ADV">10969</tag><!-- už, tak, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
+    <tag name="ADV">11215</tag><!-- tak, už, jak, ještě, pak, tam, proč, teď, nikdy, kde -->
     <tag name="AUX">7534</tag><!-- být, bývat -->
-    <tag name="CCONJ">7681</tag><!-- a, ale, i, nebo, tak, však, jenže, ani, proto, neboť -->
+    <tag name="CCONJ">7559</tag><!-- a, ale, i, nebo, však, jenže, ani, proto, neboť, sice -->
     <tag name="DET">8431</tag><!-- ten, který, svůj, jeho, můj, všechen, samý, tenhle, každý, nějaký -->
     <tag name="INTJ">110</tag><!-- aha, hm, ach, cože, no, hele, hej, proboha, hop, vida -->
     <tag name="NOUN">27596</tag><!-- člověk, život, dítě, rok, ruka, oko, den, chvíle, žena, dveře -->
     <tag name="NUM">1313</tag><!-- jeden, dva, pár, tři, oba, čtyři, deset, pět, dvacet, třicet -->
-    <tag name="PART">3277</tag><!-- jen, ani, ne, až, tak, i, asi, ano, to, možná -->
+    <tag name="PART">3153</tag><!-- jen, ani, ne, až, i, asi, ano, to, možná, už -->
     <tag name="PRON">14087</tag><!-- se, on, já, co, ty, nic, něco, kdo, nikdo, někdo -->
     <tag name="PROPN">2255</tag><!-- Valentýna, Láďa, Havel, Leoš, Alžběta, Eduard, Flajšman, Veronika, Filip, Havlena -->
     <tag name="PUNCT">31795</tag><!-- ,, ., ", ?, !, :, -, (, ), ; -->
@@ -92,7 +92,7 @@
     <feat name="Poss" value="Yes" upos="ADJ,DET">2365</feat><!-- jeho, své, její, jejich, moje, svou, svého, můj, svým, svůj -->
     <feat name="PrepCase" value="Npr" upos="PRON">971</feat><!-- ji, je, jí, jim, jich, jej, jež, jemu, jimi, jeho -->
     <feat name="PrepCase" value="Pre" upos="PRON">871</feat><!-- ní, něj, nich, ním, něho, něm, ni, němu, nimi, ně -->
-    <feat name="PronType" value="Dem" upos="ADV,DET">5013</feat><!-- to, tak, tu, ten, tam, tom, teď, toho, tím, té -->
+    <feat name="PronType" value="Dem" upos="ADV,DET">5259</feat><!-- to, tak, tu, ten, tam, tom, teď, toho, tím, té -->
     <feat name="PronType" value="Dem,Ind" upos="ADV">1</feat><!-- nesčetněkrát -->
     <feat name="PronType" value="Emp" upos="DET">235</feat><!-- sám, sama, sami, samo, samy, samé, samá, samého, samu, samých -->
     <feat name="PronType" value="Ind" upos="ADV,DET,PRON">1122</feat><!-- něco, někdo, několik, někdy, nějaký, nějaké, nějakou, nějak, kdysi, několika -->
@@ -118,7 +118,7 @@
   <deps unique="43">
     <dep name="acl">448</dep>
     <dep name="acl:relcl">1565</dep>
-    <dep name="advcl">2517</dep>
+    <dep name="advcl">2258</dep>
     <dep name="advcl:pred">843</dep>
     <dep name="advmod">10025</dep>
     <dep name="advmod:emph">2224</dep>
@@ -131,7 +131,7 @@
     <dep name="ccomp">2232</dep>
     <dep name="compound">32</dep>
     <dep name="conj">9274</dep>
-    <dep name="cop">2955</dep>
+    <dep name="cop">2962</dep>
     <dep name="csubj">499</dep>
     <dep name="csubj:pass">25</dep>
     <dep name="dep">1179</dep>
@@ -145,13 +145,13 @@
     <dep name="flat">306</dep>
     <dep name="iobj">106</dep>
     <dep name="mark">4743</dep>
-    <dep name="nmod">4353</dep>
+    <dep name="nmod">4381</dep>
     <dep name="nsubj">9501</dep>
     <dep name="nsubj:pass">280</dep>
     <dep name="nummod">658</dep>
     <dep name="nummod:gov">295</dep>
     <dep name="obj">8574</dep>
-    <dep name="obl">9586</dep>
+    <dep name="obl">9810</dep>
     <dep name="obl:arg">4898</dep>
     <dep name="orphan">229</dep>
     <dep name="parataxis">121</dep>
