@@ -5276,7 +5276,7 @@
 1	Napadlo	napadnout	VERB	VpNS----R-AA--1	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	1	obj	1:obj	_
 3	totiž	totiž	CCONJ	J^-------------	_	1	cc	1:cc	SpaceAfter=No
-4	,	že	PUNCT	Z:-------------	_	1	punct	1:punct	_
+4	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
 5	že	že	SCONJ	J,-------------	_	1	mark	1:mark	_
 6	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	8	aux	8:aux	_
 7	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	8	nsubj	8:nsubj|11:nsubj:xsubj	_
