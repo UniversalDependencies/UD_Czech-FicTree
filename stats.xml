@@ -33,7 +33,7 @@
     <tag name="X">62</tag><!-- Ha-vel, Jom, kippur, o-po-nu, pr-chá, Soleil, combien, dě, Baalšem, Coeur -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="79">
+  <feats unique="80">
     <feat name="Abbr" value="Yes" upos="ADV,NOUN,PROPN">116</feat><!-- K, M, L, T, V, A, C, J, E, F -->
     <feat name="AdpType" value="Comprep" upos="ADP">4</feat><!-- vzhledem -->
     <feat name="AdpType" value="Prep" upos="ADP">11312</feat><!-- na, v, do, s, z, k, o, za, po, pro -->
@@ -111,6 +111,7 @@
     <feat name="VerbForm" value="Fin" upos="AUX,VERB">12757</feat><!-- jsem, je, by, bych, jsme, má, bude, jsou, jsi, není -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">3231</feat><!-- být, dělat, mít, říct, vidět, jít, udělat, žít, stát, dát -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">16065</feat><!-- byl, byla, bylo, řekl, měl, měla, řekla, mohl, chtěl, byly -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN">717</feat><!-- oddělení, představení, přání, chování, trápení, jednání, zaměstnání, řešení, poznání, vzdělání -->
     <feat name="Voice" value="Act" upos="ADJ,AUX,VERB">26797</feat><!-- jsem, je, byl, byla, bylo, jsme, řekl, má, měl, bude -->
     <feat name="Voice" value="Pass" upos="ADJ">319</feat><!-- přesvědčen, řečeno, oblečena, uspořádány, napsáno, obklopen, poslán, pozván, zakázáno, ztraceno -->
   </feats>

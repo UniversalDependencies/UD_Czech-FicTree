@@ -56,6 +56,7 @@ Slovak).
   * Fixed annotation of "více než NUM".
   * Denominators in fractions ("třetina, desetina...") are feminine nouns.
   * Added missing lexical Aspect based on a list obtained from PDTC.
+  * Added VerbForm=Vnoun to nouns on a list obtained from PDTC.
 * 2025-11-15 v2.17
   * Changed annotation of "budoucí": VerbForm=Part, Voice=Act, Tense=Fut.
   * Optional depictives are now annotated with "advcl:pred" (previously "xcomp").
