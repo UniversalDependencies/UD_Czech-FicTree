@@ -40,9 +40,9 @@
     <feat name="AdpType" value="Voc" upos="ADP">1001</feat><!-- ve, ze, se, ke, beze, ode, přede, nade, pode, skrze -->
     <feat name="Animacy" value="Anim" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">18282</feat><!-- mu, ho, byl, řekl, měl, který, kdo, on, sám, nikdo -->
     <feat name="Animacy" value="Inan" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">15265</feat><!-- co, něco, ten, který, byl, jeho, život, den, ho, plod -->
-    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">20182</feat><!-- jsem, je, by, byl, byla, bylo, bych, jsme, má, měl -->
-    <feat name="Aspect" value="Imp,Perf" upos="VERB">128</feat><!-- jmenoval, pravil, věnoval, konstatovala, pravila, jmenuje, konstatoval, nevěnoval, věnovat, informoval -->
-    <feat name="Aspect" value="Perf" upos="VERB">10414</feat><!-- řekl, řekla, stalo, začal, přišel, vzal, zeptal, stál, říct, stojí -->
+    <feat name="Aspect" value="Imp" upos="ADJ,AUX,VERB">20278</feat><!-- jsem, je, by, byl, byla, bylo, bych, jsme, má, měl -->
+    <feat name="Aspect" value="Imp,Perf" upos="ADJ,VERB">143</feat><!-- jmenoval, pravil, věnoval, konstatovala, pravila, jmenuje, konstatoval, nevěnoval, věnovat, informoval -->
+    <feat name="Aspect" value="Perf" upos="ADJ,VERB">11178</feat><!-- řekl, řekla, stalo, začal, přišel, vzal, zeptal, stál, říct, stojí -->
     <feat name="Case" value="Acc" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">23652</feat><!-- se, na, to, mě, ho, co, za, ji, o, pro -->
     <feat name="Case" value="Dat" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">6120</feat><!-- si, mi, k, mu, jí, ke, ti, tomu, nám, jim -->
     <feat name="Case" value="Gen" upos="ADJ,ADP,DET,NOUN,NUM,PRON,PROPN">11896</feat><!-- do, z, od, u, ze, toho, kolem, let, bez, mě -->

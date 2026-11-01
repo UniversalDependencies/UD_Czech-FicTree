@@ -10,7 +10,7 @@
 5	že	že	SCONJ	J,-------------	_	8	mark	8:mark	_
 6	pokoj	pokoj	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	8:nsubj	_
 7	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	8:cop	_
-8	zaplněný	zaplněný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	1	ccomp	1:ccomp	_
+8	zaplněný	zaplněný	ADJ	AAIS1----1A----	Animacy=Inan|Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	1	ccomp	1:ccomp	_
 9	květinami	květina	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	8	obl:arg	8:obl:arg:ins	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
 11	zřejmě	zřejmě	PART	TT-------------	_	17	advmod	17:advmod	_
@@ -164,7 +164,7 @@
 2	tohle	tenhle	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	det	3:det	_
 3	setkání	setkání	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	8:nsubj	_
 4	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	6	case	6:case	_
-5	zachráněným	zachráněný	ADJ	AANS7----1A----	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	6:amod	_
+5	zachráněným	zachráněný	ADJ	AANS7----1A----	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	kotětem	kotě	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing	3	nmod	3:nmod:s:ins	_
 7	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	8	obl:arg	8:obl:arg:dat	_
 8	dodalo	dodat	VERB	VpNS----R-AA---	Aspect=Perf|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
@@ -336,7 +336,7 @@
 18	příběhy	příběh	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	17:obj	SpaceAfter=No
 19	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	_
 20	nebyl	být	AUX	VpMS----R-NA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	21	cop	21:cop	_
-21	zklamaný	zklamaný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No
+21	zklamaný	zklamaný	ADJ	AAMS1----1A----	Animacy=Anim|Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No
 22	,	,	PUNCT	Z:-------------	_	24	punct	24:punct	_
 23	děti	dítě	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	24	nsubj	24:nsubj|31:nsubj	_
 24	mají	mít	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	0:root|21:conj	_
@@ -410,7 +410,7 @@
 1	Cítily	cítit	VERB	VpFP----R-AA---	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	by	být	AUX	Vc-------------	Aspect=Imp|Mood=Cnd|VerbForm=Fin	1	aux	1:aux	_
 3	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	1:expl:pv	_
-4	zahanbené	zahanbený	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	1	obj	1:obj	_
+4	zahanbené	zahanbený	ADJ	AAFP1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	1	obj	1:obj	_
 5	a	a	CCONJ	J^-------------	_	6	cc	6:cc	_
 6	směšné	směšný	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	4	conj	1:obj|4:conj	SpaceAfter=No
 7	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -693,7 +693,7 @@
 28	nemá	mít	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	25	acl:relcl	25:acl:relcl	_
 29	své	svůj	DET	P8FP4---------1	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	30	det	30:det	_
 30	síly	síla	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	28	obj	28:obj	_
-31	soustředěny	soustředěný	ADJ	VsFP------AP---	Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	30	advcl:pred	30:advcl:pred	SpaceAfter=No|LDeriv=soustředit
+31	soustředěny	soustředěný	ADJ	VsFP------AP---	Aspect=Perf|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	30	advcl:pred	30:advcl:pred	SpaceAfter=No|LDeriv=soustředit
 32	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
 # sent_id = dev-andelvte041-s5
@@ -883,7 +883,7 @@
 12	takhle	takhle	ADV	Db-------------	_	14	advmod	14:advmod	_
 13	asi	asi	PART	TT-------------	_	14	advmod	14:advmod	_
 14	vodili	vodit	VERB	VpMP----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	conj	0:root|3:conj	_
-15	zmatené	zmatený	ADJ	AAMP4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	16:amod	_
+15	zmatené	zmatený	ADJ	AAMP4----1A----	Animacy=Anim|Aspect=Perf|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	16	amod	16:amod	_
 16	lidi	člověk	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obj	14:obj	_
 17	ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	19	case	19:case	_
 18	staré	starý	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	19	amod	19:amod	_
@@ -1411,7 +1411,7 @@
 8	minut	minuta	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur	14	obl	14:obl:acc	_
 9	budu	být	AUX	VB-S---1F-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	14	aux	14:aux	_
 10	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	13:case	_
-11	opuštěném	opuštěný	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	13	amod	13:amod	_
+11	opuštěném	opuštěný	ADJ	AANS6----1A----	Aspect=Perf|Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	13	amod	13:amod	_
 12	venkovském	venkovský	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	13	amod	13:amod	_
 13	nádraží	nádraží	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	14	obl	14:obl:na:loc	_
 14	dělat	dělat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	1	ccomp	1:ccomp	SpaceAfter=No
@@ -1547,7 +1547,7 @@
 6	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 7	stále	stále	ADV	Db-------------	_	2	advmod	2:advmod|4:advmod|14:advmod|17:advmod	_
 8	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	10:case	_
-9	ozářené	ozářený	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	10:amod	_
+9	ozářené	ozářený	ADJ	AAFS6----1A----	Aspect=Perf|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 10	straně	strana	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	2	obl	2:obl:po:loc|4:obl:po:loc|14:obl:po:loc|17:obl:po:loc	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 12	a	a	CCONJ	J^-------------	_	14	cc	14:cc	_
@@ -1563,7 +1563,7 @@
 22	krokem	krok	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	23	obl	23:obl:ins	_
 23	překračuje	překračovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	17	ccomp	17:ccomp	_
 24	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	26	case	26:case	_
-25	ozářené	ozářený	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	26	amod	26:amod	_
+25	ozářené	ozářený	ADJ	AAFS2----1A----	Aspect=Perf|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	26	amod	26:amod	_
 26	strany	strana	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	23	obl	23:obl:z:gen	_
 27	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	28	case	28:case	_
 28	stínu	stín	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	23:obl:do:gen	SpaceAfter=No
@@ -2033,7 +2033,7 @@
 14	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
 15	byly	být	AUX	VpFP----R-AA---	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	17	cop	17:cop	_
 16	stejně	stejně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	17	advmod	17:advmod	_
-17	spokojené	spokojený	ADJ	AAFP1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	0	root	0:root	_
+17	spokojené	spokojený	ADJ	AAFP1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	0	root	0:root	_
 18	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	19	case	19:case	_
 19	tím	ten	DET	PDNS7----------	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	17	obl:arg	17:obl:arg:s:ins|26:obj	SpaceAfter=No
 20	,	,	PUNCT	Z:-------------	_	26	punct	26:punct	_
@@ -2682,7 +2682,7 @@
 # orig_file_sentence 002#57
 1	Četl	číst	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
-3	očíslované	očíslovaný	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	4:amod	_
+3	očíslované	očíslovaný	ADJ	AAIP4----1A----	Animacy=Inan|Aspect=Perf|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	4	amod	4:amod	_
 4	řádky	řádek	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	1	obj	1:obj	_
 5	a	a	CCONJ	J^-------------	_	6	cc	6:cc	_
 6	znovu	znovu	ADV	Db-------------	_	1	conj	0:root|1:conj	_
@@ -2769,7 +2769,7 @@
 # text = Je spojená s pevninou.
 # orig_file_sentence 002#62
 1	Je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
-2	spojená	spojený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	_
+2	spojená	spojený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	_
 3	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	4	case	4:case	_
 4	pevninou	pevnina	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	2	obl:arg	2:obl:arg:s:ins	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -2871,7 +2871,7 @@
 10	závůdek	závůdek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	13:nsubj|15:nsubj	_
 11	byl	být	AUX	VpIS----R-AA---	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	cop	13:cop	_
 12	tak	tak	ADV	Db-------------	PronType=Dem	13	advmod	13:advmod	_
-13	specializovaný	specializovaný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	1	conj	0:root|1:conj	_
+13	specializovaný	specializovaný	ADJ	AAIS1----1A----	Animacy=Inan|Aspect=Imp,Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	1	conj	0:root|1:conj	_
 14	a	a	CCONJ	J^-------------	_	15	cc	15:cc	_
 15	fungoval	fungovat	VERB	VpIS----R-AA---	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	13	conj	0:root|13:conj	_
 16	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	18	case	18:case	_
@@ -3216,7 +3216,7 @@
 5	měl	mít	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 6	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	7:case	_
 7	zrcadle	zrcadlo	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	8	obl	8:obl:na:loc	_
-8	přilepený	přilepený	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	9:amod	_
+8	přilepený	přilepený	ADJ	AAIS4----1A----	Animacy=Inan|Aspect=Perf|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	9:amod	_
 9	lísteček	lísteček	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	5:obj	_
 10	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	12	case	12:case	_
 11	několika	několik	DET	Ca--7----------	Case=Ins|NumType=Card|PronType=Ind	12	det:nummod	12:det:nummod	_
@@ -3677,7 +3677,7 @@
 15	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
 16	laskavou	laskavý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	conj	12:amod|14:conj	SpaceAfter=No
 17	,	,	PUNCT	Z:-------------	_	18	punct	18:punct	_
-18	vyrovnanou	vyrovnaný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	conj	12:amod|14:conj	_
+18	vyrovnanou	vyrovnaný	ADJ	AAFS4----1A----	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	conj	12:amod|14:conj	_
 19	a	a	CCONJ	J^-------------	_	20	cc	20:cc	_
 20	přátelskou	přátelský	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	14	conj	12:amod|14:conj	SpaceAfter=No
 21	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
@@ -3896,7 +3896,7 @@
 5	bylo	být	AUX	VpNS----R-AA---	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	cop	6:cop	_
 6	dopisem	dopis	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	acl:relcl	2:acl:relcl	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
-8	poslaným	poslaný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	6:amod	_
+8	poslaným	poslaný	ADJ	AAIS7----1A----	Animacy=Inan|Aspect=Perf|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 9	Stvořitelem	stvořitel	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl:arg	8:obl:arg:ins	SpaceAfter=No
 10	.	.	PUNCT	Z:-------------	_	2	punct	2:punct	_
 
@@ -4364,7 +4364,7 @@
 7	tak	tak	ADV	J^-------------	PronType=Dem	12	cc	12:cc	_
 8	jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
 9	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	11	case	11:case	_
-10	otevřenýma	otevřený	ADJ	AAFD7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Dual|Polarity=Pos	11	amod	11:amod	_
+10	otevřenýma	otevřený	ADJ	AAFD7----1A----	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Fem|Number=Dual|Polarity=Pos	11	amod	11:amod	_
 11	očima	oko	NOUN	NNFD7-----A----	Case=Ins|Gender=Fem|Number=Dual	12	obl	12:obl:s:ins	_
 12	snil	snít	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	conj	0:root|3:conj	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	17	punct	17:punct	_
@@ -4741,7 +4741,7 @@
 6	písčité	písčitý	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	_
 7	lesní	lesní	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	_
 8	půdě	půda	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	1	obl	1:obl:na:loc	_
-9	pokryté	pokrytý	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	_
+9	pokryté	pokrytý	ADJ	AAFS6----1A----	Aspect=Perf|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	_
 10	suchými	suchý	ADJ	AAFP7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	11	amod	11:amod	_
 11	bodlinami	bodlina	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur	9	obl:arg	9:obl:arg:ins	_
 12	jehličí	jehličí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	11	nmod	11:nmod:gen	SpaceAfter=No
@@ -5100,9 +5100,9 @@
 5	vylomeny	vylomený	ADJ	VsFP------AP---	Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	0:root|1:conj	SpaceAfter=No|LDeriv=vylomit
 6	,	,	PUNCT	Z:-------------	_	7	punct	7:punct	_
 7	nábytek	nábytek	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	conj	0:root|1:conj	_
-8	rozkraden	rozkradený	ADJ	VsIS------AP---	Animacy=Inan|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	0:root|1:conj	LDeriv=rozkrást
+8	rozkraden	rozkradený	ADJ	VsIS------AP---	Animacy=Inan|Aspect=Perf|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	1	conj	0:root|1:conj	LDeriv=rozkrást
 9	nebo	nebo	CCONJ	J^-------------	_	10	cc	10:cc	_
-10	zničen	zničený	ADJ	VsIS------AP---	Animacy=Inan|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	0:root|8:conj	SpaceAfter=No|LDeriv=zničit
+10	zničen	zničený	ADJ	VsIS------AP---	Animacy=Inan|Aspect=Perf|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	0:root|8:conj	SpaceAfter=No|LDeriv=zničit
 11	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 12	zdi	zeď	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	14	nsubj	14:nsubj	_
 13	byly	být	AUX	VpFP----R-AA---	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	14	cop	14:cop	_
@@ -5652,14 +5652,14 @@
 1	Amadeus	Amadeus	PROPN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing	10	nsubj	10:nsubj	SpaceAfter=No
 2	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	_
 3	podobně	podobně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	4	advmod	4:advmod	_
-4	rozpolcený	rozpolcený	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	1	amod	1:amod	_
+4	rozpolcený	rozpolcený	ADJ	AAIS1----1A----	Animacy=Inan|Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	1	amod	1:amod	_
 5	jako	jako	SCONJ	J,-------------	_	6	mark	6:mark	_
 6	já	já	PRON	PP-S1--1-------	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	obl	3:obl:jako	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	_
 8	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	10:cop	_
 9	americký	americký	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 10	film	film	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	0:root	_
-11	natočený	natočený	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	10:amod	_
+11	natočený	natočený	ADJ	AAIS1----1A----	Animacy=Inan|Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	10	amod	10:amod	_
 12	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	13:case	_
 13	Československu	Československo	PROPN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	11	obl	11:obl:v:loc	SpaceAfter=No
 14	.	.	PUNCT	Z:-------------	_	10	punct	10:punct	_
@@ -5921,7 +5921,7 @@
 9	zůstali	zůstat	VERB	VpMP----R-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	conj	0:root|5:conj	_
 10	stát	stát	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	9	xcomp	9:xcomp	_
 11	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	13	case	13:case	_
-12	otevřenou	otevřený	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	13:amod	_
+12	otevřenou	otevřený	ADJ	AAFS7----1A----	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	13	amod	13:amod	_
 13	pusou	pusa	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	10	obl	10:obl:s:ins	SpaceAfter=No
 14	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
@@ -6439,7 +6439,7 @@
 6	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	7:nsubj	_
 7	škola	škola	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	1	csubj	1:csubj	_
 8	jako	jako	SCONJ	J,-------------	_	9	mark	9:mark	_
-9	dělaná	dělaný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	_
+9	dělaná	dělaný	ADJ	AAFS1----1A----	Aspect=Imp|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	_
 10	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	11:case	_
 11	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	9	obl	9:obl:pro:acc	SpaceAfter=No
 12	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
@@ -6495,7 +6495,7 @@
 16	Poděbrady	Poděbrady	PROPN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	19	nsubj:pass	19:nsubj:pass	_
 17	snad	snad	PART	TT-------------	_	19	cc	19:cc	_
 18	nebyly	být	AUX	VpIP----R-NA---	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	19	aux:pass	19:aux:pass	_
-19	zasaženy	zasažený	ADJ	VsIP------AP---	Animacy=Inan|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	0:root|7:conj	LDeriv=zasáhnout
+19	zasaženy	zasažený	ADJ	VsIP------AP---	Animacy=Inan|Aspect=Perf|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	0:root|7:conj	LDeriv=zasáhnout
 20	válkou	válka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	19	obl:arg	19:obl:arg:ins	_
 21	vůbec	vůbec	PART	TT-------------	_	19	advmod:emph	19:advmod:emph	SpaceAfter=No
 22	.	.	PUNCT	Z:-------------	_	7	punct	7:punct	_
@@ -6676,7 +6676,7 @@
 2	haly	hala	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	4	obl	4:obl:z:gen	_
 3	se	se	PRON	P7--4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	4	expl:pv	4:expl:pv	_
 4	ozval	ozvat	VERB	VpIS----R-AA---	Animacy=Inan|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-5	vzrušený	vzrušený	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	6:amod	_
+5	vzrušený	vzrušený	ADJ	AAIS1----1A----	Animacy=Inan|Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	halas	halas	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	4:nsubj	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 8	pak	pak	ADV	Db-------------	_	10	advmod	10:advmod	_
@@ -7010,7 +7010,7 @@
 # text = Úplně opuštěn jsem ale nebyl, protože mí bratři se v té oblasti usadili taky a neměl jsem k nim daleko.
 # orig_file_sentence 004#71
 1	Úplně	úplně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	2	advmod	2:advmod	_
-2	opuštěn	opuštěný	ADJ	VsMS------AP---	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=opustit
+2	opuštěn	opuštěný	ADJ	VsMS------AP---	Animacy=Anim|Aspect=Perf|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=opustit
 3	jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	2:aux	_
 4	ale	ale	CCONJ	J^-------------	_	2	cc	2:cc	_
 5	nebyl	být	AUX	VpMS----R-NA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	2	cop	2:cop	SpaceAfter=No
@@ -7125,7 +7125,7 @@
 1	Bohužel	bohužel	PART	TT-------------	_	4	cc	4:cc	_
 2	však	však	CCONJ	J^-------------	_	4	cc	4:cc	_
 3	byly	být	AUX	VpFP----R-AA---	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	4	aux:pass	4:aux:pass	_
-4	vybrány	vybraný	ADJ	VsFP------AP---	Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=vybrat
+4	vybrány	vybraný	ADJ	VsFP------AP---	Aspect=Perf|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=vybrat
 5	podle	podle	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	7:case	_
 6	socialistického	socialistický	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	7	amod	7:amod	_
 7	hlediska	hledisko	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	4	obl	4:obl:podle:gen	SpaceAfter=No
@@ -7786,7 +7786,7 @@
 2	mu	on	PRON	PHMS3--3-------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	6	obl:arg	6:obl:arg:dat	_
 3	velmistr	velmistr	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	5:nsubj	_
 4	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	5:cop	_
-5	nucen	nucený	ADJ	VsMS------AP---	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=nutit
+5	nucen	nucený	ADJ	VsMS------AP---	Animacy=Anim|Aspect=Imp|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=nutit
 6	nabídnout	nabídnout	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	5	xcomp	5:xcomp	_
 7	remízu	remíza	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	6	obj	6:obj	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
@@ -8268,7 +8268,7 @@
 # text = Jírovec zvaný též koňský kaštan pochází ze severního Řecka.
 # orig_file_sentence 005#50
 1	Jírovec	jírovec	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	6:nsubj	_
-2	zvaný	zvaný	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	1	amod	1:amod	_
+2	zvaný	zvaný	ADJ	AAIS1----1A----	Animacy=Inan|Aspect=Imp|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	1	amod	1:amod	_
 3	též	též	ADV	Db-------------	_	5	advmod:emph	5:advmod:emph	_
 4	koňský	koňský	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 5	kaštan	kaštan	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obl	2:obl	_
@@ -8603,7 +8603,7 @@
 20	trvala	trvat	VERB	VpFS----R-AA---	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	39	advcl	39:advcl:ačkoli	_
 21	urputně	urputně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	20	advmod	20:advmod	_
 22	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	24	case	24:case	_
-23	zavřených	zavřený	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	24	amod	24:amod	_
+23	zavřených	zavřený	ADJ	AAFP6----1A----	Aspect=Perf|Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	24	amod	24:amod	_
 24	okenicích	okenice	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	20	obl:arg	20:obl:arg:na:loc	SpaceAfter=No
 25	,	,	PUNCT	Z:-------------	_	28	punct	28:punct	_
 26	neboť	neboť	CCONJ	J^-------------	_	28	cc	28:cc	_
@@ -8711,14 +8711,14 @@
 # sent_id = dev-ku_smlas011-s2
 # text = Hýčkán svou sebejistotou (sebejistotou vždy poněkud udivenou), oddával se příjemné pasivitě.
 # orig_file_sentence 005#82
-1	Hýčkán	hýčkaný	ADJ	VsMS------AP---	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	11	advcl:pred	11:advcl:pred	LDeriv=hýčkat
+1	Hýčkán	hýčkaný	ADJ	VsMS------AP---	Animacy=Anim|Aspect=Imp|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	11	advcl:pred	11:advcl:pred	LDeriv=hýčkat
 2	svou	svůj	DET	P8FS7---------1	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	3:det	_
 3	sebejistotou	sebejistota	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	1	obl:arg	1:obl:arg:ins	_
 4	(	(	PUNCT	Z:-------------	_	5	punct	5:punct	SpaceAfter=No
 5	sebejistotou	sebejistota	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	3	appos	3:appos	_
 6	vždy	vždy	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos|PronType=Tot	8	advmod	8:advmod	_
 7	poněkud	poněkud	ADV	Db-------------	_	8	advmod	8:advmod	_
-8	udivenou	udivený	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	SpaceAfter=No
+8	udivenou	udivený	ADJ	AAFS7----1A----	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	SpaceAfter=No
 9	)	)	PUNCT	Z:-------------	_	5	punct	5:punct	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	1	punct	1:punct	_
 11	oddával	oddávat	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
@@ -8741,7 +8741,7 @@
 9	,	,	PUNCT	Z:-------------	_	10	punct	10:punct	_
 10	dobývaného	dobývaný	ADJ	AAMS4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	conj	7:amod|8:conj	SpaceAfter=No
 11	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
-12	milovaného	milovaný	ADJ	AAMS4----1A----	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	conj	7:amod|8:conj	SpaceAfter=No
+12	milovaného	milovaný	ADJ	AAMS4----1A----	Animacy=Anim|Aspect=Imp|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	conj	7:amod|8:conj	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
 14	a	a	CCONJ	J^-------------	_	15	cc	15:cc	_
 15	těšilo	těšit	VERB	VpNS----R-AA---	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
@@ -8752,7 +8752,7 @@
 20	rukama	ruka	NOUN	NNFD7-----A----	Case=Ins|Gender=Fem|Number=Dual	17	obl	17:obl:s:ins	_
 21	tak	tak	ADV	Db-------------	PronType=Dem	22	advmod	22:advmod	_
 22	říkajíc	říkat	VERB	VeNS------A----	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Conv|Voice=Act	23	advcl	23:advcl	_
-23	složenýma	složený	ADJ	AAFD7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Dual|Polarity=Pos	20	amod	20:amod	_
+23	složenýma	složený	ADJ	AAFD7----1A----	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Fem|Number=Dual|Polarity=Pos	20	amod	20:amod	_
 24	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	25	case	25:case	_
 25	klíně	klín	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	23:obl:v:loc	SpaceAfter=No
 26	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
@@ -9163,7 +9163,7 @@
 12	)	)	PUNCT	Z:-------------	_	9	punct	9:punct	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	14	punct	14:punct	_
 14	vypil	vypít	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
-15	nabídnutou	nabídnutý	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	16:amod	_
+15	nabídnutou	nabídnutý	ADJ	AAFS4----1A----	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	16:amod	_
 16	číšku	číška	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	14	obj	14:obj	_
 17	a	a	CCONJ	J^-------------	_	21	cc	21:cc	_
 18	docela	docela	ADV	Db-------------	_	19	advmod	19:advmod	_
@@ -9940,7 +9940,7 @@
 1	A	a	CCONJ	J^-------------	_	9	cc	9:cc	_
 2	Alžbětina	Alžbětin	ADJ	AUFS1F---------	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Poss=Yes	3	amod	3:amod	_
 3	zadnice	zadnice	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	9:nsubj	_
-4	potažená	potažený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	3:amod	_
+4	potažená	potažený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	3:amod	_
 5	bílou	bílý	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	látkou	látka	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	4	obl	4:obl:ins	_
 7	ošetřovatelské	ošetřovatelský	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	8:amod	_
@@ -9959,7 +9959,7 @@
 20	a	a	CCONJ	J^-------------	_	21	cc	21:cc	_
 21	mrtvé	mrtvý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	19	conj	18:amod|19:conj	_
 22	(	(	PUNCT	Z:-------------	_	23	punct	23:punct	SpaceAfter=No
-23	zahalené	zahalený	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	19	appos	19:appos|21:appos	_
+23	zahalené	zahalený	ADJ	AANS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	19	appos	19:appos|21:appos	_
 24	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	26	case	26:case	_
 25	bílého	bílý	ADJ	AAIS2----1A----	Animacy=Inan|Case=Gen|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	26	amod	26:amod	_
 26	rubáše	rubáš	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	23:obl:do:gen	SpaceAfter=No
@@ -10882,7 +10882,7 @@
 # orig_file_sentence 007#14
 1	S	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	4	case	4:case	_
 2	takto	takto	ADV	Db-------------	_	3	advmod	3:advmod	_
-3	naladěnou	naladěný	ADJ	AAFS7----1A----	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	4:amod	_
+3	naladěnou	naladěný	ADJ	AAFS7----1A----	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 4	myslí	mysl	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing	5	obl	5:obl:s:ins	_
 5	šel	jít	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 6	tedy	tedy	ADV	TT-------------	_	5	advmod	5:advmod	_
@@ -10982,7 +10982,7 @@
 25	že	že	SCONJ	J,-------------	_	27	mark	27:mark	_
 26	je	on	PRON	PPFP4--3-------	Case=Acc|Gender=Fem|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	27	obj	27:obj	_
 27	předpokládal	předpokládat	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	17	acl	17:acl:že	_
-28	zamčené	zamčený	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	26	advcl:pred	26:advcl:pred	SpaceAfter=No
+28	zamčené	zamčený	ADJ	AAFP4----1A----	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	26	advcl:pred	26:advcl:pred	SpaceAfter=No
 29	,	,	PUNCT	Z:-------------	_	30	punct	30:punct	_
 30	ne	ne	PART	TT-------------	_	27	dep	27:dep	SpaceAfter=No
 31	-	-	PUNCT	Z:-------------	_	30	punct	30:punct	SpaceAfter=No
@@ -11208,7 +11208,7 @@
 7	občas	občas	ADV	Db-------------	_	8	advmod	8:advmod	_
 8	cítíval	cítívat	VERB	VpMS----R-AA---	Animacy=Anim|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	csubj	1:csubj	_
 9	právě	právě	ADV	Db-------------	_	10	advmod	10:advmod	_
-10	zmíněné	zmíněný	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	amod	12:amod	_
+10	zmíněné	zmíněný	ADJ	AANS4----1A----	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	amod	12:amod	_
 11	povznášející	povznášející	ADJ	AGNS4-----A----	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	12	amod	12:amod	_
 12	dmutí	dmutí	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	8	obj	8:obj	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
@@ -11570,7 +11570,7 @@
 13	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	16:cop	_
 14	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	15	case	15:case	_
 15	něm	on	PRON	P5NS6--3-------	Case=Loc|Gender=Neut|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	16	obl	16:obl:v:loc	_
-16	napsáno	napsaný	ADJ	VsNS------AP---	Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	10	ccomp	10:ccomp	SpaceAfter=No|LDeriv=napsat
+16	napsáno	napsaný	ADJ	VsNS------AP---	Aspect=Perf|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	10	ccomp	10:ccomp	SpaceAfter=No|LDeriv=napsat
 17	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
 # sent_id = dev-laskaneX011-s4
@@ -11776,7 +11776,7 @@
 1	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 2	Děloha	děloha	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	4:nsubj	_
 3	je	být	AUX	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	4:cop	_
-4	zvětšená	zvětšený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No
+4	zvětšená	zvětšený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No
 5	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
 # sent_id = dev-laskaneX021-s6
@@ -12714,7 +12714,7 @@
 2	sestra	sestra	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	10:nsubj|18:nsubj	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
 4	taktéž	taktéž	ADV	Db-------------	_	5	advmod	5:advmod	_
-5	oděna	oděný	ADJ	VsFS------AP---	Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl:pred	2:advcl:pred	LDeriv=odít
+5	oděna	oděný	ADJ	VsFS------AP---	Aspect=Perf|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl:pred	2:advcl:pred	LDeriv=odít
 6	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	8:case	_
 7	neposkvrněných	poskvrněný	ADJ	AAIP6----1N----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Neg	8	amod	8:amod	_
 8	šatech	šaty	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	5:obl:v:loc	SpaceAfter=No
@@ -12724,7 +12724,7 @@
 12	stolem	stůl	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	10:obl:za:ins	_
 13	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	16	case	16:case	_
 14	pompézně	pompézně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	15	advmod	15:advmod	_
-15	vybavené	vybavený	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	16:amod	_
+15	vybavené	vybavený	ADJ	AAFS6----1A----	Aspect=Perf|Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	16:amod	_
 16	místnosti	místnost	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing	10	obl	10:obl:v:loc	_
 17	a	a	CCONJ	J^-------------	_	18	cc	18:cc	_
 18	pracovala	pracovat	VERB	VpFS----R-AA---	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	10	conj	0:root|10:conj	_
@@ -12784,7 +12784,7 @@
 4	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	_
 5	vás	ty	PRON	PP-P4--2-------	Case=Acc|Number=Plur|Person=2|PronType=Prs	7	obl	7:obl:pro:acc	_
 6	všechno	všechen	DET	PLNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot	3	obj	3:obj	_
-7	připravené	připravený	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	advcl:pred	3:advcl:pred	SpaceAfter=No
+7	připravené	připravený	ADJ	AANS4----1A----	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	advcl:pred	3:advcl:pred	SpaceAfter=No
 8	,	,	PUNCT	Z:-------------	_	12	punct	12:punct	_
 9	už	už	ADV	Db-------------	_	12	advmod	12:advmod	_
 10	jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	12:aux	_
@@ -13395,7 +13395,7 @@
 # text = Jsem oblečena v moderní kostýmek, jenž jsem koupila ve značkovém butiku.
 # orig_file_sentence 008#92
 1	Jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	2:cop	_
-2	oblečena	oblečený	ADJ	VsFS------AP---	Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=obléci
+2	oblečena	oblečený	ADJ	VsFS------AP---	Aspect=Perf|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=obléci
 3	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	5:case	_
 4	moderní	moderní	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 5	kostýmek	kostýmek	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	2:obl:v:acc|9:obj	SpaceAfter=No
@@ -13433,7 +13433,7 @@
 5	vrátila	vrátit	VERB	VpFS----R-AA---	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 6	domů	domů	ADV	Db-------------	_	5	advmod	5:advmod	_
 7	totálně	totálně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	8	advmod	8:advmod	_
-8	zničená	zničený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	advcl:pred	5:advcl:pred	SpaceAfter=No
+8	zničená	zničený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	advcl:pred	5:advcl:pred	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = dev-laskaneX111-s3
@@ -14028,7 +14028,7 @@
 42	sýra	sýr	NOUN	NNIS2-----A---1	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	conj	37:nmod:gen|39:conj	_
 43	a	a	CCONJ	J^-------------	_	44	cc	44:cc	_
 44	rajčaty	rajče	NOUN	NNNP7-----A----	Case=Ins|Gender=Neut|Number=Plur	37	conj	36:obl:ins|37:conj|50:obj	_
-45	určenými	určený	ADJ	AANP7----1A----	Case=Ins|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	44	amod	44:amod	_
+45	určenými	určený	ADJ	AANP7----1A----	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	44	amod	44:amod	_
 46	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	47	case	47:case	_
 47	leča	lečo	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	45	obl	45:obl:do:gen	SpaceAfter=No
 48	,	,	PUNCT	Z:-------------	_	50	punct	50:punct	_
@@ -14100,7 +14100,7 @@
 12	jenom	jenom	ADV	Db-------------	_	13	advmod:emph	13:advmod:emph	_
 13	projdu	projít	VERB	VB-S---1P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	7:advcl:i_když	_
 14	okolo	okolo	ADP	RR--2----------	AdpType=Prep|Case=Gen	16	case	16:case	_
-15	zavřené	zavřený	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	16:amod	_
+15	zavřené	zavřený	ADJ	AAFS2----1A----	Aspect=Perf|Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	16	amod	16:amod	_
 16	plechovky	plechovka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	13	obl	13:obl:okolo:gen	SpaceAfter=No
 17	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	_
 
@@ -14379,7 +14379,7 @@
 5	sestra	sestra	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	3:nsubj	SpaceAfter=No
 6	,	,	PUNCT	Z:-------------	_	8	punct	8:punct	_
 7	tentokrát	tentokrát	ADV	Db-------------	PronType=Dem	8	advmod	8:advmod	_
-8	oblečená	oblečený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
+8	oblečená	oblečený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 9	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	10:case	_
 10	civilu	civil	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	8:obl:v:loc	SpaceAfter=No
 11	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -14520,7 +14520,7 @@
 2	Tyhle	tenhle	DET	PDIP1----------	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	3:det	_
 3	léky	lék	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	5:nsubj	_
 4	jsou	být	AUX	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	5:cop	_
-5	označené	označený	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	0:root	SpaceAfter=No
+5	označené	označený	ADJ	AAIP1----1A----	Animacy=Inan|Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	0	root	0:root	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
 # sent_id = dev-laskaneX171-s6
@@ -15049,7 +15049,7 @@
 15	tomhle	tenhle	DET	PDNS6----------	Case=Loc|Gender=Neut|Number=Sing|PronType=Dem	16	det	16:det	_
 16	počasí	počasí	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	20	obl	20:obl:v:loc	_
 17	takhle	takhle	ADV	Db-------------	_	18	advmod	18:advmod	_
-18	oblečená	oblečený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	advcl:pred	20:advcl:pred	_
+18	oblečená	oblečený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	20	advcl:pred	20:advcl:pred	_
 19	jistě	jistě	PART	TT-------------	_	20	advmod	20:advmod	_
 20	vypadám	vypadat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	1:ccomp|6:conj	_
 21	dosti	dost	ADV	Db------------1	_	22	advmod	22:advmod	_
@@ -15192,7 +15192,7 @@
 10	léky	lék	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	13:nsubj	_
 11	nejsou	být	AUX	VB-P---3P-NA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	13:cop	_
 12	oficiálně	oficiálně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	13	advmod	13:advmod	_
-13	povolené	povolený	ADJ	AAIP1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	csubj:pass	5:csubj:pass	_
+13	povolené	povolený	ADJ	AAIP1----1A----	Animacy=Inan|Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	5	csubj:pass	5:csubj:pass	_
 14	a	a	CCONJ	J^-------------	_	17	cc	17:cc	_
 15	že	že	SCONJ	J,-------------	_	17	mark	17:mark	_
 16	je	on	PRON	PPIP4--3-------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Person=3|PrepCase=Npr|PronType=Prs	17	obj	17:obj	_
@@ -15721,7 +15721,7 @@
 # orig_file_sentence 010#50
 1	Usnula	usnout	VERB	VpFS----R-AA---	Aspect=Perf|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 2	jsem	být	AUX	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	1:aux	_
-3	oblečená	oblečený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	1	advcl:pred	1:advcl:pred	_
+3	oblečená	oblečený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	1	advcl:pred	1:advcl:pred	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	7:case	_
 5	silonové	silonový	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	_
 6	oranžové	oranžový	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	7:amod	_
@@ -16301,9 +16301,9 @@
 # text = Věčně podrážděná, unavená a nervózní, a jindy zase ustrašená a smutná?
 # orig_file_sentence 010#85
 1	Věčně	věčně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	2	advmod	2:advmod	_
-2	podrážděná	podrážděný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No
+2	podrážděná	podrážděný	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	4	punct	4:punct	_
-4	unavená	unavený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	0:root|2:conj	_
+4	unavená	unavený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	0:root|2:conj	_
 5	a	a	CCONJ	J^-------------	_	6	cc	6:cc	_
 6	nervózní	nervózní	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	0:root|2:conj	SpaceAfter=No
 7	,	,	PUNCT	Z:-------------	_	9	punct	9:punct	_
@@ -16431,7 +16431,7 @@
 9	Máša	Máša	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing	4	nsubj	4:nsubj|11:nsubj|16:nsubj	SpaceAfter=No
 10	,	,	PUNCT	Z:-------------	_	11	punct	11:punct	_
 11	má	mít	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	0:root|4:conj	_
-12	otevřené	otevřený	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	14	amod	14:amod	_
+12	otevřené	otevřený	ADJ	AAFP4----1A----	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	14	amod	14:amod	_
 13	horečnaté	horečnatý	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	14	amod	14:amod	_
 14	oči	oko	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur	11	obj	11:obj	SpaceAfter=No
 15	,	,	PUNCT	Z:-------------	_	16	punct	16:punct	_
@@ -16447,7 +16447,7 @@
 4	,	,	PUNCT	Z:-------------	_	6	punct	6:punct	SpaceAfter=No
 5	"	"	PUNCT	Z:-------------	_	6	punct	6:punct	_
 6	šeptá	šeptat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	0:root	_
-7	vysušenými	vysušený	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	8:amod	_
+7	vysušenými	vysušený	ADJ	AAIP7----1A----	Animacy=Inan|Aspect=Perf|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	8:amod	_
 8	rty	ret	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	6:obl:ins	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
@@ -16662,7 +16662,7 @@
 # sent_id = dev-p_navrat041-s7
 # text = Utržená slezina, prasklé pouzdro jater.
 # orig_file_sentence 011#7
-1	Utržená	utržený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	2:amod	_
+1	Utržená	utržený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	amod	2:amod	_
 2	slezina	slezina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	0	root	0:root	SpaceAfter=No
 3	,	,	PUNCT	Z:-------------	_	5	punct	5:punct	_
 4	prasklé	prasklý	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	5	amod	5:amod	_
@@ -16970,7 +16970,7 @@
 12	neznámým	známý	ADJ	AANS7----1N----	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg	11	amod	11:amod	SpaceAfter=No
 13	,	,	PUNCT	Z:-------------	_	15	punct	15:punct	_
 14	tolik	tolik	ADV	Db-------------	_	15	advmod	15:advmod	_
-15	vzdáleným	vzdálený	ADJ	AANS7----1A----	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	conj	11:amod|12:conj	_
+15	vzdáleným	vzdálený	ADJ	AANS7----1A----	Aspect=Perf|Case=Ins|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	12	conj	11:amod|12:conj	_
 16	lyzolu	lyzol	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	15	obl:arg	15:obl:arg:dat	_
 17	a	a	CCONJ	J^-------------	_	18	cc	18:cc	_
 18	ajatinu	ajatin	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	conj	15:obl:arg:dat|16:conj	_
@@ -17017,7 +17017,7 @@
 13	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	14:case	_
 14	něm	on	PRON	P5MS6--3-------	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs	15	obl	15:obl:v:loc	_
 15	vyvolávaly	vyvolávat	VERB	VpIP----R-AA---	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-16	vzdálenou	vzdálený	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	17:amod	_
+16	vzdálenou	vzdálený	ADJ	AAFS4----1A----	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	17	amod	17:amod	_
 17	vzpomínku	vzpomínka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	15	obj	15:obj	_
 18	-	-	PUNCT	Z:-------------	_	24	punct	24:punct	_
 19	a	a	CCONJ	J^-------------	_	24	cc	24:cc	_
@@ -17093,7 +17093,7 @@
 3	kuchyňka	kuchyňka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	2:nsubj	_
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	5:case	_
 5	dvouvařiči	dvouvařič	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl:arg	2:obl:arg:v:loc	_
-6	postaveném	postavený	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	5:amod	_
+6	postaveném	postavený	ADJ	AAIS6----1A----	Animacy=Inan|Aspect=Perf|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 7	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	9	case	9:case	_
 8	malém	malý	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	9:amod	_
 9	stolku	stolek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	6:obl:na:loc	_
@@ -17121,7 +17121,7 @@
 # sent_id = dev-p_navrat071-s4
 # text = Oblíbené houpací křeslo si ponechá v dolní sednici, ve velkém "salónu" u okna, odkud je vidět na ohyb silnice a skoro až k městu.
 # orig_file_sentence 011#35
-1	Oblíbené	oblíbený	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	amod	3:amod	_
+1	Oblíbené	oblíbený	ADJ	AANS4----1A----	Aspect=Perf|Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	amod	3:amod	_
 2	houpací	houpací	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	3	amod	3:amod	_
 3	křeslo	křeslo	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing	5	obj	5:obj	_
 4	si	se	PRON	P7--3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	5	obl	5:obl:dat	_
@@ -17207,7 +17207,7 @@
 2	tím	ten	DET	PDNS7----------	Case=Ins|Gender=Neut|Number=Sing|PronType=Dem	5	obl	5:obl:nad:ins	_
 3	vším	všechen	DET	PLNS7----------	Case=Ins|Gender=Neut|Number=Sing|PronType=Tot	2	det	2:det	_
 4	byl	být	AUX	VpIS----R-AA---	Animacy=Inan|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	aux:pass	5:aux:pass	_
-5	vyveden	vyvedený	ADJ	VsIS------AP---	Animacy=Inan|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=vyvést
+5	vyveden	vyvedený	ADJ	VsIS------AP---	Animacy=Inan|Aspect=Perf|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=vyvést
 6	nápis	nápis	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	5:nsubj:pass	_
 7	Bitva	bitva	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	6	nmod	6:nmod:nom	_
 8	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	9:case	_
@@ -17689,7 +17689,7 @@
 11	všechno	všechen	DET	PLNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	13	nsubj	13:nsubj	_
 12	mu	on	PRON	PHMS3--3-------	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short	13	obl:arg	13:obl:arg:dat	_
 13	připadalo	připadat	VERB	VpNS----R-AA---	Aspect=Imp|Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	conj	0:root|1:conj	_
-14	vzdálené	vzdálený	ADJ	AANS1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	13	obj	13:obj	_
+14	vzdálené	vzdálený	ADJ	AANS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	13	obj	13:obj	_
 15	a	a	CCONJ	J^-------------	_	17	cc	17:cc	_
 16	nějak	nějak	ADV	Db-------------	PronType=Ind	17	advmod	17:advmod	_
 17	neskutečné	skutečný	ADJ	AANS1----1N----	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Neg	14	conj	13:obj|14:conj	SpaceAfter=No
@@ -18850,7 +18850,7 @@
 1	"	"	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
 2	Kam	kam	ADV	Db-------------	PronType=Int,Rel	4	advmod	4:advmod	_
 3	máš	mít	VERB	VB-S---2P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	9:ccomp	_
-4	namířeno	namířený	ADJ	VsNS------AP---	Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	3	obj	3:obj	SpaceAfter=No|LDeriv=namířit
+4	namířeno	namířený	ADJ	VsNS------AP---	Aspect=Perf|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	3	obj	3:obj	SpaceAfter=No|LDeriv=namířit
 5	,	,	PUNCT	Z:-------------	_	3	punct	3:punct	_
 6	synku	synek	NOUN	NNMS5-----A----	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	3	vocative	3:vocative	SpaceAfter=No
 7	?	?	PUNCT	Z:-------------	_	3	punct	3:punct	SpaceAfter=No
@@ -19154,7 +19154,7 @@
 2	dne	den	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	5:obl:gen	_
 3	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	aux:pass	5:aux:pass	_
 4	mistr	mistr	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj:pass	5:nsubj:pass	_
-5	pozván	pozvaný	ADJ	VsMS------AP---	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=pozvat
+5	pozván	pozvaný	ADJ	VsMS------AP---	Animacy=Anim|Aspect=Perf|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=pozvat
 6	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	7:case	_
 7	domu	dům	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	obl	5:obl:do:gen	_
 8	zámožné	zámožný	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	amod	9:amod	_
@@ -19179,7 +19179,7 @@
 13	byla	být	AUX	VpFS----R-AA---	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	16	aux:pass	16:aux:pass	_
 14	celá	celý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	12	advcl:pred	12:advcl:pred	_
 15	bohatě	bohatě	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	16	advmod	16:advmod	_
-16	vyzdobena	vyzdobený	ADJ	VsFS------AP---	Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	10	acl:relcl	10:acl:relcl	LDeriv=vyzdobit
+16	vyzdobena	vyzdobený	ADJ	VsFS------AP---	Aspect=Perf|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	10	acl:relcl	10:acl:relcl	LDeriv=vyzdobit
 17	květy	květ	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	obl	16:obl:ins	SpaceAfter=No
 18	.	.	PUNCT	Z:-------------	_	5	punct	5:punct	_
 
@@ -19188,7 +19188,7 @@
 # orig_file_sentence 012#62
 1	Květiny	květina	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur	3	nsubj:pass	3:nsubj:pass	_
 2	byly	být	AUX	VpFP----R-AA---	Aspect=Imp|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	aux:pass	3:aux:pass	_
-3	naaranžovány	naaranžovaný	ADJ	VsFP------AP---	Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=naaranžovat
+3	naaranžovány	naaranžovaný	ADJ	VsFP------AP---	Aspect=Perf|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=naaranžovat
 4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	6:case	_
 5	nepřeberném	nepřeberný	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	6:amod	_
 6	množství	množství	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing	3	obl	3:obl:v:loc	_
@@ -19304,7 +19304,7 @@
 24	a	a	CCONJ	J^-------------	_	27	cc	27:cc	_
 25	on	on	PRON	PPMS1--3-------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	nsubj	27:nsubj|30:nsubj	_
 26	nebyl	být	AUX	VpMS----R-NA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	27	cop	27:cop	_
-27	zhýčkaný	zhýčkaný	ADJ	AAMS1----1A----	Animacy=Anim|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	23	conj	0:root|23:conj	_
+27	zhýčkaný	zhýčkaný	ADJ	AAMS1----1A----	Animacy=Anim|Aspect=Perf|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	23	conj	0:root|23:conj	_
 28	-	-	PUNCT	Z:-------------	_	30	punct	30:punct	_
 29	byl	být	AUX	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	30	cop	30:cop	_
 30	rád	rád	ADJ	ACMS------A----	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short	27	conj	0:root|27:conj	SpaceAfter=No
@@ -19406,7 +19406,7 @@
 5	zíral	zírat	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	19	advcl	19:advcl:zatímco|28:advcl:zatímco|33:advcl:zatímco	_
 6	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	9:case	_
 7	několikanásobně	několikanásobně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	8	advmod	8:advmod	_
-8	převýšený	převýšený	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	9:amod	_
+8	převýšený	převýšený	ADJ	AAIS4----1A----	Animacy=Inan|Aspect=Perf|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	9	amod	9:amod	_
 9	účet	účet	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl:arg	5:obl:arg:na:acc	_
 10	a	a	CCONJ	J^-------------	_	11	cc	11:cc	_
 11	mumlal	mumlat	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	conj	5:conj|19:advcl:zatímco|28:advcl:zatímco|33:advcl:zatímco	SpaceAfter=No
@@ -19950,7 +19950,7 @@
 4	nevedla	vést	VERB	VpFS----R-NA---	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
 5	válku	válka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing	4	obj	4:obj	_
 6	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	8	case	8:case	_
-7	Spojenými	spojený	ADJ	AAIP7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	8:amod	_
+7	Spojenými	spojený	ADJ	AAIP7----1A----	Animacy=Inan|Aspect=Perf|Case=Ins|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	8:amod	_
 8	státy	stát	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	nmod	5:nmod:s:ins	SpaceAfter=No
 9	.	.	PUNCT	Z:-------------	_	4	punct	4:punct	SpaceAfter=No
 10	"	"	PUNCT	Z:-------------	_	4	punct	4:punct	_
@@ -20027,7 +20027,7 @@
 16	a	a	CCONJ	J^-------------	_	19	cc	19:cc	_
 17	architektonicky	architektonicky	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	19	advmod	19:advmod	_
 18	zdařile	zdařile	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	19	advmod	19:advmod	_
-19	řešeném	řešený	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	15	conj	15:conj|21:amod	_
+19	řešeném	řešený	ADJ	AAIS6----1A----	Animacy=Inan|Aspect=Imp|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	15	conj	15:conj|21:amod	_
 20	obchodním	obchodní	ADJ	AAIS6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	21	amod	21:amod	_
 21	komplexu	komplex	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	obl	12:obl:v:loc	SpaceAfter=No
 22	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
@@ -20464,7 +20464,7 @@
 3	lidech	člověk	NOUN	NNMP6-----A----	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	1	obl:arg	1:obl:arg:v:loc	_
 4	jako	jako	SCONJ	J,-------------	_	7	mark	7:mark	_
 5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	7:case	_
-6	otevřených	otevřený	ADJ	AAFP6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	7	amod	7:amod	_
+6	otevřených	otevřený	ADJ	AAFP6----1A----	Aspect=Perf|Case=Loc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	7	amod	7:amod	_
 7	knihách	kniha	NOUN	NNFP6-----A----	Case=Loc|Gender=Fem|Number=Plur	1	dep	1:dep	SpaceAfter=No
 8	.	.	PUNCT	Z:-------------	_	1	punct	1:punct	_
 
@@ -20857,7 +20857,7 @@
 # orig_file_sentence 013#42
 1	A	a	CCONJ	J^-------------	_	3	cc	3:cc	_
 2	byla	být	AUX	VpFS----R-AA---	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	aux:pass	3:aux:pass	_
-3	uspořádána	uspořádaný	ADJ	VsFS------AP---	Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=uspořádat
+3	uspořádána	uspořádaný	ADJ	VsFS------AP---	Aspect=Perf|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	0:root	LDeriv=uspořádat
 4	bujará	bujarý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	5:amod	_
 5	oslava	oslava	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	3:nsubj:pass	SpaceAfter=No
 6	.	.	PUNCT	Z:-------------	_	3	punct	3:punct	_
@@ -20893,7 +20893,7 @@
 12	pak	pak	ADV	Db-------------	_	15	advmod	15:advmod	_
 13	každý	každý	DET	PLIS4----1A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	14	det	14:det	_
 14	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	15:obl:acc	_
-15	zpívána	zpívaný	ADJ	VsFS------AP---	Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	4	acl:relcl	4:acl:relcl	LDeriv=zpívat
+15	zpívána	zpívaný	ADJ	VsFS------AP---	Aspect=Imp|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	4	acl:relcl	4:acl:relcl	LDeriv=zpívat
 16	během	během	ADP	RR--2----------	AdpType=Prep|Case=Gen	18	case	18:case	_
 17	medvědí	medvědí	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	18	amod	18:amod	_
 18	slavnosti	slavnost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	15	obl	15:obl:během:gen	_
@@ -21691,7 +21691,7 @@
 20	,	,	PUNCT	Z:-------------	_	22	punct	22:punct	SpaceAfter=No
 21	"	"	PUNCT	Z:-------------	_	22	punct	22:punct	_
 22	zněla	znít	VERB	VpFS----R-AA---	Aspect=Imp|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	0:root	_
-23	udivená	udivený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	24	amod	24:amod	_
+23	udivená	udivený	ADJ	AAFS1----1A----	Aspect=Perf|Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	24	amod	24:amod	_
 24	odpověď	odpověď	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	22:nsubj	_
 25	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	28	case	28:case	_
 26	jeho	jeho	DET	PSFS4MS3-------	Case=Acc|Gender=Fem|Gender[psor]=Masc|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	28	det	28:det	_
@@ -21704,7 +21704,7 @@
 # orig_file_sentence 013#86
 1	Během	během	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	4:case	_
 2	celého	celý	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	4:amod	_
-3	vzrušeného	vzrušený	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	4:amod	_
+3	vzrušeného	vzrušený	ADJ	AANS2----1A----	Aspect=Perf|Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	4	amod	4:amod	_
 4	veselí	veselí	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing	11	obl	11:obl:během:gen	_
 5	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	6	case	6:case	_
 6	příležitosti	příležitost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing	4	nmod	4:nmod:u:gen	_
@@ -22164,13 +22164,13 @@
 18	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	19	case	19:case	_
 19	obyvatel	obyvatel	NOUN	NNMP2-----A---1	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	17:nmod:z:gen	_
 20	nebyl	být	AUX	VpMS----R-NA---	Animacy=Anim|Aspect=Imp|Gender=Masc|Number=Sing|Polarity=Neg|Tense=Past|VerbForm=Part|Voice=Act	21	aux:pass	21:aux:pass	_
-21	zavražděn	zavražděný	ADJ	VsMS------AP---	Animacy=Anim|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	23	csubj	23:csubj	SpaceAfter=No|LDeriv=zavraždit
+21	zavražděn	zavražděný	ADJ	VsMS------AP---	Animacy=Anim|Aspect=Perf|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	23	csubj	23:csubj	SpaceAfter=No|LDeriv=zavraždit
 22	,	,	PUNCT	Z:-------------	_	21	punct	21:punct	_
 23	přišel	přijít	VERB	VpMS----R-AA---	Animacy=Anim|Aspect=Perf|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	6	conj	0:root|6:conj	_
 24	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	25	case	25:case	_
 25	život	život	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obl:arg	23:obl:arg:o:acc	_
 26	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	28	case	28:case	_
-27	zapálených	zapálený	ADJ	AAIP6----1A----	Animacy=Inan|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	28	amod	28:amod	_
+27	zapálených	zapálený	ADJ	AAIP6----1A----	Animacy=Inan|Aspect=Perf|Case=Loc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	28	amod	28:amod	_
 28	domech	dům	NOUN	NNIP6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	obl	23:obl:v:loc	SpaceAfter=No
 29	.	.	PUNCT	Z:-------------	_	6	punct	6:punct	_
 
